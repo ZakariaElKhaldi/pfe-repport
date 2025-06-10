@@ -1,0 +1,96 @@
+% Timeline diagrams for PFE Project
+% Including PERT diagram for project planning
+
+\documentclass[12pt, a4paper]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,shapes.geometric}
+\usepackage{xcolor}
+\usepackage{geometry}
+\geometry{a4paper, margin=2cm}
+
+\begin{document}
+
+\section*{Planification du projet}
+
+% Note that we're using the Mermaid chart instead of the LaTeX Gantt chart
+% because it's easier to handle and doesn't have formatting issues
+
+\subsection*{Diagramme PERT}
+
+Le diagramme PERT ci-dessous illustre les dépendances entre les différentes étapes du projet et le chemin critique.
+
+\vspace{1cm}
+\begin{center}
+\begin{tikzpicture}[
+  node distance=2.5cm,
+  thick,
+  event/.style={circle, draw, minimum size=1.2cm},
+  critical/.style={circle, draw, fill=red!20, minimum size=1.2cm},
+  activity/.style={-Stealth, thick},
+  critical path/.style={-Stealth, thick, draw=red}
+]
+
+% Nœuds (événements)
+\node[critical] (1) {1};
+\node[critical] (2) [right=of 1] {2};
+\node[critical] (3) [right=of 2] {3};
+\node[critical] (4) [right=of 3] {4};
+\node[critical] (5) [below right=of 4] {5};
+\node[event] (6) [above right=of 4] {6};
+\node[critical] (7) [right=of 5] {7};
+
+% Activités (flèches)
+\draw[critical path] (1) -- node[midway, above] {2 sem.} node[midway, below] {Choix du sujet} (2);
+\draw[critical path] (2) -- node[midway, above] {3 sem.} node[midway, below] {Cahier des charges} (3);
+\draw[critical path] (3) -- node[midway, above] {3 sem.} node[midway, below] {Conception} (4);
+\draw[critical path] (4) -- node[midway, above] {2 sem.} node[midway, below] {Choix des techs} (5);
+\draw[activity] (4) -- node[midway, above] {Parallèle} node[midway, below] {Doc. technique} (6);
+\draw[critical path] (5) -- node[midway, above] {10 sem.} node[midway, below] {Dév. Phase 1} (7);
+\draw[activity] (6) to [bend right] node[midway, above] {Support} (7);
+
+% Indiquer l'arrêt du développement
+\node[draw=red, dashed, circle, minimum size=1.5cm, right=of 7] (8) {Arrêt};
+\draw[activity, red, dashed] (7) -- node[midway, above] {Examens} (8);
+
+\end{tikzpicture}
+\end{center}
+
+\vspace{1cm}
+\textbf{Légende:}
+\begin{itemize}
+  \item \textbf{Nœuds rouges:} Événements sur le chemin critique
+  \item \textbf{Flèches rouges:} Activités sur le chemin critique
+  \item Le développement Phase 2 et les tests n'ont pas été complétés en raison de l'interruption du projet pour les examens nationaux
+\end{itemize}
+
+\vspace{1cm}
+\textbf{Durées ajustées des étapes:}
+
+\begin{center}
+\begin{tabular}{|l|l|c|c|}
+\hline
+\textbf{Étape} & \textbf{Description} & \textbf{Dates} & \textbf{Durée} \\
+\hline
+1. Choix du sujet & Sélection du sujet et validation & 03/11/2024 - 17/11/2024 & 2 semaines \\
+\hline
+2. Cahier des charges & Rédaction des besoins et contraintes & 18/11/2024 - 08/12/2024 & 3 semaines \\
+\hline
+3. Conception & Maquettes et architecture & 09/12/2024 - 29/12/2024 & 3 semaines \\
+\hline
+4. Choix technologies & Sélection des langages et frameworks & 30/12/2024 - 12/01/2025 & 2 semaines \\
+\hline
+5. Développement (P1) & Fonctionnalités de base & 13/01/2025 - 24/03/2025 & 10 semaines \\
+\hline
+6. Développement (P2) & \begin{tabular}{@{}c@{}}Intégration finale\\ (partiellement réalisée)\end{tabular} & 25/03/2025 - 01/04/2025 & \begin{tabular}{@{}c@{}}1 semaine\\ (sur 6 prévues)\end{tabular} \\
+\hline
+7. Tests & \begin{tabular}{@{}c@{}}Tests d'intégration\\ (non réalisés)\end{tabular} & - & - \\
+\hline
+\end{tabular}
+\end{center}
+
+\end{document} 

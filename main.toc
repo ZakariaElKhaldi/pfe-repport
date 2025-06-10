@@ -85,65 +85,72 @@
 \contentsline {subsection}{\numberline {5.1}Stratégie de sécurité}{33}{subsection.0.5.1}%
 \contentsline {subsection}{\numberline {5.2}Optimisation des performances}{33}{subsection.0.5.2}%
 \contentsline {subsection}{\numberline {5.3}Stratégie de déploiement}{33}{subsection.0.5.3}%
-\contentsline {section}{\numberline {6}Conclusion de la conception}{34}{section.0.6}%
-\contentsline {chapter}{Chapitre 3 : Réalisation et mise en œuvre des systèmes}{35}{chapter*.10}%
-\contentsline {section}{\numberline {1}Outils et technologies de développement}{36}{section.0.1}%
-\contentsline {subsection}{\numberline {1.1}Environnement de développement}{36}{subsection.0.1.1}%
-\contentsline {subsection}{\numberline {1.2}Technologies frontend}{36}{subsection.0.1.2}%
-\contentsline {subsubsection}{Système de gestion scolaire}{36}{subsection.0.1.2}%
-\contentsline {subsubsection}{Système de création de profils IA}{36}{subsection.0.1.2}%
-\contentsline {subsection}{\numberline {1.3}Technologies backend}{37}{subsection.0.1.3}%
-\contentsline {subsubsection}{Système de gestion scolaire}{37}{subsection.0.1.3}%
-\contentsline {subsubsection}{Système de création de profils IA}{37}{subsection.0.1.3}%
-\contentsline {subsection}{\numberline {1.4}Outils de déploiement et d'intégration continue}{37}{subsection.0.1.4}%
-\contentsline {section}{\numberline {2}Développement du système de gestion scolaire}{37}{section.0.2}%
-\contentsline {subsection}{\numberline {2.1}Implémentation du backend}{37}{subsection.0.2.1}%
-\contentsline {subsection}{\numberline {2.2}Développement des interfaces web}{38}{subsection.0.2.2}%
-\contentsline {subsubsection}{Interface administrateur}{38}{subsection.0.2.2}%
-\contentsline {subsubsection}{Interface enseignant}{40}{figure.0.15}%
-\contentsline {subsubsection}{Interface étudiant}{41}{figure.0.18}%
-\contentsline {subsubsection}{Interface parent}{43}{figure.0.21}%
-\contentsline {subsubsection}{Système d'authentification}{44}{figure.0.24}%
-\contentsline {subsection}{\numberline {2.3}Développement des applications mobiles}{46}{subsection.0.2.3}%
-\contentsline {subsubsection}{Architecture de l'application mobile}{46}{subsection.0.2.3}%
-\contentsline {subsubsection}{Interfaces mobiles pour les étudiants}{46}{subsection.0.2.3}%
-\contentsline {subsubsection}{Interfaces mobiles pour les enseignants}{48}{figure.0.29}%
-\contentsline {subsubsection}{Interfaces mobiles pour les parents}{50}{figure.0.31}%
-\contentsline {subsubsection}{Authentification mobile}{52}{figure.0.33}%
-\contentsline {section}{\numberline {3}Développement du système de création de profils IA}{53}{section.0.3}%
-\contentsline {subsection}{\numberline {3.1}Implémentation du backend}{53}{subsection.0.3.1}%
-\contentsline {subsection}{\numberline {3.2}Développement de l'interface utilisateur}{54}{subsection.0.3.2}%
-\contentsline {subsubsection}{Page d'accueil et tableau de bord}{55}{subsection.0.3.2}%
-\contentsline {subsubsection}{Création et configuration de profil}{55}{figure.0.35}%
-\contentsline {subsubsection}{Upload et gestion des documents}{56}{figure.0.36}%
-\contentsline {subsubsection}{Interface de test et conversation}{57}{figure.0.39}%
-\contentsline {subsubsection}{Gestion des API et intégrations}{58}{figure.0.41}%
-\contentsline {subsection}{\numberline {3.3}Pipeline de traitement des documents}{60}{subsection.0.3.3}%
-\contentsline {subsubsection}{Architecture du pipeline}{60}{subsection.0.3.3}%
-\contentsline {subsubsection}{Optimisation du chunking}{61}{subsection.0.3.3}%
-\contentsline {subsubsection}{Intégration avec les modèles LLM}{61}{subsection.0.3.3}%
-\contentsline {section}{\numberline {4}Intégration et tests}{61}{section.0.4}%
-\contentsline {subsection}{\numberline {4.1}Stratégie d'intégration}{61}{subsection.0.4.1}%
-\contentsline {subsection}{\numberline {4.2}Tests et validation}{61}{subsection.0.4.2}%
-\contentsline {section}{\numberline {5}Déploiement et mise en production}{62}{section.0.5}%
-\contentsline {subsection}{\numberline {5.1}Configuration de l'environnement de production}{62}{subsection.0.5.1}%
-\contentsline {subsection}{\numberline {5.2}Stratégie de déploiement}{62}{subsection.0.5.2}%
-\contentsline {section}{\numberline {6}Défis rencontrés et solutions apportées}{62}{section.0.6}%
-\contentsline {subsection}{\numberline {6.1}Défis techniques}{62}{subsection.0.6.1}%
-\contentsline {subsection}{\numberline {6.2}Solutions et optimisations}{63}{subsection.0.6.2}%
-\contentsline {section}{\numberline {7}Pages d'accueil et de présentation}{63}{section.0.7}%
-\contentsline {subsection}{\numberline {7.1}Page d'accueil du système de gestion scolaire}{63}{subsection.0.7.1}%
-\contentsline {subsection}{\numberline {7.2}Pages de présentation du système de gestion scolaire}{66}{subsection.0.7.2}%
-\contentsline {section}{\numberline {8}Environnement de développement personnel}{66}{section.0.8}%
-\contentsline {subsection}{\numberline {8.1}Système d'exploitation et outils principaux}{66}{subsection.0.8.1}%
-\contentsline {subsection}{\numberline {8.2}Environnement de base de données}{67}{subsection.0.8.2}%
-\contentsline {subsection}{\numberline {8.3}Outils de développement frontend}{67}{subsection.0.8.3}%
-\contentsline {subsection}{\numberline {8.4}Outils de développement backend}{67}{subsection.0.8.4}%
-\contentsline {section}{\numberline {9}Glossaire des abréviations}{67}{section.0.9}%
-\contentsline {chapter}{Conclusion et Perspectives}{69}{chapter*.11}%
-\contentsline {section}{\numberline {1}Bilan du projet}{70}{section.0.1}%
-\contentsline {section}{\numberline {2}Compétences acquises}{70}{section.0.2}%
-\contentsline {section}{\numberline {3}Perspectives d'évolution}{70}{section.0.3}%
-\contentsline {section}{\numberline {4}Mot de fin}{71}{section.0.4}%
-\contentsline {chapter}{Bibliographie}{72}{chapter*.12}%
+\contentsline {section}{\numberline {6}Gestion de projet}{34}{section.0.6}%
+\contentsline {subsection}{\numberline {6.1}Approche méthodologique}{34}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {6.2}Organisation temporelle}{34}{subsection.0.6.2}%
+\contentsline {subsection}{\numberline {6.3}Dépendances et chemin critique}{35}{subsection.0.6.3}%
+\contentsline {subsection}{\numberline {6.4}Répartition des responsabilités}{35}{subsection.0.6.4}%
+\contentsline {subsection}{\numberline {6.5}Gestion des risques}{36}{subsection.0.6.5}%
+\contentsline {subsection}{\numberline {6.6}Outils de gestion de projet}{36}{subsection.0.6.6}%
+\contentsline {section}{\numberline {7}Conclusion de la conception}{36}{section.0.7}%
+\contentsline {chapter}{Chapitre 3 : Réalisation et mise en œuvre des systèmes}{38}{chapter*.10}%
+\contentsline {section}{\numberline {1}Outils et technologies de développement}{39}{section.0.1}%
+\contentsline {subsection}{\numberline {1.1}Environnement de développement}{39}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {1.2}Technologies frontend}{39}{subsection.0.1.2}%
+\contentsline {subsubsection}{Système de gestion scolaire}{39}{subsection.0.1.2}%
+\contentsline {subsubsection}{Système de création de profils IA}{39}{subsection.0.1.2}%
+\contentsline {subsection}{\numberline {1.3}Technologies backend}{40}{subsection.0.1.3}%
+\contentsline {subsubsection}{Système de gestion scolaire}{40}{subsection.0.1.3}%
+\contentsline {subsubsection}{Système de création de profils IA}{40}{subsection.0.1.3}%
+\contentsline {subsection}{\numberline {1.4}Outils de déploiement et d'intégration continue}{40}{subsection.0.1.4}%
+\contentsline {section}{\numberline {2}Développement du système de gestion scolaire}{40}{section.0.2}%
+\contentsline {subsection}{\numberline {2.1}Implémentation du backend}{40}{subsection.0.2.1}%
+\contentsline {subsection}{\numberline {2.2}Développement des interfaces web}{41}{subsection.0.2.2}%
+\contentsline {subsubsection}{Interface administrateur}{41}{subsection.0.2.2}%
+\contentsline {subsubsection}{Interface enseignant}{43}{figure.0.17}%
+\contentsline {subsubsection}{Interface étudiant}{44}{figure.0.20}%
+\contentsline {subsubsection}{Interface parent}{46}{figure.0.23}%
+\contentsline {subsubsection}{Système d'authentification}{47}{figure.0.26}%
+\contentsline {subsection}{\numberline {2.3}Développement des applications mobiles}{49}{subsection.0.2.3}%
+\contentsline {subsubsection}{Architecture de l'application mobile}{49}{subsection.0.2.3}%
+\contentsline {subsubsection}{Interfaces mobiles pour les étudiants}{49}{subsection.0.2.3}%
+\contentsline {subsubsection}{Interfaces mobiles pour les enseignants}{51}{figure.0.31}%
+\contentsline {subsubsection}{Interfaces mobiles pour les parents}{53}{figure.0.33}%
+\contentsline {subsubsection}{Authentification mobile}{55}{figure.0.35}%
+\contentsline {section}{\numberline {3}Développement du système de création de profils IA}{56}{section.0.3}%
+\contentsline {subsection}{\numberline {3.1}Implémentation du backend}{56}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {3.2}Développement de l'interface utilisateur}{57}{subsection.0.3.2}%
+\contentsline {subsubsection}{Page d'accueil et tableau de bord}{58}{subsection.0.3.2}%
+\contentsline {subsubsection}{Création et configuration de profil}{58}{figure.0.37}%
+\contentsline {subsubsection}{Upload et gestion des documents}{59}{figure.0.38}%
+\contentsline {subsubsection}{Interface de test et conversation}{60}{figure.0.41}%
+\contentsline {subsubsection}{Gestion des API et intégrations}{61}{figure.0.43}%
+\contentsline {subsection}{\numberline {3.3}Pipeline de traitement des documents}{63}{subsection.0.3.3}%
+\contentsline {subsubsection}{Architecture du pipeline}{63}{subsection.0.3.3}%
+\contentsline {subsubsection}{Optimisation du chunking}{64}{subsection.0.3.3}%
+\contentsline {subsubsection}{Intégration avec les modèles LLM}{64}{subsection.0.3.3}%
+\contentsline {section}{\numberline {4}Intégration et tests}{64}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1}Stratégie d'intégration}{64}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {4.2}Tests et validation}{64}{subsection.0.4.2}%
+\contentsline {section}{\numberline {5}Déploiement et mise en production}{65}{section.0.5}%
+\contentsline {subsection}{\numberline {5.1}Configuration de l'environnement de production}{65}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {5.2}Stratégie de déploiement}{65}{subsection.0.5.2}%
+\contentsline {section}{\numberline {6}Défis rencontrés et solutions apportées}{65}{section.0.6}%
+\contentsline {subsection}{\numberline {6.1}Défis techniques}{65}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {6.2}Solutions et optimisations}{66}{subsection.0.6.2}%
+\contentsline {section}{\numberline {7}Pages d'accueil et de présentation}{66}{section.0.7}%
+\contentsline {subsection}{\numberline {7.1}Page d'accueil du système de gestion scolaire}{66}{subsection.0.7.1}%
+\contentsline {subsection}{\numberline {7.2}Pages de présentation du système de gestion scolaire}{69}{subsection.0.7.2}%
+\contentsline {section}{\numberline {8}Environnement de développement personnel}{69}{section.0.8}%
+\contentsline {subsection}{\numberline {8.1}Système d'exploitation et outils principaux}{69}{subsection.0.8.1}%
+\contentsline {subsection}{\numberline {8.2}Environnement de base de données}{70}{subsection.0.8.2}%
+\contentsline {subsection}{\numberline {8.3}Outils de développement frontend}{70}{subsection.0.8.3}%
+\contentsline {subsection}{\numberline {8.4}Outils de développement backend}{70}{subsection.0.8.4}%
+\contentsline {section}{\numberline {9}Glossaire des abréviations}{70}{section.0.9}%
+\contentsline {chapter}{Conclusion et Perspectives}{72}{chapter*.11}%
+\contentsline {section}{\numberline {1}Bilan du projet}{73}{section.0.1}%
+\contentsline {section}{\numberline {2}Compétences acquises}{73}{section.0.2}%
+\contentsline {section}{\numberline {3}Perspectives d'évolution}{73}{section.0.3}%
+\contentsline {section}{\numberline {4}Mot de fin}{74}{section.0.4}%
+\contentsline {chapter}{Bibliographie}{75}{chapter*.12}%
 \contentsfinish 
