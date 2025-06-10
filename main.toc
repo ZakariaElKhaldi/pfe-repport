@@ -116,25 +116,34 @@
 \contentsline {subsubsection}{Page d'accueil et tableau de bord}{55}{subsection.0.3.2}%
 \contentsline {subsubsection}{Création et configuration de profil}{55}{figure.0.35}%
 \contentsline {subsubsection}{Upload et gestion des documents}{56}{figure.0.36}%
-\contentsline {subsubsection}{Interface de conversation}{57}{figure.0.37}%
-\contentsline {subsubsection}{Gestion des API et intégrations}{57}{figure.0.38}%
-\contentsline {subsection}{\numberline {3.3}Pipeline de traitement des documents}{58}{subsection.0.3.3}%
-\contentsline {subsubsection}{Architecture du pipeline}{58}{subsection.0.3.3}%
-\contentsline {subsubsection}{Optimisation du chunking}{58}{figure.0.40}%
-\contentsline {subsubsection}{Intégration avec les modèles LLM}{59}{figure.0.40}%
-\contentsline {section}{\numberline {4}Intégration et tests}{59}{section.0.4}%
-\contentsline {subsection}{\numberline {4.1}Stratégie d'intégration}{59}{subsection.0.4.1}%
-\contentsline {subsection}{\numberline {4.2}Tests et validation}{60}{subsection.0.4.2}%
-\contentsline {section}{\numberline {5}Déploiement et mise en production}{60}{section.0.5}%
-\contentsline {subsection}{\numberline {5.1}Configuration de l'environnement de production}{60}{subsection.0.5.1}%
-\contentsline {subsection}{\numberline {5.2}Stratégie de déploiement}{60}{subsection.0.5.2}%
-\contentsline {section}{\numberline {6}Défis rencontrés et solutions apportées}{60}{section.0.6}%
-\contentsline {subsection}{\numberline {6.1}Défis techniques}{60}{subsection.0.6.1}%
-\contentsline {subsection}{\numberline {6.2}Solutions et optimisations}{61}{subsection.0.6.2}%
-\contentsline {chapter}{Conclusion et Perspectives}{62}{chapter*.11}%
-\contentsline {section}{\numberline {1}Bilan du projet}{63}{section.0.1}%
-\contentsline {section}{\numberline {2}Compétences acquises}{63}{section.0.2}%
-\contentsline {section}{\numberline {3}Perspectives d'évolution}{63}{section.0.3}%
-\contentsline {section}{\numberline {4}Mot de fin}{64}{section.0.4}%
-\contentsline {chapter}{Bibliographie}{65}{chapter*.12}%
+\contentsline {subsubsection}{Interface de test et conversation}{57}{figure.0.39}%
+\contentsline {subsubsection}{Gestion des API et intégrations}{58}{figure.0.41}%
+\contentsline {subsection}{\numberline {3.3}Pipeline de traitement des documents}{60}{subsection.0.3.3}%
+\contentsline {subsubsection}{Architecture du pipeline}{60}{subsection.0.3.3}%
+\contentsline {subsubsection}{Optimisation du chunking}{61}{subsection.0.3.3}%
+\contentsline {subsubsection}{Intégration avec les modèles LLM}{61}{subsection.0.3.3}%
+\contentsline {section}{\numberline {4}Intégration et tests}{61}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1}Stratégie d'intégration}{61}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {4.2}Tests et validation}{61}{subsection.0.4.2}%
+\contentsline {section}{\numberline {5}Déploiement et mise en production}{62}{section.0.5}%
+\contentsline {subsection}{\numberline {5.1}Configuration de l'environnement de production}{62}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {5.2}Stratégie de déploiement}{62}{subsection.0.5.2}%
+\contentsline {section}{\numberline {6}Défis rencontrés et solutions apportées}{62}{section.0.6}%
+\contentsline {subsection}{\numberline {6.1}Défis techniques}{62}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {6.2}Solutions et optimisations}{63}{subsection.0.6.2}%
+\contentsline {section}{\numberline {7}Pages d'accueil et de présentation}{63}{section.0.7}%
+\contentsline {subsection}{\numberline {7.1}Page d'accueil du système de gestion scolaire}{63}{subsection.0.7.1}%
+\contentsline {subsection}{\numberline {7.2}Pages de présentation du système de gestion scolaire}{66}{subsection.0.7.2}%
+\contentsline {section}{\numberline {8}Environnement de développement personnel}{66}{section.0.8}%
+\contentsline {subsection}{\numberline {8.1}Système d'exploitation et outils principaux}{66}{subsection.0.8.1}%
+\contentsline {subsection}{\numberline {8.2}Environnement de base de données}{67}{subsection.0.8.2}%
+\contentsline {subsection}{\numberline {8.3}Outils de développement frontend}{67}{subsection.0.8.3}%
+\contentsline {subsection}{\numberline {8.4}Outils de développement backend}{67}{subsection.0.8.4}%
+\contentsline {section}{\numberline {9}Glossaire des abréviations}{67}{section.0.9}%
+\contentsline {chapter}{Conclusion et Perspectives}{69}{chapter*.11}%
+\contentsline {section}{\numberline {1}Bilan du projet}{70}{section.0.1}%
+\contentsline {section}{\numberline {2}Compétences acquises}{70}{section.0.2}%
+\contentsline {section}{\numberline {3}Perspectives d'évolution}{70}{section.0.3}%
+\contentsline {section}{\numberline {4}Mot de fin}{71}{section.0.4}%
+\contentsline {chapter}{Bibliographie}{72}{chapter*.12}%
 \contentsfinish 

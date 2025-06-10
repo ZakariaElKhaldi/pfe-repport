@@ -33,11 +33,23 @@
 \contentsline {figure}{\numberline {32}{\ignorespaces \textbf {Tableau de bord et sélection d'enfant} sur l'application mobile parent.}}{51}{figure.0.32}%
 \contentsline {figure}{\numberline {33}{\ignorespaces \textbf {Suivi des résultats et des présences} sur mobile pour les parents.}}{52}{figure.0.33}%
 \contentsline {figure}{\numberline {34}{\ignorespaces \textbf {Écrans de connexion et d'inscription} sur l'application mobile.}}{53}{figure.0.34}%
-\contentsline {figure}{\numberline {35}{\ignorespaces \textbf {Tableau de bord} du système de création de profils IA.}}{55}{figure.0.35}%
-\contentsline {figure}{\numberline {36}{\ignorespaces \textbf {Interface de création de profil} avec options de configuration.}}{55}{figure.0.36}%
-\contentsline {figure}{\numberline {37}{\ignorespaces \textbf {Interface d'upload de documents} avec suivi du traitement.}}{56}{figure.0.37}%
-\contentsline {figure}{\numberline {38}{\ignorespaces \textbf {Interface de conversation} avec un profil IA.}}{57}{figure.0.38}%
-\contentsline {figure}{\numberline {39}{\ignorespaces \textbf {Interface de gestion des clés API} pour l'intégration externe.}}{57}{figure.0.39}%
-\contentsline {figure}{\numberline {40}{\ignorespaces \textbf {Interface de monitoring du pipeline} montrant le traitement des documents.}}{58}{figure.0.40}%
-\contentsline {figure}{\numberline {41}{\ignorespaces \textbf {Interface de configuration avancée} des paramètres LLM pour un profil.}}{59}{figure.0.41}%
+\contentsline {figure}{\numberline {35}{\ignorespaces \textbf {Tableau de bord} du système de création de profils IA avant l'ajout d'un nouveau profil.}}{55}{figure.0.35}%
+\contentsline {figure}{\numberline {36}{\ignorespaces \textbf {Interface de création de profil IA} avec options de configuration.}}{55}{figure.0.36}%
+\contentsline {figure}{\numberline {37}{\ignorespaces \textbf {Interface de visualisation des documents uploadés} et leur connaissance associée.}}{56}{figure.0.37}%
+\contentsline {figure}{\numberline {38}{\ignorespaces \textbf {Interface d'extraction d'information} à partir des fichiers et entrainement du profil.}}{56}{figure.0.38}%
+\contentsline {figure}{\numberline {39}{\ignorespaces \textbf {Confirmation d'intégration réussie} des connaissances extraites dans le profil IA.}}{57}{figure.0.39}%
+\contentsline {figure}{\numberline {40}{\ignorespaces \textbf {Interface de conversation pour tester le profil IA} créé.}}{57}{figure.0.40}%
+\contentsline {figure}{\numberline {41}{\ignorespaces \textbf {Résultat réussi de test du profil} avec des prompts de vérification.}}{58}{figure.0.41}%
+\contentsline {figure}{\numberline {42}{\ignorespaces \textbf {Interface de création de clé API} pour un profil IA entrainé.}}{58}{figure.0.42}%
+\contentsline {figure}{\numberline {43}{\ignorespaces \textbf {Interface d'ajout d'une clé API OpenRouter} pour l'accès aux modèles de langage.}}{59}{figure.0.43}%
+\contentsline {figure}{\numberline {44}{\ignorespaces \textbf {Historique des clés API OpenRouter} utilisées par le système.}}{59}{figure.0.44}%
+\contentsline {figure}{\numberline {45}{\ignorespaces \textbf {Interface de diagnostics API} pour la vérification des problèmes d'intégration.}}{60}{figure.0.45}%
+\contentsline {figure}{\numberline {46}{\ignorespaces \textbf {Test de connexion OpenRouter} pour vérifier la configuration du service.}}{60}{figure.0.46}%
+\contentsline {figure}{\numberline {47}{\ignorespaces \textbf {Section d'accueil (Hero)} du système de gestion scolaire présentant l'offre principale.}}{63}{figure.0.47}%
+\contentsline {figure}{\numberline {48}{\ignorespaces \textbf {Section d'information} détaillant les caractéristiques clés de la plateforme.}}{64}{figure.0.48}%
+\contentsline {figure}{\numberline {49}{\ignorespaces \textbf {Section de statistiques} mettant en avant les résultats et l'impact du système.}}{64}{figure.0.49}%
+\contentsline {figure}{\numberline {50}{\ignorespaces \textbf {Section de tarification} présentant les différentes options d'abonnement.}}{65}{figure.0.50}%
+\contentsline {figure}{\numberline {51}{\ignorespaces \textbf {Section des fonctionnalités} du système de gestion scolaire.}}{65}{figure.0.51}%
+\contentsline {figure}{\numberline {52}{\ignorespaces \textbf {Section de contact} avec formulaire permettant aux utilisateurs de demander des informations.}}{66}{figure.0.52}%
+\contentsline {figure}{\numberline {53}{\ignorespaces \textbf {Pied de page (Footer)} contenant les liens importants et informations légales.}}{66}{figure.0.53}%
 \contentsfinish 

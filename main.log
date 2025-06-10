@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.6.10)  10 JUN 2025 19:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.6.10)  10 JUN 2025 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -859,7 +859,7 @@ Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 87.
 \c@mychapter=\count343
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 23
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 24
 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/t1lmr.fd
@@ -873,32 +873,32 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 (./main.aux (./chapter_1.aux) (./chapter_2.aux) (./chapter_3.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Info: Redefining \degres on input line 237.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Info: Redefining \degres on input line 247.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 237.
+(french.ldf)             reported on input line 247.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 237.
-LaTeX Info: Redefining \up on input line 237.
+(french.ldf)             reported on input line 247.
+LaTeX Info: Redefining \up on input line 247.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -956,24 +956,24 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 237.
+Package hyperref Info: Link coloring ON on input line 247.
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 237.
-Package microtype Info: Applying patch `item' on input line 237.
-Package microtype Info: Applying patch `toc' on input line 237.
-Package microtype Info: Applying patch `eqnum' on input line 237.
-Package microtype Info: Applying patch `footnote' on input line 237.
-Package microtype Info: Applying patch `verbatim' on input line 237.
+LaTeX Info: Redefining \microtypecontext on input line 247.
+Package microtype Info: Applying patch `item' on input line 247.
+Package microtype Info: Applying patch `toc' on input line 247.
+Package microtype Info: Applying patch `eqnum' on input line 247.
+Package microtype Info: Applying patch `footnote' on input line 247.
+Package microtype Info: Applying patch `verbatim' on input line 247.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 237.
+LaTeX Info: Redefining \showhyphens on input line 247.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -999,10 +999,10 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 pdfTeX warning: pdflatex (file ./page_de_garde_memoire.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<page_de_garde_memoire.pdf, id=303, 597.51233pt x 845.0471pt>
+<page_de_garde_memoire.pdf, id=338, 597.51233pt x 845.0471pt>
 File: page_de_garde_memoire.pdf Graphic file (type pdf)
 <use page_de_garde_memoire.pdf>
-Package pdftex.def Info: page_de_garde_memoire.pdf  used on input line 240.
+Package pdftex.def Info: page_de_garde_memoire.pdf  used on input line 250.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 
 
@@ -1010,7 +1010,7 @@ pdfTeX warning: pdflatex (file ./page_de_garde_memoire.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
 File: page_de_garde_memoire.pdf Graphic file (type pdf)
 <use page_de_garde_memoire.pdf>
-Package pdftex.def Info: page_de_garde_memoire.pdf  used on input line 240.
+Package pdftex.def Info: page_de_garde_memoire.pdf  used on input line 250.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 
 
@@ -1020,31 +1020,31 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./page_de_garde_memoire.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<page_de_garde_memoire.pdf, id=306, page=1, 597.51233pt x 845.0471pt>
+<page_de_garde_memoire.pdf, id=341, page=1, 597.51233pt x 845.0471pt>
 File: page_de_garde_memoire.pdf Graphic file (type pdf)
 <use page_de_garde_memoire.pdf, page 1>
 Package pdftex.def Info: page_de_garde_memoire.pdf , page1 used on input line 2
-40.
+50.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: page_de_garde_memoire.pdf Graphic file (type pdf)
 <use page_de_garde_memoire.pdf, page 1>
 Package pdftex.def Info: page_de_garde_memoire.pdf , page1 used on input line 2
-40.
+50.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: page_de_garde_memoire.pdf Graphic file (type pdf)
 <use page_de_garde_memoire.pdf, page 1>
 Package pdftex.def Info: page_de_garde_memoire.pdf , page1 used on input line 2
-40.
+50.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: page_de_garde_memoire.pdf Graphic file (type pdf)
 <use page_de_garde_memoire.pdf, page 1>
 Package pdftex.def Info: page_de_garde_memoire.pdf , page1 used on input line 2
-40.
+50.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: page_de_garde_memoire.pdf Graphic file (type pdf)
 <use page_de_garde_memoire.pdf, page 1>
 Package pdftex.def Info: page_de_garde_memoire.pdf , page1 used on input line 2
-40.
+50.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 [1
 
@@ -1137,7 +1137,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
                    \relax 
 l.27 ...hitecture du système de gestion scolaire}
                                                   
-<pfe-pics/diagrames/archetecture.png, id=708, 3854.4pt x 2241.37375pt>
+<pfe-pics/diagrames/archetecture.png, id=794, 3854.4pt x 2241.37375pt>
 File: pfe-pics/diagrames/archetecture.png Graphic file (type png)
 <use pfe-pics/diagrames/archetecture.png>
 Package pdftex.def Info: pfe-pics/diagrames/archetecture.png  used on input lin
@@ -1172,7 +1172,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
                    \relax 
 l.70 \subsection{Modèle de données}
                                      
-<pfe-pics/diagrames/tabaales.png, id=716, 3854.4pt x 1816.7875pt>
+<pfe-pics/diagrames/tabaales.png, id=802, 3854.4pt x 1816.7875pt>
 File: pfe-pics/diagrames/tabaales.png Graphic file (type png)
 <use pfe-pics/diagrames/tabaales.png>
 Package pdftex.def Info: pfe-pics/diagrames/tabaales.png  used on input line 76
@@ -1191,7 +1191,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.105 \subsection{Diagramme de classes}
                                         <./pfe-pics/diagrames/tabaales.png>]
-<pfe-pics/diagrames/class.png, id=722, 3854.4pt x 3672.72125pt>
+<pfe-pics/diagrames/class.png, id=808, 3854.4pt x 3672.72125pt>
 File: pfe-pics/diagrames/class.png Graphic file (type png)
 <use pfe-pics/diagrames/class.png>
 Package pdftex.def Info: pfe-pics/diagrames/class.png  used on input line 111.
@@ -1216,7 +1216,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
                    \relax 
 l.162 \subsection{Architecture backend}
                                        
-<pfe-pics/diagrames/State Diagram (for Authentication Flow).png, id=728, 3854.4
+<pfe-pics/diagrames/State Diagram (for Authentication Flow).png, id=814, 3854.4
 pt x 2550.52875pt>
 File: pfe-pics/diagrames/State Diagram (for Authentication Flow).png Graphic fi
 le (type png)
@@ -1225,7 +1225,7 @@ Package pdftex.def Info: pfe-pics/diagrames/State Diagram (for Authentication F
 low).png  used on input line 186.
 (pdftex.def)             Requested size: 409.71692pt x 271.10199pt.
  [25]
-<pfe-pics/diagrames/Activity Diagram (for Course Management).png, id=734, 1423.
+<pfe-pics/diagrames/Activity Diagram (for Course Management).png, id=820, 1423.
 3175pt x 3854.4pt>
 File: pfe-pics/diagrames/Activity Diagram (for Course Management).png Graphic f
 ile (type png)
@@ -1250,13 +1250,13 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.211 
        <./pfe-pics/diagrames/Activity Diagram (for Course Management).png>]
-<pfe-pics/diagrames/Attendance Tracking.png, id=745, 3854.4pt x 2149.02875pt>
+<pfe-pics/diagrames/Attendance Tracking.png, id=832, 3854.4pt x 2149.02875pt>
 File: pfe-pics/diagrames/Attendance Tracking.png Graphic file (type png)
 <use pfe-pics/diagrames/Attendance Tracking.png>
 Package pdftex.def Info: pfe-pics/diagrames/Attendance Tracking.png  used on in
 put line 228.
 (pdftex.def)             Requested size: 409.71692pt x 228.42555pt.
-<pfe-pics/diagrames/Assignment Submission and Grading.png, id=746, 3854.4pt x 1
+<pfe-pics/diagrames/Assignment Submission and Grading.png, id=833, 3854.4pt x 1
 995.455pt>
 File: pfe-pics/diagrames/Assignment Submission and Grading.png Graphic file (ty
 pe png)
@@ -1272,7 +1272,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.253 
        <./pfe-pics/diagrames/Attendance Tracking.png>]
-<pfe-pics/diagrames/Parent-Child Verification Process.png, id=752, 3854.4pt x 2
+<pfe-pics/diagrames/Parent-Child Verification Process.png, id=839, 3854.4pt x 2
 386.9175pt>
 File: pfe-pics/diagrames/Parent-Child Verification Process.png Graphic file (ty
 pe png)
@@ -1295,14 +1295,14 @@ l.278   \item L
                'initiation de la demande d'association par le parent <./pfe-pic
 s/diagrames/Assignment Submission and Grading.png> <./pfe-pics/diagrames/Parent
 -Child Verification Process.png>]
-<pfe-pics/diagrames/Course Enrollment Process.png, id=759, 3854.4pt x 2245.3887
+<pfe-pics/diagrames/Course Enrollment Process.png, id=846, 3854.4pt x 2245.3887
 5pt>
 File: pfe-pics/diagrames/Course Enrollment Process.png Graphic file (type png)
 <use pfe-pics/diagrames/Course Enrollment Process.png>
 Package pdftex.def Info: pfe-pics/diagrames/Course Enrollment Process.png  used
  on input line 291.
 (pdftex.def)             Requested size: 409.71692pt x 238.6679pt.
-<pfe-pics/diagrames/usecase.png, id=760, 3854.4pt x 306.14375pt>
+<pfe-pics/diagrames/usecase.png, id=847, 3854.4pt x 306.14375pt>
 File: pfe-pics/diagrames/usecase.png Graphic file (type png)
 <use pfe-pics/diagrames/usecase.png>
 Package pdftex.def Info: pfe-pics/diagrames/usecase.png  used on input line 314
@@ -1335,7 +1335,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 l.333 \subsection{Architecture des composants}
                                               
 <pfe-pics/diagrames/Component Diagram (showing the system_s architecture).png, 
-id=767, 3854.4pt x 1064.97874pt>
+id=854, 3854.4pt x 1064.97874pt>
 File: pfe-pics/diagrames/Component Diagram (showing the system_s architecture).
 png Graphic file (type png)
 <use pfe-pics/diagrames/Component Diagram (showing the system_s architecture).p
@@ -1375,7 +1375,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
                    \relax 
 l.448 \subsection{Architecture d'intégration}
                                                [32]
-<pfe-pics/diagrames/dependeces.png, id=778, 3854.4pt x 942.52126pt>
+<pfe-pics/diagrames/dependeces.png, id=865, 3854.4pt x 942.52126pt>
 File: pfe-pics/diagrames/dependeces.png Graphic file (type png)
 <use pfe-pics/diagrames/dependeces.png>
 Package pdftex.def Info: pfe-pics/diagrames/dependeces.png  used on input line 
@@ -1462,37 +1462,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
                    \relax 
 l.138 \subsection{Implémentation du backend}
                                               [37]
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2023/02/27 1.9 listings language file
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2023/02/27 1.9 listings language file
-)
-
-! Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 ...ng}[style=codestyle, language=JavaScript]
-                                                  
-? 
-
-! Package Listings Error: language javascript undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 ...ng}[style=codestyle, language=JavaScript]
-                                                  
-? 
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 15
 7.
+
 (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
@@ -1511,7 +1483,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
                    \relax 
 l.190 ...ection{Développement des interfaces web}
                                                   
-<pfe-pics/admin/Screenshot 2025-06-09 at 22-38-06 Vite React TS.png, id=801, 13
+<pfe-pics/admin/Screenshot 2025-06-09 at 22-38-06 Vite React TS.png, id=888, 13
 14.9125pt x 724.7075pt>
 File: pfe-pics/admin/Screenshot 2025-06-09 at 22-38-06 Vite React TS.png Graphi
 c file (type png)
@@ -1520,7 +1492,7 @@ Package pdftex.def Info: pfe-pics/admin/Screenshot 2025-06-09 at 22-38-06 Vite
 React TS.png  used on input line 200.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
  [38{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-<pfe-pics/admin/Screenshot 2025-06-09 at 22-39-15 Vite React TS.png, id=840, 13
+<pfe-pics/admin/Screenshot 2025-06-09 at 22-39-15 Vite React TS.png, id=926, 13
 14.9125pt x 724.7075pt>
 File: pfe-pics/admin/Screenshot 2025-06-09 at 22-39-15 Vite React TS.png Graphi
 c file (type png)
@@ -1528,7 +1500,7 @@ c file (type png)
 Package pdftex.def Info: pfe-pics/admin/Screenshot 2025-06-09 at 22-39-15 Vite 
 React TS.png  used on input line 219.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/admin/Screenshot 2025-06-09 at 22-40-11 Vite React TS.png, id=841, 13
+<pfe-pics/admin/Screenshot 2025-06-09 at 22-40-11 Vite React TS.png, id=927, 13
 14.9125pt x 724.7075pt>
 File: pfe-pics/admin/Screenshot 2025-06-09 at 22-40-11 Vite React TS.png Graphi
 c file (type png)
@@ -1550,7 +1522,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.14})
 l.230 
        <./pfe-pics/admin/Screenshot 2025-06-09 at 22-38-06 Vite React TS.png> <
 ./pfe-pics/admin/Screenshot 2025-06-09 at 22-39-15 Vite React TS.png>]
-<pfe-pics/teacher/Screenshot 2025-06-09 at 22-51-23 Vite React TS.png, id=848, 
+<pfe-pics/teacher/Screenshot 2025-06-09 at 22-51-23 Vite React TS.png, id=934, 
 1314.9125pt x 724.7075pt>
 File: pfe-pics/teacher/Screenshot 2025-06-09 at 22-51-23 Vite React TS.png Grap
 hic file (type png)
@@ -1558,7 +1530,7 @@ hic file (type png)
 Package pdftex.def Info: pfe-pics/teacher/Screenshot 2025-06-09 at 22-51-23 Vit
 e React TS.png  used on input line 237.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/teacher/Screenshot 2025-06-09 at 22-53-59 Vite React TS.png, id=849, 
+<pfe-pics/teacher/Screenshot 2025-06-09 at 22-53-59 Vite React TS.png, id=935, 
 1314.9125pt x 724.7075pt>
 File: pfe-pics/teacher/Screenshot 2025-06-09 at 22-53-59 Vite React TS.png Grap
 hic file (type png)
@@ -1580,7 +1552,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.16})
 l.260 
        <./pfe-pics/admin/Screenshot 2025-06-09 at 22-40-11 Vite React TS.png> <
 ./pfe-pics/teacher/Screenshot 2025-06-09 at 22-51-23 Vite React TS.png>]
-<pfe-pics/teacher/Screenshot 2025-06-09 at 22-55-38 Vite React TS.png, id=856, 
+<pfe-pics/teacher/Screenshot 2025-06-09 at 22-55-38 Vite React TS.png, id=942, 
 1314.9125pt x 724.7075pt>
 File: pfe-pics/teacher/Screenshot 2025-06-09 at 22-55-38 Vite React TS.png Grap
 hic file (type png)
@@ -1588,7 +1560,7 @@ hic file (type png)
 Package pdftex.def Info: pfe-pics/teacher/Screenshot 2025-06-09 at 22-55-38 Vit
 e React TS.png  used on input line 263.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/student/Screenshot 2025-06-09 at 22-43-56 Vite React TS.png, id=857, 
+<pfe-pics/student/Screenshot 2025-06-09 at 22-43-56 Vite React TS.png, id=943, 
 1314.9125pt x 724.7075pt>
 File: pfe-pics/student/Screenshot 2025-06-09 at 22-43-56 Vite React TS.png Grap
 hic file (type png)
@@ -1611,7 +1583,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.18})
 l.278 
        <./pfe-pics/teacher/Screenshot 2025-06-09 at 22-53-59 Vite React TS.png>
  <./pfe-pics/teacher/Screenshot 2025-06-09 at 22-55-38 Vite React TS.png>]
-<pfe-pics/student/Screenshot 2025-06-09 at 22-45-09 Vite React TS.png, id=864, 
+<pfe-pics/student/Screenshot 2025-06-09 at 22-45-09 Vite React TS.png, id=950, 
 1314.9125pt x 724.7075pt>
 File: pfe-pics/student/Screenshot 2025-06-09 at 22-45-09 Vite React TS.png Grap
 hic file (type png)
@@ -1619,7 +1591,7 @@ hic file (type png)
 Package pdftex.def Info: pfe-pics/student/Screenshot 2025-06-09 at 22-45-09 Vit
 e React TS.png  used on input line 293.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/student/Screenshot 2025-06-09 at 22-46-22 Vite React TS.png, id=865, 
+<pfe-pics/student/Screenshot 2025-06-09 at 22-46-22 Vite React TS.png, id=951, 
 1314.9125pt x 724.7075pt>
 File: pfe-pics/student/Screenshot 2025-06-09 at 22-46-22 Vite React TS.png Grap
 hic file (type png)
@@ -1642,7 +1614,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.20})
 l.304 
        <./pfe-pics/student/Screenshot 2025-06-09 at 22-43-56 Vite React TS.png>
  <./pfe-pics/student/Screenshot 2025-06-09 at 22-45-09 Vite React TS.png>]
-<pfe-pics/parent/Screenshot 2025-06-09 at 22-57-22 Vite React TS.png, id=872, 1
+<pfe-pics/parent/Screenshot 2025-06-09 at 22-57-22 Vite React TS.png, id=959, 1
 314.9125pt x 724.7075pt>
 File: pfe-pics/parent/Screenshot 2025-06-09 at 22-57-22 Vite React TS.png Graph
 ic file (type png)
@@ -1650,7 +1622,7 @@ ic file (type png)
 Package pdftex.def Info: pfe-pics/parent/Screenshot 2025-06-09 at 22-57-22 Vite
  React TS.png  used on input line 311.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/parent/Screenshot 2025-06-09 at 22-58-13 Vite React TS.png, id=873, 1
+<pfe-pics/parent/Screenshot 2025-06-09 at 22-58-13 Vite React TS.png, id=960, 1
 314.9125pt x 724.7075pt>
 File: pfe-pics/parent/Screenshot 2025-06-09 at 22-58-13 Vite React TS.png Graph
 ic file (type png)
@@ -1673,7 +1645,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.22})
 l.334 
        <./pfe-pics/student/Screenshot 2025-06-09 at 22-46-22 Vite React TS.png>
  <./pfe-pics/parent/Screenshot 2025-06-09 at 22-57-22 Vite React TS.png>]
-<pfe-pics/parent/Screenshot 2025-06-09 at 22-59-25 Vite React TS.png, id=881, 1
+<pfe-pics/parent/Screenshot 2025-06-09 at 22-59-25 Vite React TS.png, id=968, 1
 314.9125pt x 1080.035pt>
 File: pfe-pics/parent/Screenshot 2025-06-09 at 22-59-25 Vite React TS.png Graph
 ic file (type png)
@@ -1681,7 +1653,7 @@ ic file (type png)
 Package pdftex.def Info: pfe-pics/parent/Screenshot 2025-06-09 at 22-59-25 Vite
  React TS.png  used on input line 337.
 (pdftex.def)             Requested size: 386.96027pt x 317.83301pt.
-<pfe-pics/auth/Screenshot 2025-06-09 at 23-00-18 Vite React TS.png, id=882, 131
+<pfe-pics/auth/Screenshot 2025-06-09 at 23-00-18 Vite React TS.png, id=969, 131
 4.9125pt x 724.7075pt>
 File: pfe-pics/auth/Screenshot 2025-06-09 at 23-00-18 Vite React TS.png Graphic
  file (type png)
@@ -1704,7 +1676,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.24})
 l.352 
        <./pfe-pics/parent/Screenshot 2025-06-09 at 22-58-13 Vite React TS.png> 
 <./pfe-pics/parent/Screenshot 2025-06-09 at 22-59-25 Vite React TS.png>]
-<pfe-pics/auth/Screenshot 2025-06-09 at 23-02-10 Vite React TS.png, id=889, 131
+<pfe-pics/auth/Screenshot 2025-06-09 at 23-02-10 Vite React TS.png, id=976, 131
 4.9125pt x 724.7075pt>
 File: pfe-pics/auth/Screenshot 2025-06-09 at 23-02-10 Vite React TS.png Graphic
  file (type png)
@@ -1713,7 +1685,7 @@ Package pdftex.def Info: pfe-pics/auth/Screenshot 2025-06-09 at 23-02-10 Vite R
 eact TS.png  used on input line 367.
 (pdftex.def)             Requested size: 273.14923pt x 150.53435pt.
 <pfe-pics/auth/Screenshot 2025-06-09 at 23-08-41 Reset Your Password - School M
-anagement System - vertigoevilman1@gmail.com - Gmail.png, id=890, 1314.9125pt x
+anagement System - vertigoevilman1@gmail.com - Gmail.png, id=977, 1314.9125pt x
  724.7075pt>
 File: pfe-pics/auth/Screenshot 2025-06-09 at 23-08-41 Reset Your Password - Sch
 ool Management System - vertigoevilman1@gmail.com - Gmail.png Graphic file (typ
@@ -1745,7 +1717,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
                    \relax 
 l.379 ...{Développement des applications mobiles}
                                                   
-<pfe-pics/Mobile /Students/Screenshot_20250610_130022_Expo Go.jpg, id=897, 1084
+<pfe-pics/Mobile /Students/Screenshot_20250610_130022_Expo Go.jpg, id=984, 1084
 .05pt x 2348.775pt>
 File: pfe-pics/Mobile /Students/Screenshot_20250610_130022_Expo Go.jpg Graphic 
 file (type jpg)
@@ -1753,7 +1725,7 @@ file (type jpg)
 Package pdftex.def Info: pfe-pics/Mobile /Students/Screenshot_20250610_130022_E
 xpo Go.jpg  used on input line 403.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
-<pfe-pics/Mobile /Students/Screenshot_20250610_130124_Expo Go.jpg, id=898, 1084
+<pfe-pics/Mobile /Students/Screenshot_20250610_130124_Expo Go.jpg, id=985, 1084
 .05pt x 2348.775pt>
 File: pfe-pics/Mobile /Students/Screenshot_20250610_130124_Expo Go.jpg Graphic 
 file (type jpg)
@@ -1769,7 +1741,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.27})
 l.408 
        <./pfe-pics/auth/Screenshot 2025-06-09 at 23-08-41 Reset Your Password -
  School Management System - vertigoevilman1@gmail.com - Gmail.png>]
-<pfe-pics/Mobile /Students/Screenshot_20250610_130150_Expo Go.jpg, id=904, 1084
+<pfe-pics/Mobile /Students/Screenshot_20250610_130150_Expo Go.jpg, id=991, 1084
 .05pt x 2348.775pt>
 File: pfe-pics/Mobile /Students/Screenshot_20250610_130150_Expo Go.jpg Graphic 
 file (type jpg)
@@ -1777,7 +1749,7 @@ file (type jpg)
 Package pdftex.def Info: pfe-pics/Mobile /Students/Screenshot_20250610_130150_E
 xpo Go.jpg  used on input line 411.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
-<pfe-pics/Mobile /Students/Screenshot_20250610_130310_Expo Go.jpg, id=905, 1084
+<pfe-pics/Mobile /Students/Screenshot_20250610_130310_Expo Go.jpg, id=992, 1084
 .05pt x 2348.775pt>
 File: pfe-pics/Mobile /Students/Screenshot_20250610_130310_Expo Go.jpg Graphic 
 file (type jpg)
@@ -1793,7 +1765,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.28})
 l.416 
        <./pfe-pics/Mobile /Students/Screenshot_20250610_130022_Expo Go.jpg> <./
 pfe-pics/Mobile /Students/Screenshot_20250610_130124_Expo Go.jpg>]
-<pfe-pics/Mobile /Teacher/Screenshot_20250610_130952_Expo Go.jpg, id=910, 1084.
+<pfe-pics/Mobile /Teacher/Screenshot_20250610_130952_Expo Go.jpg, id=997, 1084.
 05pt x 2348.775pt>
 File: pfe-pics/Mobile /Teacher/Screenshot_20250610_130952_Expo Go.jpg Graphic f
 ile (type jpg)
@@ -1801,7 +1773,7 @@ ile (type jpg)
 Package pdftex.def Info: pfe-pics/Mobile /Teacher/Screenshot_20250610_130952_Ex
 po Go.jpg  used on input line 423.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
-<pfe-pics/Mobile /Teacher/Screenshot_20250610_131009_Expo Go.jpg, id=911, 1084.
+<pfe-pics/Mobile /Teacher/Screenshot_20250610_131009_Expo Go.jpg, id=998, 1084.
 05pt x 2348.775pt>
 File: pfe-pics/Mobile /Teacher/Screenshot_20250610_131009_Expo Go.jpg Graphic f
 ile (type jpg)
@@ -1817,16 +1789,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.29})
 l.428 
        <./pfe-pics/Mobile /Students/Screenshot_20250610_130150_Expo Go.jpg> <./
 pfe-pics/Mobile /Students/Screenshot_20250610_130310_Expo Go.jpg>]
-<pfe-pics/Mobile /Teacher/Screenshot_20250610_131112_Expo Go.jpg, id=916, 1084.
-05pt x 2348.775pt>
+<pfe-pics/Mobile /Teacher/Screenshot_20250610_131112_Expo Go.jpg, id=1003, 1084
+.05pt x 2348.775pt>
 File: pfe-pics/Mobile /Teacher/Screenshot_20250610_131112_Expo Go.jpg Graphic f
 ile (type jpg)
 <use pfe-pics/Mobile /Teacher/Screenshot_20250610_131112_Expo Go.jpg>
 Package pdftex.def Info: pfe-pics/Mobile /Teacher/Screenshot_20250610_131112_Ex
 po Go.jpg  used on input line 431.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
-<pfe-pics/Mobile /Teacher/Screenshot_20250610_131132_Expo Go.jpg, id=917, 1084.
-05pt x 2348.775pt>
+<pfe-pics/Mobile /Teacher/Screenshot_20250610_131132_Expo Go.jpg, id=1004, 1084
+.05pt x 2348.775pt>
 File: pfe-pics/Mobile /Teacher/Screenshot_20250610_131132_Expo Go.jpg Graphic f
 ile (type jpg)
 <use pfe-pics/Mobile /Teacher/Screenshot_20250610_131132_Expo Go.jpg>
@@ -1841,16 +1813,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.30})
 l.436 
        <./pfe-pics/Mobile /Teacher/Screenshot_20250610_130952_Expo Go.jpg> <./p
 fe-pics/Mobile /Teacher/Screenshot_20250610_131009_Expo Go.jpg>]
-<pfe-pics/Mobile /Parent /Screenshot_20250610_132939_Expo Go.jpg, id=923, 1084.
-05pt x 2348.775pt>
+<pfe-pics/Mobile /Parent /Screenshot_20250610_132939_Expo Go.jpg, id=1010, 1084
+.05pt x 2348.775pt>
 File: pfe-pics/Mobile /Parent /Screenshot_20250610_132939_Expo Go.jpg Graphic f
 ile (type jpg)
 <use pfe-pics/Mobile /Parent /Screenshot_20250610_132939_Expo Go.jpg>
 Package pdftex.def Info: pfe-pics/Mobile /Parent /Screenshot_20250610_132939_Ex
 po Go.jpg  used on input line 443.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
-<pfe-pics/Mobile /Parent /Screenshot_20250610_133022_Expo Go.jpg, id=924, 1084.
-05pt x 2348.775pt>
+<pfe-pics/Mobile /Parent /Screenshot_20250610_133022_Expo Go.jpg, id=1011, 1084
+.05pt x 2348.775pt>
 File: pfe-pics/Mobile /Parent /Screenshot_20250610_133022_Expo Go.jpg Graphic f
 ile (type jpg)
 <use pfe-pics/Mobile /Parent /Screenshot_20250610_133022_Expo Go.jpg>
@@ -1865,16 +1837,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.31})
 l.448 
        <./pfe-pics/Mobile /Teacher/Screenshot_20250610_131112_Expo Go.jpg> <./p
 fe-pics/Mobile /Teacher/Screenshot_20250610_131132_Expo Go.jpg>]
-<pfe-pics/Mobile /Parent /Screenshot_20250610_133032_Expo Go.jpg, id=929, 1084.
-05pt x 2348.775pt>
+<pfe-pics/Mobile /Parent /Screenshot_20250610_133032_Expo Go.jpg, id=1016, 1084
+.05pt x 2348.775pt>
 File: pfe-pics/Mobile /Parent /Screenshot_20250610_133032_Expo Go.jpg Graphic f
 ile (type jpg)
 <use pfe-pics/Mobile /Parent /Screenshot_20250610_133032_Expo Go.jpg>
 Package pdftex.def Info: pfe-pics/Mobile /Parent /Screenshot_20250610_133032_Ex
 po Go.jpg  used on input line 451.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
-<pfe-pics/Mobile /Parent /Screenshot_20250610_133047_Expo Go.jpg, id=930, 1084.
-05pt x 2348.775pt>
+<pfe-pics/Mobile /Parent /Screenshot_20250610_133047_Expo Go.jpg, id=1017, 1084
+.05pt x 2348.775pt>
 File: pfe-pics/Mobile /Parent /Screenshot_20250610_133047_Expo Go.jpg Graphic f
 ile (type jpg)
 <use pfe-pics/Mobile /Parent /Screenshot_20250610_133047_Expo Go.jpg>
@@ -1889,16 +1861,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.32})
 l.456 
        <./pfe-pics/Mobile /Parent /Screenshot_20250610_132939_Expo Go.jpg> <./p
 fe-pics/Mobile /Parent /Screenshot_20250610_133022_Expo Go.jpg>]
-<pfe-pics/Mobile /Auth/Screenshot_20250610_145348_Expo Go.jpg, id=935, 1084.05p
-t x 2348.775pt>
+<pfe-pics/Mobile /Auth/Screenshot_20250610_145348_Expo Go.jpg, id=1022, 1084.05
+pt x 2348.775pt>
 File: pfe-pics/Mobile /Auth/Screenshot_20250610_145348_Expo Go.jpg Graphic file
  (type jpg)
 <use pfe-pics/Mobile /Auth/Screenshot_20250610_145348_Expo Go.jpg>
 Package pdftex.def Info: pfe-pics/Mobile /Auth/Screenshot_20250610_145348_Expo 
 Go.jpg  used on input line 463.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
-<pfe-pics/Mobile /Auth/Screenshot_20250610_145354_Expo Go.jpg, id=936, 1084.05p
-t x 2348.775pt>
+<pfe-pics/Mobile /Auth/Screenshot_20250610_145354_Expo Go.jpg, id=1023, 1084.05
+pt x 2348.775pt>
 File: pfe-pics/Mobile /Auth/Screenshot_20250610_145354_Expo Go.jpg Graphic file
  (type jpg)
 <use pfe-pics/Mobile /Auth/Screenshot_20250610_145354_Expo Go.jpg>
@@ -1942,187 +1914,349 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
                    \relax 
 l.522 ...éveloppement de l'interface utilisateur}
                                                   
-<pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-15-45 Vite React TS.p
-ng, id=946, 1314.9125pt x 724.7075pt>
-File: pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-15-45 Vite React
- TS.png Graphic file (type png)
-<use pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-15-45 Vite React 
-TS.png>
-Package pdftex.def Info: pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 
-23-15-45 Vite React TS.png  used on input line 530.
+<pfe-pics/ai-profile-creation/dashboared_befor_adding_a_new_ai_profile.png, id=
+1032, 1314.9125pt x 724.7075pt>
+File: pfe-pics/ai-profile-creation/dashboared_befor_adding_a_new_ai_profile.png
+ Graphic file (type png)
+<use pfe-pics/ai-profile-creation/dashboared_befor_adding_a_new_ai_profile.png>
+
+Package pdftex.def Info: pfe-pics/ai-profile-creation/dashboared_befor_adding_a
+_new_ai_profile.png  used on input line 530.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
  [54]
-<pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-16-31 Vite React TS.p
-ng, id=980, 1314.9125pt x 724.7075pt>
-File: pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-16-31 Vite React
- TS.png Graphic file (type png)
-<use pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-16-31 Vite React 
-TS.png>
-Package pdftex.def Info: pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 
-23-16-31 Vite React TS.png  used on input line 548.
+<pfe-pics/ai-profile-creation/creating_and_ai_prifile.png, id=1066, 1314.9125pt
+ x 724.7075pt>
+File: pfe-pics/ai-profile-creation/creating_and_ai_prifile.png Graphic file (ty
+pe png)
+<use pfe-pics/ai-profile-creation/creating_and_ai_prifile.png>
+Package pdftex.def Info: pfe-pics/ai-profile-creation/creating_and_ai_prifile.p
+ng  used on input line 548.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
  [55
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.35})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.557   \item C
-               onfigurer le comportement de l'IA (ton, style de réponse, ni...
+l.556   \item D
+               éfinir les informations de base du profil (nom, description,...
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.36})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.557   \item C
-               onfigurer le comportement de l'IA (ton, style de réponse, ni...
- <./pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-15-45 Vite React T
-S.png> <./pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-16-31 Vite R
-eact TS.png>]
-<pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-17-46 Vite React TS.p
-ng, id=988, 1314.9125pt x 724.7075pt>
-File: pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-17-46 Vite React
- TS.png Graphic file (type png)
-<use pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-17-46 Vite React 
-TS.png>
-Package pdftex.def Info: pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 
-23-17-46 Vite React TS.png  used on input line 566.
+l.556   \item D
+               éfinir les informations de base du profil (nom, description,...
+ <./pfe-pics/ai-profile-creation/dashboared_befor_adding_a_new_ai_profile.png> 
+<./pfe-pics/ai-profile-creation/creating_and_ai_prifile.png>]
+<pfe-pics/ai-profile-creation/see_upladed_documents_knoladge.png, id=1074, 1314
+.9125pt x 724.7075pt>
+File: pfe-pics/ai-profile-creation/see_upladed_documents_knoladge.png Graphic f
+ile (type png)
+<use pfe-pics/ai-profile-creation/see_upladed_documents_knoladge.png>
+Package pdftex.def Info: pfe-pics/ai-profile-creation/see_upladed_documents_kno
+ladge.png  used on input line 566.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-19-55 Vite React TS.p
-ng, id=989, 1314.9125pt x 724.7075pt>
-File: pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-19-55 Vite React
- TS.png Graphic file (type png)
-<use pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-19-55 Vite React 
-TS.png>
-Package pdftex.def Info: pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 
-23-19-55 Vite React TS.png  used on input line 585.
+<pfe-pics/ai-profile-creation/extract_info_from_file_and_training_pfrile.png, i
+d=1075, 1314.9125pt x 724.7075pt>
+File: pfe-pics/ai-profile-creation/extract_info_from_file_and_training_pfrile.p
+ng Graphic file (type png)
+<use pfe-pics/ai-profile-creation/extract_info_from_file_and_training_pfrile.pn
+g>
+Package pdftex.def Info: pfe-pics/ai-profile-creation/extract_info_from_file_an
+d_training_pfrile.png  used on input line 573.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
  [56
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.37})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.589 
-       <./pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-17-46 Vite R
-eact TS.png>]
-<pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-20-35 Vite React TS.p
-ng, id=995, 1314.9125pt x 724.7075pt>
-File: pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-20-35 Vite React
- TS.png Graphic file (type png)
-<use pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-20-35 Vite React 
-TS.png>
-Package pdftex.def Info: pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 
-23-20-35 Vite React TS.png  used on input line 604.
-(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [57
+l.583   \item O
+               rganisation des documents par catégories
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.38})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.613   \item D
-               ocumentation interactive des endpoints disponibles
+l.583   \item O
+               rganisation des documents par catégories <./pfe-pics/ai-profile
+-creation/see_upladed_documents_knoladge.png> <./pfe-pics/ai-profile-creation/e
+xtract_info_from_file_and_training_pfrile.png>]
+<pfe-pics/ai-profile-creation/succesful_knoladge_integration.png, id=1082, 1314
+.9125pt x 724.7075pt>
+File: pfe-pics/ai-profile-creation/succesful_knoladge_integration.png Graphic f
+ile (type png)
+<use pfe-pics/ai-profile-creation/succesful_knoladge_integration.png>
+Package pdftex.def Info: pfe-pics/ai-profile-creation/succesful_knoladge_integr
+ation.png  used on input line 590.
+(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+<pfe-pics/ai-profile-creation/chat_interface_to_test_the_profile.png, id=1083, 
+1314.9125pt x 724.7075pt>
+File: pfe-pics/ai-profile-creation/chat_interface_to_test_the_profile.png Graph
+ic file (type png)
+<use pfe-pics/ai-profile-creation/chat_interface_to_test_the_profile.png>
+Package pdftex.def Info: pfe-pics/ai-profile-creation/chat_interface_to_test_th
+e_profile.png  used on input line 599.
+(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+<pfe-pics/ai-profile-creation/chat_interface_for_testing_profile_2_test_prompt_
+succes.png, id=1084, 1314.9125pt x 724.7075pt>
+File: pfe-pics/ai-profile-creation/chat_interface_for_testing_profile_2_test_pr
+ompt_succes.png Graphic file (type png)
+<use pfe-pics/ai-profile-creation/chat_interface_for_testing_profile_2_test_pro
+mpt_succes.png>
+Package pdftex.def Info: pfe-pics/ai-profile-creation/chat_interface_for_testin
+g_profile_2_test_prompt_succes.png  used on input line 606.
+(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+ [57
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.39})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.613   \item D
-               ocumentation interactive des endpoints disponibles <./pfe-pics/a
-i-profile-creation/Screenshot 2025-06-09 at 23-19-55 Vite React TS.png> <./pfe-
-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-20-35 Vite React TS.png>]
-pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
-3.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.618 ...ion{Pipeline de traitement des documents}
-                                                  
-<pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-18-42 Vite React TS.p
-ng, id=1002, 1314.9125pt x 724.7075pt>
-File: pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-18-42 Vite React
- TS.png Graphic file (type png)
-<use pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-18-42 Vite React 
-TS.png>
-Package pdftex.def Info: pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 
-23-18-42 Vite React TS.png  used on input line 642.
-(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [58
+l.610 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.40})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.661 ...ction{Intégration avec les modèles LLM}
-                                                   <./pfe-pics/ai-profile-creat
-ion/Screenshot 2025-06-09 at 23-18-42 Vite React TS.png>]
-<pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-20-13 Vite React TS.p
-ng, id=1008, 1314.9125pt x 724.7075pt>
-File: pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-20-13 Vite React
- TS.png Graphic file (type png)
-<use pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-20-13 Vite React 
-TS.png>
-Package pdftex.def Info: pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 
-23-20-13 Vite React TS.png  used on input line 677.
+l.610 
+       <./pfe-pics/ai-profile-creation/succesful_knoladge_integration.png> <./p
+fe-pics/ai-profile-creation/chat_interface_to_test_the_profile.png>]
+<pfe-pics/ai-profile-creation/create_and_api_key_for_trained_profile.png, id=10
+91, 1314.9125pt x 724.7075pt>
+File: pfe-pics/ai-profile-creation/create_and_api_key_for_trained_profile.png G
+raphic file (type png)
+<use pfe-pics/ai-profile-creation/create_and_api_key_for_trained_profile.png>
+Package pdftex.def Info: pfe-pics/ai-profile-creation/create_and_api_key_for_tr
+ained_profile.png  used on input line 625.
+(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+<pfe-pics/ai-profile-creation/adding_openRouter_api.png, id=1092, 1314.9125pt x
+ 724.7075pt>
+File: pfe-pics/ai-profile-creation/adding_openRouter_api.png Graphic file (type
+ png)
+<use pfe-pics/ai-profile-creation/adding_openRouter_api.png>
+Package pdftex.def Info: pfe-pics/ai-profile-creation/adding_openRouter_api.png
+  used on input line 632.
+(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+ [58
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.41})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.636 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.42})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.636 
+       <./pfe-pics/ai-profile-creation/chat_interface_for_testing_profile_2_tes
+t_prompt_succes.png> <./pfe-pics/ai-profile-creation/create_and_api_key_for_tra
+ined_profile.png>]
+<pfe-pics/ai-profile-creation/oneRouter_keys_hestory.png, id=1100, 1314.9125pt 
+x 724.7075pt>
+File: pfe-pics/ai-profile-creation/oneRouter_keys_hestory.png Graphic file (typ
+e png)
+<use pfe-pics/ai-profile-creation/oneRouter_keys_hestory.png>
+Package pdftex.def Info: pfe-pics/ai-profile-creation/oneRouter_keys_hestory.pn
+g  used on input line 639.
+(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+<pfe-pics/ai-profile-creation/api_diagnostics.png, id=1101, 1314.9125pt x 724.7
+075pt>
+File: pfe-pics/ai-profile-creation/api_diagnostics.png Graphic file (type png)
+<use pfe-pics/ai-profile-creation/api_diagnostics.png>
+Package pdftex.def Info: pfe-pics/ai-profile-creation/api_diagnostics.png  used
+ on input line 655.
+(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+ [59
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.43})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.659 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.44})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.659 
+       <./pfe-pics/ai-profile-creation/adding_openRouter_api.png> <./pfe-pics/a
+i-profile-creation/oneRouter_keys_hestory.png>]
+<pfe-pics/ai-profile-creation/test_openRouter_connection.png, id=1108, 1314.912
+5pt x 724.7075pt>
+File: pfe-pics/ai-profile-creation/test_openRouter_connection.png Graphic file 
+(type png)
+<use pfe-pics/ai-profile-creation/test_openRouter_connection.png>
+Package pdftex.def Info: pfe-pics/ai-profile-creation/test_openRouter_connectio
+n.png  used on input line 662.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
 
+pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
+3.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.667 ...ion{Pipeline de traitement des documents}
+                                                   [60
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.45})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.683 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.46})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.683 
+       <./pfe-pics/ai-profile-creation/api_diagnostics.png> <./pfe-pics/ai-prof
+ile-creation/test_openRouter_connection.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.4})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.682 \section{Intégration et tests}
+l.717 \section{Intégration et tests}
                                      
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 4.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.684 \subsection{Stratégie d'intégration}
+l.719 \subsection{Stratégie d'intégration}
                                             
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 4.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.698 \subsection{Tests et validation}
-                                       [59
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.41})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.703   \item \textbf
-                     {Tests unitaires} : Vérification du comportement isol�...
- <./pfe-pics/ai-profile-creation/Screenshot 2025-06-09 at 23-20-13 Vite React T
-S.png>]
+l.733 \subsection{Tests et validation}
+                                       [61]
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.5})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.714 \section{Déploiement et mise en production}
+l.749 \section{Déploiement et mise en production}
                                                   
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 5.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.716 ...uration de l'environnement de production}
+l.751 ...uration de l'environnement de production}
                                                   
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 5.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.732 \subsection{Stratégie de déploiement}
+l.767 \subsection{Stratégie de déploiement}
                                              
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.6})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.746 ...�fis rencontrés et solutions apportées}
+l.781 ...�fis rencontrés et solutions apportées}
                                                   
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 6.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.748 \subsection{Défis techniques}
-                                     [60]
+l.783 \subsection{Défis techniques}
+                                    
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 6.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.764 \subsection{Solutions et optimisations}
-                                             ) [61] [62
+l.799 \subsection{Solutions et optimisations}
+                                              [62]
+pdfTeX warning (ext4): destination with the same identifier (name{section.0.7})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.815 ...tion{Pages d'accueil et de présentation}
+                                                  
+<pfe-pics/landing/hero.png, id=1124, 1314.9125pt x 724.7075pt>
+File: pfe-pics/landing/hero.png Graphic file (type png)
+<use pfe-pics/landing/hero.png>
+Package pdftex.def Info: pfe-pics/landing/hero.png  used on input line 823.
+(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+<pfe-pics/landing/info.png, id=1125, 1314.9125pt x 724.7075pt>
+File: pfe-pics/landing/info.png Graphic file (type png)
+<use pfe-pics/landing/info.png>
+Package pdftex.def Info: pfe-pics/landing/info.png  used on input line 830.
+(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+ [63
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.47})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.834 
+       <./pfe-pics/landing/hero.png>]
+<pfe-pics/landing/stats.png, id=1131, 1314.9125pt x 724.7075pt>
+File: pfe-pics/landing/stats.png Graphic file (type png)
+<use pfe-pics/landing/stats.png>
+Package pdftex.def Info: pfe-pics/landing/stats.png  used on input line 837.
+(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+<pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vite React TS.png, id=1132,
+ 1314.9125pt x 724.7075pt>
+File: pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vite React TS.png Grap
+hic file (type png)
+<use pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vite React TS.png>
+Package pdftex.def Info: pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vit
+e React TS.png  used on input line 844.
+(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+ [64
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.48})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.848 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.49})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.848 
+       <./pfe-pics/landing/info.png> <./pfe-pics/landing/stats.png>]
+<pfe-pics/landing/Screenshot 2025-06-09 at 23-12-17 Vite React TS.png, id=1139,
+ 1314.9125pt x 724.7075pt>
+File: pfe-pics/landing/Screenshot 2025-06-09 at 23-12-17 Vite React TS.png Grap
+hic file (type png)
+<use pfe-pics/landing/Screenshot 2025-06-09 at 23-12-17 Vite React TS.png>
+Package pdftex.def Info: pfe-pics/landing/Screenshot 2025-06-09 at 23-12-17 Vit
+e React TS.png  used on input line 851.
+(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+<pfe-pics/landing/contact.png, id=1140, 1314.9125pt x 724.7075pt>
+File: pfe-pics/landing/contact.png Graphic file (type png)
+<use pfe-pics/landing/contact.png>
+Package pdftex.def Info: pfe-pics/landing/contact.png  used on input line 858.
+(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+ [65
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.50})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.862 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.51})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.862 
+       <./pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vite React TS.png>
+ <./pfe-pics/landing/Screenshot 2025-06-09 at 23-12-17 Vite React TS.png>]
+<pfe-pics/landing/fotter.png, id=1147, 1314.9125pt x 362.35374pt>
+File: pfe-pics/landing/fotter.png Graphic file (type png)
+<use pfe-pics/landing/fotter.png>
+Package pdftex.def Info: pfe-pics/landing/fotter.png  used on input line 865.
+(pdftex.def)             Requested size: 386.96027pt x 106.63356pt.
+
+[66
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.52})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.886 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.53})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.886 
+       <./pfe-pics/landing/contact.png> <./pfe-pics/landing/fotter.png>]
+[67]) [68] [69
 
 
 
@@ -2131,53 +2265,50 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.0.1})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.363 \section{Bilan du projet}
+l.373 \section{Bilan du projet}
                                
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.377 \section{Compétences acquises}
+l.387 \section{Compétences acquises}
                                      
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.393 \section{Perspectives d'évolution}
-                                          [63]
+l.403 \section{Perspectives d'évolution}
+                                          [70]
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.4})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.409 \section{Mot de fin}
-                           [64] [65
+l.419 \section{Mot de fin}
+                           [71] [72
 
 ] (./main.aux (./chapter_1.aux)
 (./chapter_2.aux) (./chapter_3.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4862EE9B33FF49909D9CC778CBF252C0;18362.
+(rerunfilecheck)             Checksum: 0BB03C84D73948FE3546BA219F6743A0;20718.
  ) 
 Here is how much of TeX's memory you used:
- 31248 strings out of 476034
- 590668 string characters out of 5792864
- 1998388 words of memory out of 6000000
- 50700 multiletter control sequences out of 15000+600000
- 575443 words of font info for 165 fonts, out of 8000000 for 9000
+ 31429 strings out of 476034
+ 595070 string characters out of 5792864
+ 1999388 words of memory out of 6000000
+ 50833 multiletter control sequences out of 15000+600000
+ 576225 words of font info for 173 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 84i,17n,80p,1001b,1382s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,17n,80p,1001b,1362s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/lm/lmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr
 12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on main.pdf (65 pages, 8285139 bytes).
+Output written on main.pdf (72 pages, 9138211 bytes).
 PDF statistics:
- 1130 PDF objects out of 1200 (max. 8388607)
- 855 compressed objects within 9 object streams
- 209 named destinations out of 1000 (max. 500000)
- 34745 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1278 PDF objects out of 1440 (max. 8388607)
+ 962 compressed objects within 10 object streams
+ 236 named destinations out of 1000 (max. 500000)
+ 34877 words of extra memory for PDF output out of 35830 (max. 10000000)
 
