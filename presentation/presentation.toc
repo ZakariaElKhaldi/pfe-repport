@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{System Architecture}{5}{0}{2}
+\beamer@sectionintoc {3}{Key Features}{9}{0}{3}
+\beamer@sectionintoc {4}{Implementation}{24}{0}{4}
+\beamer@sectionintoc {5}{Challenges and Solutions}{28}{0}{5}
+\beamer@sectionintoc {6}{Future Development}{29}{0}{6}
