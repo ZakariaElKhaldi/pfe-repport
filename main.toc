@@ -1,0 +1,140 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{Dédicace}{2}{chapter*.1}%
+\contentsline {chapter}{Remerciements}{3}{chapter*.2}%
+\contentsline {chapter}{Résumé}{4}{chapter*.3}%
+\contentsline {chapter}{Abstract}{5}{chapter*.4}%
+\contentsline {chapter}{Introduction}{11}{chapter*.7}%
+\contentsline {chapter}{Chapitre 1 : Cahier de charges}{12}{chapter*.8}%
+\contentsline {section}{\numberline {1}Contexte et objectifs du projet}{13}{section.0.1}%
+\contentsline {subsection}{\numberline {1.1}Contexte général}{13}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {1.2}Objectifs du projet PFE-Gestion-Scolaire}{13}{subsection.0.1.2}%
+\contentsline {subsection}{\numberline {1.3}Objectifs du projet AI-Profiles-Creation}{13}{subsection.0.1.3}%
+\contentsline {section}{\numberline {2}Analyse des besoins}{14}{section.0.2}%
+\contentsline {subsection}{\numberline {2.1}Identification des parties prenantes}{14}{subsection.0.2.1}%
+\contentsline {subsection}{\numberline {2.2}Besoins fonctionnels du système de gestion scolaire}{14}{subsection.0.2.2}%
+\contentsline {subsubsection}{Gestion des utilisateurs}{14}{subsection.0.2.2}%
+\contentsline {subsubsection}{Gestion des cours}{14}{subsection.0.2.2}%
+\contentsline {subsubsection}{Suivi des présences}{14}{subsection.0.2.2}%
+\contentsline {subsubsection}{Évaluation et notation}{14}{subsection.0.2.2}%
+\contentsline {subsubsection}{Communication}{14}{subsection.0.2.2}%
+\contentsline {subsubsection}{Tableau de bord et rapports}{15}{subsection.0.2.2}%
+\contentsline {subsection}{\numberline {2.3}Besoins fonctionnels du système de création de profils IA}{15}{subsection.0.2.3}%
+\contentsline {subsubsection}{Gestion des profils IA}{15}{subsection.0.2.3}%
+\contentsline {subsubsection}{Traitement des documents}{15}{subsection.0.2.3}%
+\contentsline {subsubsection}{Interface de conversation}{15}{subsection.0.2.3}%
+\contentsline {subsubsection}{API et intégration}{15}{subsection.0.2.3}%
+\contentsline {subsection}{\numberline {2.4}Besoins non fonctionnels}{15}{subsection.0.2.4}%
+\contentsline {subsubsection}{Performance}{15}{subsection.0.2.4}%
+\contentsline {subsubsection}{Sécurité}{16}{subsection.0.2.4}%
+\contentsline {subsubsection}{Fiabilité}{16}{subsection.0.2.4}%
+\contentsline {subsubsection}{Utilisabilité}{16}{subsection.0.2.4}%
+\contentsline {subsubsection}{Évolutivité}{16}{subsection.0.2.4}%
+\contentsline {section}{\numberline {3}Contraintes techniques et organisationnelles}{16}{section.0.3}%
+\contentsline {subsection}{\numberline {3.1}Contraintes techniques}{16}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {3.2}Contraintes organisationnelles}{16}{subsection.0.3.2}%
+\contentsline {section}{\numberline {4}Spécifications détaillées}{17}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1}Spécifications du système de gestion scolaire}{17}{subsection.0.4.1}%
+\contentsline {subsubsection}{Module d'administration}{17}{subsection.0.4.1}%
+\contentsline {subsubsection}{Module enseignant}{17}{subsection.0.4.1}%
+\contentsline {subsubsection}{Module étudiant}{17}{subsection.0.4.1}%
+\contentsline {subsubsection}{Module parent}{17}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {4.2}Spécifications du système de création de profils IA}{17}{subsection.0.4.2}%
+\contentsline {subsubsection}{Module de gestion des profils}{17}{subsection.0.4.2}%
+\contentsline {subsubsection}{Module de traitement documentaire}{18}{subsection.0.4.2}%
+\contentsline {subsubsection}{Module conversationnel}{18}{subsection.0.4.2}%
+\contentsline {subsubsection}{Module API}{18}{subsection.0.4.2}%
+\contentsline {section}{\numberline {5}Livrables attendus}{18}{section.0.5}%
+\contentsline {subsection}{\numberline {5.1}Système de gestion scolaire}{18}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {5.2}Système de création de profils IA}{18}{subsection.0.5.2}%
+\contentsline {subsection}{\numberline {5.3}Intégration des deux systèmes}{18}{subsection.0.5.3}%
+\contentsline {section}{\numberline {6}Planification et méthodologie}{19}{section.0.6}%
+\contentsline {subsection}{\numberline {6.1}Approche méthodologique}{19}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {6.2}Planning prévisionnel}{19}{subsection.0.6.2}%
+\contentsline {subsection}{\numberline {6.3}Répartition des tâches}{19}{subsection.0.6.3}%
+\contentsline {section}{\numberline {7}Conclusion du cahier des charges}{19}{section.0.7}%
+\contentsline {chapter}{Chapitre 2 : Architecture et conception du système}{21}{chapter*.9}%
+\contentsline {section}{\numberline {1}Approche architecturale globale}{22}{section.0.1}%
+\contentsline {subsection}{\numberline {1.1}Vision architecturale}{22}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {1.2}Architecture du système de gestion scolaire}{22}{subsection.0.1.2}%
+\contentsline {subsection}{\numberline {1.3}Architecture du système de création de profils IA}{23}{subsection.0.1.3}%
+\contentsline {section}{\numberline {2}Conception détaillée du système de gestion scolaire}{23}{section.0.2}%
+\contentsline {subsection}{\numberline {2.1}Modèle de données}{23}{subsection.0.2.1}%
+\contentsline {subsection}{\numberline {2.2}Diagramme de classes}{24}{subsection.0.2.2}%
+\contentsline {subsection}{\numberline {2.3}Architecture frontend}{24}{subsection.0.2.3}%
+\contentsline {subsubsection}{Application web}{25}{subsection.0.2.3}%
+\contentsline {subsubsection}{Application mobile}{25}{subsection.0.2.3}%
+\contentsline {subsection}{\numberline {2.4}Architecture backend}{25}{subsection.0.2.4}%
+\contentsline {subsection}{\numberline {2.5}Flux de travail principaux}{25}{subsection.0.2.5}%
+\contentsline {subsubsection}{Processus d'authentification}{26}{subsection.0.2.5}%
+\contentsline {subsubsection}{Gestion des cours}{27}{figure.0.4}%
+\contentsline {subsubsection}{Suivi des présences}{28}{figure.0.5}%
+\contentsline {subsubsection}{Soumission et notation des devoirs}{29}{figure.0.6}%
+\contentsline {subsubsection}{Vérification parent-enfant}{29}{figure.0.7}%
+\contentsline {subsubsection}{Inscription aux cours}{30}{figure.0.8}%
+\contentsline {subsection}{\numberline {2.6}Cas d'utilisation}{30}{subsection.0.2.6}%
+\contentsline {section}{\numberline {3}Conception détaillée du système de création de profils IA}{31}{section.0.3}%
+\contentsline {subsection}{\numberline {3.1}Architecture des composants}{31}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {3.2}Pipeline de traitement des documents}{31}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {3.3}Modèle de données}{31}{subsection.0.3.3}%
+\contentsline {subsection}{\numberline {3.4}Flux de traitement des requêtes}{32}{subsection.0.3.4}%
+\contentsline {subsection}{\numberline {3.5}Intégration avec les services externes}{32}{subsection.0.3.5}%
+\contentsline {section}{\numberline {4}Intégration des deux systèmes}{32}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1}Points d'intégration}{32}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {4.2}Architecture d'intégration}{33}{subsection.0.4.2}%
+\contentsline {section}{\numberline {5}Considérations de sécurité et performance}{33}{section.0.5}%
+\contentsline {subsection}{\numberline {5.1}Stratégie de sécurité}{33}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {5.2}Optimisation des performances}{33}{subsection.0.5.2}%
+\contentsline {subsection}{\numberline {5.3}Stratégie de déploiement}{33}{subsection.0.5.3}%
+\contentsline {section}{\numberline {6}Conclusion de la conception}{34}{section.0.6}%
+\contentsline {chapter}{Chapitre 3 : Réalisation et mise en œuvre des systèmes}{35}{chapter*.10}%
+\contentsline {section}{\numberline {1}Outils et technologies de développement}{36}{section.0.1}%
+\contentsline {subsection}{\numberline {1.1}Environnement de développement}{36}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {1.2}Technologies frontend}{36}{subsection.0.1.2}%
+\contentsline {subsubsection}{Système de gestion scolaire}{36}{subsection.0.1.2}%
+\contentsline {subsubsection}{Système de création de profils IA}{36}{subsection.0.1.2}%
+\contentsline {subsection}{\numberline {1.3}Technologies backend}{37}{subsection.0.1.3}%
+\contentsline {subsubsection}{Système de gestion scolaire}{37}{subsection.0.1.3}%
+\contentsline {subsubsection}{Système de création de profils IA}{37}{subsection.0.1.3}%
+\contentsline {subsection}{\numberline {1.4}Outils de déploiement et d'intégration continue}{37}{subsection.0.1.4}%
+\contentsline {section}{\numberline {2}Développement du système de gestion scolaire}{37}{section.0.2}%
+\contentsline {subsection}{\numberline {2.1}Implémentation du backend}{37}{subsection.0.2.1}%
+\contentsline {subsection}{\numberline {2.2}Développement des interfaces web}{38}{subsection.0.2.2}%
+\contentsline {subsubsection}{Interface administrateur}{38}{subsection.0.2.2}%
+\contentsline {subsubsection}{Interface enseignant}{40}{figure.0.15}%
+\contentsline {subsubsection}{Interface étudiant}{41}{figure.0.18}%
+\contentsline {subsubsection}{Interface parent}{43}{figure.0.21}%
+\contentsline {subsubsection}{Système d'authentification}{44}{figure.0.24}%
+\contentsline {subsection}{\numberline {2.3}Développement des applications mobiles}{46}{subsection.0.2.3}%
+\contentsline {subsubsection}{Architecture de l'application mobile}{46}{subsection.0.2.3}%
+\contentsline {subsubsection}{Interfaces mobiles pour les étudiants}{46}{subsection.0.2.3}%
+\contentsline {subsubsection}{Interfaces mobiles pour les enseignants}{48}{figure.0.29}%
+\contentsline {subsubsection}{Interfaces mobiles pour les parents}{50}{figure.0.31}%
+\contentsline {subsubsection}{Authentification mobile}{52}{figure.0.33}%
+\contentsline {section}{\numberline {3}Développement du système de création de profils IA}{53}{section.0.3}%
+\contentsline {subsection}{\numberline {3.1}Implémentation du backend}{53}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {3.2}Développement de l'interface utilisateur}{54}{subsection.0.3.2}%
+\contentsline {subsubsection}{Page d'accueil et tableau de bord}{55}{subsection.0.3.2}%
+\contentsline {subsubsection}{Création et configuration de profil}{55}{figure.0.35}%
+\contentsline {subsubsection}{Upload et gestion des documents}{56}{figure.0.36}%
+\contentsline {subsubsection}{Interface de conversation}{57}{figure.0.37}%
+\contentsline {subsubsection}{Gestion des API et intégrations}{57}{figure.0.38}%
+\contentsline {subsection}{\numberline {3.3}Pipeline de traitement des documents}{58}{subsection.0.3.3}%
+\contentsline {subsubsection}{Architecture du pipeline}{58}{subsection.0.3.3}%
+\contentsline {subsubsection}{Optimisation du chunking}{58}{figure.0.40}%
+\contentsline {subsubsection}{Intégration avec les modèles LLM}{59}{figure.0.40}%
+\contentsline {section}{\numberline {4}Intégration et tests}{59}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1}Stratégie d'intégration}{59}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {4.2}Tests et validation}{60}{subsection.0.4.2}%
+\contentsline {section}{\numberline {5}Déploiement et mise en production}{60}{section.0.5}%
+\contentsline {subsection}{\numberline {5.1}Configuration de l'environnement de production}{60}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {5.2}Stratégie de déploiement}{60}{subsection.0.5.2}%
+\contentsline {section}{\numberline {6}Défis rencontrés et solutions apportées}{60}{section.0.6}%
+\contentsline {subsection}{\numberline {6.1}Défis techniques}{60}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {6.2}Solutions et optimisations}{61}{subsection.0.6.2}%
+\contentsline {chapter}{Conclusion et Perspectives}{62}{chapter*.11}%
+\contentsline {section}{\numberline {1}Bilan du projet}{63}{section.0.1}%
+\contentsline {section}{\numberline {2}Compétences acquises}{63}{section.0.2}%
+\contentsline {section}{\numberline {3}Perspectives d'évolution}{63}{section.0.3}%
+\contentsline {section}{\numberline {4}Mot de fin}{64}{section.0.4}%
+\contentsline {chapter}{Bibliographie}{65}{chapter*.12}%
+\contentsfinish 
