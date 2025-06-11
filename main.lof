@@ -1,57 +1,61 @@
 \babel@toc {french}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces \textbf {Architecture globale} du système de gestion scolaire.}}{22}{figure.0.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces \textbf {Modèle de données} du système de gestion scolaire.}}{23}{figure.0.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces \textbf {Diagramme de classes} du système de gestion scolaire.}}{24}{figure.0.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces \textbf {Diagramme d'états} pour le processus d'authentification.}}{26}{figure.0.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces \textbf {Diagramme d'activité} pour la gestion des cours.}}{27}{figure.0.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces \textbf {Diagramme de séquence} pour le suivi des présences.}}{28}{figure.0.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces \textbf {Diagramme de flux} pour la soumission et notation des devoirs.}}{28}{figure.0.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces \textbf {Diagramme de processus} pour la vérification parent-enfant.}}{29}{figure.0.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces \textbf {Diagramme de flux} pour l'inscription aux cours.}}{30}{figure.0.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces \textbf {Diagramme de cas d'utilisation} du système de gestion scolaire.}}{30}{figure.0.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces \textbf {Diagramme de composants} du système de création de profils IA.}}{31}{figure.0.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces \textbf {Diagramme de dépendances} montrant l'intégration des systèmes.}}{33}{figure.0.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces \textbf {Diagramme de Gantt} montrant la planification temporelle du projet.}}{34}{figure.0.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces \textbf {Diagramme PERT} illustrant les dépendances et le chemin critique du projet.}}{35}{figure.0.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces \textbf {Tableau de bord administrateur} présentant une vue d'ensemble des métriques du système.}}{41}{figure.0.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces \textbf {Interface de gestion des utilisateurs} permettant d'administrer les différents types de comptes.}}{41}{figure.0.16}%
-\contentsline {figure}{\numberline {17}{\ignorespaces \textbf {Interface de gestion des cours} avec options de filtrage et d'organisation.}}{42}{figure.0.17}%
-\contentsline {figure}{\numberline {18}{\ignorespaces \textbf {Tableau de bord enseignant} avec vue d'ensemble des cours et activités récentes.}}{42}{figure.0.18}%
-\contentsline {figure}{\numberline {19}{\ignorespaces \textbf {Interface de prise de présence} permettant un enregistrement rapide et efficace.}}{43}{figure.0.19}%
-\contentsline {figure}{\numberline {20}{\ignorespaces \textbf {Interface de notation} avec options de feedback détaillé pour les étudiants.}}{43}{figure.0.20}%
-\contentsline {figure}{\numberline {21}{\ignorespaces \textbf {Tableau de bord étudiant} présentant les cours, devoirs à venir et notifications.}}{44}{figure.0.21}%
-\contentsline {figure}{\numberline {22}{\ignorespaces \textbf {Interface de cours} avec accès au matériel pédagogique et aux ressources.}}{44}{figure.0.22}%
-\contentsline {figure}{\numberline {23}{\ignorespaces \textbf {Interface de soumission de devoir} avec options d'upload de fichiers.}}{45}{figure.0.23}%
-\contentsline {figure}{\numberline {24}{\ignorespaces \textbf {Tableau de bord parent} avec vue d'ensemble des enfants et leurs activités scolaires.}}{45}{figure.0.24}%
-\contentsline {figure}{\numberline {25}{\ignorespaces \textbf {Interface de suivi des résultats} permettant aux parents de visualiser les performances académiques.}}{46}{figure.0.25}%
-\contentsline {figure}{\numberline {26}{\ignorespaces \textbf {Interface de messagerie} pour la communication avec les enseignants.}}{46}{figure.0.26}%
-\contentsline {figure}{\numberline {27}{\ignorespaces \textbf {Page de connexion} avec sélection du type d'utilisateur.}}{47}{figure.0.27}%
-\contentsline {figure}{\numberline {28}{\ignorespaces \textbf {Interface de récupération de mot de passe} avec vérification par email.}}{47}{figure.0.28}%
-\contentsline {figure}{\numberline {29}{\ignorespaces \textbf {Email de réinitialisation de mot de passe} envoyé aux utilisateurs.}}{48}{figure.0.29}%
-\contentsline {figure}{\numberline {30}{\ignorespaces \textbf {Écrans d'accueil et de cours} de l'application mobile pour les étudiants.}}{49}{figure.0.30}%
-\contentsline {figure}{\numberline {31}{\ignorespaces \textbf {Interfaces de consultation des devoirs et résultats} sur mobile.}}{50}{figure.0.31}%
-\contentsline {figure}{\numberline {32}{\ignorespaces \textbf {Tableau de bord et liste des cours} sur l'application mobile enseignant.}}{51}{figure.0.32}%
-\contentsline {figure}{\numberline {33}{\ignorespaces \textbf {Interfaces de prise de présence et de notation} optimisées pour mobile.}}{52}{figure.0.33}%
-\contentsline {figure}{\numberline {34}{\ignorespaces \textbf {Tableau de bord et sélection d'enfant} sur l'application mobile parent.}}{53}{figure.0.34}%
-\contentsline {figure}{\numberline {35}{\ignorespaces \textbf {Suivi des résultats et des présences} sur mobile pour les parents.}}{54}{figure.0.35}%
-\contentsline {figure}{\numberline {36}{\ignorespaces \textbf {Écrans de connexion et d'inscription} sur l'application mobile.}}{55}{figure.0.36}%
-\contentsline {figure}{\numberline {37}{\ignorespaces \textbf {Tableau de bord} du système de création de profils IA avant l'ajout d'un nouveau profil.}}{57}{figure.0.37}%
-\contentsline {figure}{\numberline {38}{\ignorespaces \textbf {Interface de création de profil IA} avec options de configuration.}}{57}{figure.0.38}%
-\contentsline {figure}{\numberline {39}{\ignorespaces \textbf {Interface de visualisation des documents uploadés} et leur connaissance associée.}}{58}{figure.0.39}%
-\contentsline {figure}{\numberline {40}{\ignorespaces \textbf {Interface d'extraction d'information} à partir des fichiers et entrainement du profil.}}{58}{figure.0.40}%
-\contentsline {figure}{\numberline {41}{\ignorespaces \textbf {Confirmation d'intégration réussie} des connaissances extraites dans le profil IA.}}{59}{figure.0.41}%
-\contentsline {figure}{\numberline {42}{\ignorespaces \textbf {Interface de conversation pour tester le profil IA} créé.}}{59}{figure.0.42}%
-\contentsline {figure}{\numberline {43}{\ignorespaces \textbf {Résultat réussi de test du profil} avec des prompts de vérification.}}{60}{figure.0.43}%
-\contentsline {figure}{\numberline {44}{\ignorespaces \textbf {Interface de création de clé API} pour un profil IA entrainé.}}{60}{figure.0.44}%
-\contentsline {figure}{\numberline {45}{\ignorespaces \textbf {Interface d'ajout d'une clé API OpenRouter} pour l'accès aux modèles de langage.}}{61}{figure.0.45}%
-\contentsline {figure}{\numberline {46}{\ignorespaces \textbf {Historique des clés API OpenRouter} utilisées par le système.}}{61}{figure.0.46}%
-\contentsline {figure}{\numberline {47}{\ignorespaces \textbf {Interface de diagnostics API} pour la vérification des problèmes d'intégration.}}{62}{figure.0.47}%
-\contentsline {figure}{\numberline {48}{\ignorespaces \textbf {Test de connexion OpenRouter} pour vérifier la configuration du service.}}{62}{figure.0.48}%
-\contentsline {figure}{\numberline {49}{\ignorespaces \textbf {Section d'accueil (Hero)} du système de gestion scolaire présentant l'offre principale.}}{65}{figure.0.49}%
-\contentsline {figure}{\numberline {50}{\ignorespaces \textbf {Section d'information} détaillant les caractéristiques clés de la plateforme.}}{66}{figure.0.50}%
-\contentsline {figure}{\numberline {51}{\ignorespaces \textbf {Section de statistiques} mettant en avant les résultats et l'impact du système.}}{66}{figure.0.51}%
-\contentsline {figure}{\numberline {52}{\ignorespaces \textbf {Section de tarification} présentant les différentes options d'abonnement.}}{67}{figure.0.52}%
-\contentsline {figure}{\numberline {53}{\ignorespaces \textbf {Section des fonctionnalités} du système de gestion scolaire.}}{67}{figure.0.53}%
-\contentsline {figure}{\numberline {54}{\ignorespaces \textbf {Section de contact} avec formulaire permettant aux utilisateurs de demander des informations.}}{68}{figure.0.54}%
-\contentsline {figure}{\numberline {55}{\ignorespaces \textbf {Pied de page (Footer)} contenant les liens importants et informations légales.}}{68}{figure.0.55}%
+\contentsline {figure}{\numberline {1}{\ignorespaces \textbf {Diagramme de Gantt} montrant la planification temporelle du projet.}}{19}{figure.0.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces \textbf {Diagramme PERT} illustrant les dépendances et le chemin critique du projet.}}{20}{figure.0.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces \textbf {Architecture globale} du système de gestion scolaire.}}{22}{figure.0.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces \textbf {Modèle de données} du système de gestion scolaire.}}{23}{figure.0.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces \textbf {Diagramme de classes} du système de gestion scolaire.}}{24}{figure.0.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces \textbf {Diagramme d'états} pour le processus d'authentification.}}{26}{figure.0.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces \textbf {Diagramme d'activité} pour la gestion des cours.}}{27}{figure.0.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces \textbf {Diagramme de séquence} pour le suivi des présences.}}{28}{figure.0.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces \textbf {Diagramme de flux} pour la soumission et notation des devoirs.}}{28}{figure.0.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces \textbf {Diagramme de processus} pour la vérification parent-enfant.}}{29}{figure.0.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces \textbf {Diagramme de flux} pour l'inscription aux cours.}}{30}{figure.0.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces \textbf {Diagramme de cas d'utilisation} du système de gestion scolaire.}}{30}{figure.0.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces \textbf {Diagramme de composants} du système de création de profils IA.}}{31}{figure.0.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces \textbf {Diagramme de flux} du pipeline de traitement des documents.}}{32}{figure.0.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces \textbf {Modèle de données} du système de création de profils IA.}}{34}{figure.0.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces \textbf {Diagramme de séquence} montrant le flux de conversation avec un profil IA.}}{35}{figure.0.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces \textbf {Diagramme de dépendances du système de gestion scolaire} montrant les composants et leurs relations.}}{36}{figure.0.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces \textbf {Diagramme de dépendances du système de création de profils IA} montrant les composants et leurs relations.}}{37}{figure.0.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces \textbf {Tableau de bord administrateur} présentant une vue d'ensemble des métriques du système.}}{43}{figure.0.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces \textbf {Interface de gestion des utilisateurs} permettant d'administrer les différents types de comptes.}}{43}{figure.0.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces \textbf {Interface de gestion des cours} avec options de filtrage et d'organisation.}}{44}{figure.0.21}%
+\contentsline {figure}{\numberline {22}{\ignorespaces \textbf {Tableau de bord enseignant} avec vue d'ensemble des cours et activités récentes.}}{44}{figure.0.22}%
+\contentsline {figure}{\numberline {23}{\ignorespaces \textbf {Interface de prise de présence} permettant un enregistrement rapide et efficace.}}{45}{figure.0.23}%
+\contentsline {figure}{\numberline {24}{\ignorespaces \textbf {Interface de notation} avec options de feedback détaillé pour les étudiants.}}{45}{figure.0.24}%
+\contentsline {figure}{\numberline {25}{\ignorespaces \textbf {Tableau de bord étudiant} présentant les cours, devoirs à venir et notifications.}}{46}{figure.0.25}%
+\contentsline {figure}{\numberline {26}{\ignorespaces \textbf {Interface de cours} avec accès au matériel pédagogique et aux ressources.}}{46}{figure.0.26}%
+\contentsline {figure}{\numberline {27}{\ignorespaces \textbf {Interface de soumission de devoir} avec options d'upload de fichiers.}}{47}{figure.0.27}%
+\contentsline {figure}{\numberline {28}{\ignorespaces \textbf {Tableau de bord parent} avec vue d'ensemble des enfants et leurs activités scolaires.}}{47}{figure.0.28}%
+\contentsline {figure}{\numberline {29}{\ignorespaces \textbf {Interface de suivi des résultats} permettant aux parents de visualiser les performances académiques.}}{48}{figure.0.29}%
+\contentsline {figure}{\numberline {30}{\ignorespaces \textbf {Interface de messagerie} pour la communication avec les enseignants.}}{48}{figure.0.30}%
+\contentsline {figure}{\numberline {31}{\ignorespaces \textbf {Page de connexion} avec sélection du type d'utilisateur.}}{49}{figure.0.31}%
+\contentsline {figure}{\numberline {32}{\ignorespaces \textbf {Interface de récupération de mot de passe} avec vérification par email.}}{49}{figure.0.32}%
+\contentsline {figure}{\numberline {33}{\ignorespaces \textbf {Email de réinitialisation de mot de passe} envoyé aux utilisateurs.}}{50}{figure.0.33}%
+\contentsline {figure}{\numberline {34}{\ignorespaces \textbf {Écrans d'accueil et de cours} de l'application mobile pour les étudiants.}}{51}{figure.0.34}%
+\contentsline {figure}{\numberline {35}{\ignorespaces \textbf {Interfaces de consultation des devoirs et résultats} sur mobile.}}{52}{figure.0.35}%
+\contentsline {figure}{\numberline {36}{\ignorespaces \textbf {Tableau de bord et liste des cours} sur l'application mobile enseignant.}}{53}{figure.0.36}%
+\contentsline {figure}{\numberline {37}{\ignorespaces \textbf {Interfaces de prise de présence et de notation} optimisées pour mobile.}}{54}{figure.0.37}%
+\contentsline {figure}{\numberline {38}{\ignorespaces \textbf {Tableau de bord et sélection d'enfant} sur l'application mobile parent.}}{55}{figure.0.38}%
+\contentsline {figure}{\numberline {39}{\ignorespaces \textbf {Suivi des résultats et des présences} sur mobile pour les parents.}}{56}{figure.0.39}%
+\contentsline {figure}{\numberline {40}{\ignorespaces \textbf {Écrans de connexion et d'inscription} sur l'application mobile.}}{57}{figure.0.40}%
+\contentsline {figure}{\numberline {41}{\ignorespaces \textbf {Tableau de bord} du système de création de profils IA avant l'ajout d'un nouveau profil.}}{63}{figure.0.41}%
+\contentsline {figure}{\numberline {42}{\ignorespaces \textbf {Interface de création de profil IA} avec options de configuration.}}{64}{figure.0.42}%
+\contentsline {figure}{\numberline {43}{\ignorespaces \textbf {Interface de visualisation des documents uploadés} et leur connaissance associée.}}{64}{figure.0.43}%
+\contentsline {figure}{\numberline {44}{\ignorespaces \textbf {Interface d'extraction d'information} à partir des fichiers et entrainement du profil.}}{65}{figure.0.44}%
+\contentsline {figure}{\numberline {45}{\ignorespaces \textbf {Confirmation d'intégration réussie} des connaissances extraites dans le profil IA.}}{65}{figure.0.45}%
+\contentsline {figure}{\numberline {46}{\ignorespaces \textbf {Interface de conversation pour tester le profil IA} créé.}}{66}{figure.0.46}%
+\contentsline {figure}{\numberline {47}{\ignorespaces \textbf {Résultat réussi de test du profil} avec des prompts de vérification.}}{66}{figure.0.47}%
+\contentsline {figure}{\numberline {48}{\ignorespaces \textbf {Interface de création de clé API} pour un profil IA entrainé.}}{67}{figure.0.48}%
+\contentsline {figure}{\numberline {49}{\ignorespaces \textbf {Interface d'ajout d'une clé API OpenRouter} pour l'accès aux modèles de langage.}}{67}{figure.0.49}%
+\contentsline {figure}{\numberline {50}{\ignorespaces \textbf {Historique des clés API OpenRouter} utilisées par le système.}}{68}{figure.0.50}%
+\contentsline {figure}{\numberline {51}{\ignorespaces \textbf {Interface de diagnostics API} pour la vérification des problèmes d'intégration.}}{68}{figure.0.51}%
+\contentsline {figure}{\numberline {52}{\ignorespaces \textbf {Test de connexion OpenRouter} pour vérifier la configuration du service.}}{69}{figure.0.52}%
+\contentsline {figure}{\numberline {53}{\ignorespaces \textbf {Section d'accueil (Hero)} du système de gestion scolaire présentant l'offre principale.}}{72}{figure.0.53}%
+\contentsline {figure}{\numberline {54}{\ignorespaces \textbf {Section d'information} détaillant les caractéristiques clés de la plateforme.}}{72}{figure.0.54}%
+\contentsline {figure}{\numberline {55}{\ignorespaces \textbf {Section de statistiques} mettant en avant les résultats et l'impact du système.}}{73}{figure.0.55}%
+\contentsline {figure}{\numberline {56}{\ignorespaces \textbf {Section de tarification} présentant les différentes options d'abonnement.}}{73}{figure.0.56}%
+\contentsline {figure}{\numberline {57}{\ignorespaces \textbf {Section des fonctionnalités} du système de gestion scolaire.}}{74}{figure.0.57}%
+\contentsline {figure}{\numberline {58}{\ignorespaces \textbf {Section de contact} avec formulaire permettant aux utilisateurs de demander des informations.}}{74}{figure.0.58}%
+\contentsline {figure}{\numberline {59}{\ignorespaces \textbf {Pied de page (Footer)} contenant les liens importants et informations légales.}}{74}{figure.0.59}%
 \contentsfinish 

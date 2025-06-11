@@ -361,6 +361,15 @@ Les principaux composants sont :
 
 Le pipeline de traitement des documents constitue un élément central du système de création de profils IA :
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth,keepaspectratio]{pfe-pics/diagrames/Pipeline de Traitement des Documents (Document Processing Pipeline).png}
+  \caption{\textbf{Diagramme de flux} du pipeline de traitement des documents.}
+  \label{fig:document_processing_pipeline}
+\end{figure}
+
+Ce pipeline se compose des étapes suivantes :
+
 \begin{itemize}
   \item \textbf{Étape 1 - Extraction de texte} : Conversion des différents formats de documents en texte brut
   
@@ -378,6 +387,15 @@ Le pipeline de traitement des documents constitue un élément central du systè
 \subsection{Modèle de données}
 
 Le modèle de données du système de création de profils IA est conçu pour gérer efficacement les profils, documents et interactions :
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,keepaspectratio]{pfe-pics/diagrames/Modèle de Données du Système de Profils IA (AI Profiles Data Model).png}
+  \caption{\textbf{Modèle de données} du système de création de profils IA.}
+  \label{fig:ai_data_model}
+\end{figure}
+
+Les principales entités du modèle sont :
 
 \begin{itemize}
   \item \textbf{Profile} : Définition d'un profil IA avec ses paramètres et métadonnées
@@ -401,6 +419,15 @@ Le modèle de données du système de création de profils IA est conçu pour g�
 
 Le traitement d'une requête adressée à un profil IA suit un flux optimisé :
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth,keepaspectratio]{pfe-pics/diagrames/Flux de Conversation IA (AI Conversation Flow).png}
+  \caption{\textbf{Diagramme de séquence} montrant le flux de conversation avec un profil IA.}
+  \label{fig:ai_conversation_flow}
+\end{figure}
+
+Ce flux se décompose en plusieurs étapes clés :
+
 \begin{itemize}
   \item \textbf{Réception de la requête} : Validation et prétraitement de la question utilisateur
   
@@ -415,25 +442,11 @@ Le traitement d'une requête adressée à un profil IA suit un flux optimisé :
   \item \textbf{Enregistrement} : Sauvegarde de l'échange pour référence future et amélioration
 \end{itemize}
 
-\subsection{Intégration avec les services externes}
+\section{Architecture d'intégration des deux systèmes}
 
-Le système s'intègre avec plusieurs services externes pour optimiser ses fonctionnalités :
+\subsection{Points d'intégration conceptuels}
 
-\begin{itemize}
-  \item \textbf{OpenRouter API} : Accès à différents modèles de langage pour la génération de réponses
-  
-  \item \textbf{Services de stockage objet} : Stockage efficace des documents originaux et traités
-  
-  \item \textbf{Services d'OCR} : Extraction de texte à partir d'images et documents scannés
-  
-  \item \textbf{Services d'authentification} : Intégration possible avec des fournisseurs d'identité externes
-\end{itemize}
-
-\section{Intégration des deux systèmes}
-
-\subsection{Points d'intégration}
-
-L'intégration entre le système de gestion scolaire et le système de création de profils IA s'effectue à plusieurs niveaux :
+L'intégration entre le système de gestion scolaire et le système de création de profils IA s'effectue à plusieurs niveaux architecturaux :
 
 \begin{itemize}
   \item \textbf{Authentification unifiée} : Système SSO permettant une navigation fluide entre les deux plateformes
@@ -445,9 +458,27 @@ L'intégration entre le système de gestion scolaire et le système de création
   \item \textbf{Intégration UI} : Widgets permettant d'interagir avec les profils IA directement depuis l'interface du système scolaire
 \end{itemize}
 
-\subsection{Architecture d'intégration}
+\subsection{Diagrammes de dépendances}
 
-L'architecture d'intégration repose sur une approche API-first :
+Les diagrammes de dépendances suivants illustrent les relations entre les différents composants de chaque système :
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1.0\textwidth,keepaspectratio]{pfe-pics/diagrames/project_1_dep_diagrame.png}
+  \caption{\textbf{Diagramme de dépendances du système de gestion scolaire} montrant les composants et leurs relations.}
+  \label{fig:school_dependencies}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1.0\textwidth,keepaspectratio]{pfe-pics/diagrames/project_ai_profile_cretion_dep_diagrame.png}
+  \caption{\textbf{Diagramme de dépendances du système de création de profils IA} montrant les composants et leurs relations.}
+  \label{fig:ai_dependencies}
+\end{figure}
+
+\subsection{Architecture de communication}
+
+La communication entre ces deux systèmes complémentaires s'effectue à travers plusieurs mécanismes architecturaux :
 
 \begin{itemize}
   \item \textbf{API Gateway} : Point d'entrée unifié gérant le routage vers les services appropriés
@@ -459,18 +490,11 @@ L'architecture d'intégration repose sur une approche API-first :
   \item \textbf{Cache distribué} : Optimisation des performances pour les données fréquemment accédées
 \end{itemize}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.9\textwidth,keepaspectratio]{pfe-pics/diagrames/dependeces.png}
-  \caption{\textbf{Diagramme de dépendances} montrant l'intégration des systèmes.}
-  \label{fig:integration_dependencies}
-\end{figure}
-
-\section{Considérations de sécurité et performance}
+\section{Considérations architecturales transversales}
 
 \subsection{Stratégie de sécurité}
 
-La sécurité a été intégrée à tous les niveaux de la conception :
+La sécurité a été intégrée à tous les niveaux de la conception architecturale :
 
 \begin{itemize}
   \item \textbf{Authentification robuste} : Mécanismes d'authentification modernes avec support MFA
@@ -486,9 +510,9 @@ La sécurité a été intégrée à tous les niveaux de la conception :
   \item \textbf{Protection contre les attaques courantes} : Mesures contre XSS, CSRF, injection SQL, etc.
 \end{itemize}
 
-\subsection{Optimisation des performances}
+\subsection{Approche de performance}
 
-Plusieurs stratégies ont été adoptées pour garantir des performances optimales :
+L'architecture prend en compte les considérations de performance à travers plusieurs stratégies :
 
 \begin{itemize}
   \item \textbf{Mise en cache multicouche} : Cache au niveau du navigateur, de l'API et de la base de données
@@ -501,148 +525,6 @@ Plusieurs stratégies ont été adoptées pour garantir des performances optimal
   
   \item \textbf{Distribution de charge} : Répartition du trafic entre plusieurs instances de service
 \end{itemize}
-
-\subsection{Stratégie de déploiement}
-
-L'architecture a été conçue pour faciliter un déploiement flexible et évolutif :
-
-\begin{itemize}
-  \item \textbf{Conteneurisation} : Packaging des services dans des conteneurs Docker pour portabilité
-  
-  \item \textbf{Configuration externalisée} : Séparation du code et de la configuration pour adaptation à différents environnements
-  
-  \item \textbf{Déploiement progressif} : Stratégies de déploiement bleu-vert ou canary pour minimiser les risques
-  
-  \item \textbf{Surveillance intégrée} : Métriques et alertes pour suivre la santé et les performances du système
-\end{itemize}
-
-\section{Gestion de projet}
-
-La réalisation de nos deux systèmes complémentaires a nécessité une planification rigoureuse et une gestion de projet structurée pour garantir l'atteinte des objectifs dans les délais impartis.
-
-\subsection{Approche méthodologique}
-
-Notre approche de gestion de projet s'est appuyée sur une méthodologie hybride combinant :
-
-\begin{itemize}
-  \item \textbf{Éléments Agile} : Développement itératif, sessions de revue régulières, adaptation aux retours utilisateurs
-  
-  \item \textbf{Planification structurée} : Définition claire des jalons et livrables, allocation des ressources
-  
-  \item \textbf{Gestion des risques} : Identification précoce et stratégies d'atténuation des risques potentiels
-\end{itemize}
-
-Cette approche nous a permis de maintenir un équilibre entre la rigueur nécessaire pour un projet académique et la flexibilité requise face aux défis techniques et contraintes temporelles.
-
-\subsection{Organisation temporelle}
-
-Le projet s'est déroulé sur une période de six mois, de novembre 2024 à avril 2025, avec une interruption en fin de période due aux examens nationaux. Le diagramme de Gantt ci-dessous présente la répartition temporelle des différentes phases :
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=1.0\textwidth,keepaspectratio]{pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with text. A smarter way of creating diagrams.-2025-06-10-203842.png}
-  \caption{\textbf{Diagramme de Gantt} montrant la planification temporelle du projet.}
-  \label{fig:gantt_chart}
-\end{figure}
-
-Les principales phases identifiées sont :
-
-\begin{itemize}
-  \item \textbf{Phase d'analyse} (Novembre - Décembre 2024) : Étude des besoins, analyse de l'existant, spécification des exigences
-  
-  \item \textbf{Phase de conception} (Décembre 2024 - Janvier 2025) : Élaboration des architectures et modèles détaillés
-  
-  \item \textbf{Phase de développement 1} (Janvier - Février 2025) : Implémentation du système de gestion scolaire
-  
-  \item \textbf{Phase de développement 2} (Février - Mars 2025) : Implémentation du système de création de profils IA
-  
-  \item \textbf{Phase d'intégration} (Mars 2025) : Interconnexion des deux systèmes
-  
-  \item \textbf{Phase de tests et validation} (Mars - début Avril 2025) : Vérification des fonctionnalités et performances
-  
-  \item \textbf{Phase de documentation} (Avril 2025) : Finalisation de la documentation technique et utilisateur
-\end{itemize}
-
-Il est à noter que la phase de développement 2 n'a été que partiellement complétée et que la phase de tests a été limitée en raison des contraintes temporelles liées aux examens nationaux.
-
-\subsection{Dépendances et chemin critique}
-
-Le diagramme PERT ci-dessous illustre les dépendances entre les différentes tâches du projet et met en évidence le chemin critique :
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=1.0\textwidth,keepaspectratio]{pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with text. A smarter way of creating diagrams.-2025-06-10-203658.png}
-  \caption{\textbf{Diagramme PERT} illustrant les dépendances et le chemin critique du projet.}
-  \label{fig:pert_diagram}
-\end{figure}
-
-Ce diagramme met en évidence :
-
-\begin{itemize}
-  \item Les relations de précédence entre les activités
-  
-  \item Le chemin critique déterminant la durée minimale du projet
-  
-  \item Les marges disponibles pour certaines activités non critiques
-  
-  \item Les points de synchronisation nécessaires entre les différents volets du projet
-\end{itemize}
-
-L'analyse du chemin critique a révélé que les activités liées à la conception et au développement initial du système de gestion scolaire étaient particulièrement déterminantes pour le respect des délais globaux.
-
-\subsection{Répartition des responsabilités}
-
-Le projet a été mené par une équipe de deux étudiants, avec une répartition des responsabilités basée sur les compétences et centres d'intérêt de chacun :
-
-\begin{itemize}
-  \item \textbf{Développement frontend} : Conception et implémentation des interfaces web et mobile
-  
-  \item \textbf{Développement backend} : Architecture serveur, API et logique métier
-  
-  \item \textbf{Intégration IA} : Conception et développement du système de création de profils IA
-  
-  \item \textbf{Base de données} : Modélisation et optimisation des schémas de données
-  
-  \item \textbf{Tests et validation} : Élaboration et exécution des plans de test
-  
-  \item \textbf{Documentation} : Rédaction de la documentation technique et utilisateur
-\end{itemize}
-
-Cette organisation a permis une progression parallèle sur plusieurs fronts tout en maintenant une cohérence globale grâce à des points de synchronisation réguliers.
-
-\subsection{Gestion des risques}
-
-Une analyse des risques a été réalisée en début de projet, identifiant plusieurs facteurs potentiels d'échec et leurs stratégies d'atténuation :
-
-\begin{itemize}
-  \item \textbf{Risque technique} : Complexité de l'intégration IA → Approche progressive avec prototypes
-  
-  \item \textbf{Risque temporel} : Contraintes liées aux examens → Priorisation des fonctionnalités essentielles
-  
-  \item \textbf{Risque de coordination} : Communication d'équipe → Outils collaboratifs et réunions régulières
-  
-  \item \textbf{Risque de périmètre} : Dérive fonctionnelle → Définition claire du MVP et gestion stricte du scope
-\end{itemize}
-
-Cette gestion proactive des risques a contribué à maintenir le projet sur les rails malgré plusieurs défis rencontrés en cours de route.
-
-\subsection{Outils de gestion de projet}
-
-Plusieurs outils ont été utilisés pour faciliter la coordination et le suivi du projet :
-
-\begin{itemize}
-  \item \textbf{Gestion des tâches} : Trello pour la visualisation des sprints et du backlog
-  
-  \item \textbf{Gestion du code source} : GitHub avec workflow d'intégration continue
-  
-  \item \textbf{Communication} : Discord pour les échanges quotidiens et sessions de travail
-  
-  \item \textbf{Documentation} : Notion pour la documentation évolutive et le partage de ressources
-  
-  \item \textbf{Suivi du temps} : Toggl pour mesurer l'effort consacré aux différentes tâches
-\end{itemize}
-
-Ces outils ont permis de maintenir une visibilité sur l'avancement du projet et de faciliter la collaboration malgré les contraintes de travail à distance.
 
 \section{Conclusion de la conception}
 

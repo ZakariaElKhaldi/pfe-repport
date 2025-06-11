@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.6.10)  10 JUN 2025 22:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.6.10)  12 JUN 2025 00:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -999,7 +999,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 pdfTeX warning: pdflatex (file ./page_de_garde_memoire.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<page_de_garde_memoire.pdf, id=363, 597.51233pt x 845.0471pt>
+<page_de_garde_memoire.pdf, id=346, 597.51233pt x 845.0471pt>
 File: page_de_garde_memoire.pdf Graphic file (type pdf)
 <use page_de_garde_memoire.pdf>
 Package pdftex.def Info: page_de_garde_memoire.pdf  used on input line 250.
@@ -1020,7 +1020,7 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./page_de_garde_memoire.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<page_de_garde_memoire.pdf, id=366, page=1, 597.51233pt x 845.0471pt>
+<page_de_garde_memoire.pdf, id=349, page=1, 597.51233pt x 845.0471pt>
 File: page_de_garde_memoire.pdf Graphic file (type pdf)
 <use page_de_garde_memoire.pdf, page 1>
 Package pdftex.def Info: page_de_garde_memoire.pdf , page1 used on input line 2
@@ -1110,7 +1110,50 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (./chapter_1.tex [12
 
 
-] [13] [14] [15] [16] [17] [18]) [19] [20]
+] [13] [14] [15] [16] [17] [18]
+<pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with text. 
+A smarter way of creating diagrams.-2025-06-10-203842.png, id=809, 3854.4pt x 1
+436.36626pt>
+File: pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with t
+ext. A smarter way of creating diagrams.-2025-06-10-203842.png Graphic file (ty
+pe png)
+<use pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with te
+xt. A smarter way of creating diagrams.-2025-06-10-203842.png>
+Package pdftex.def Info: pfe-pics/diagrames/Mermaid Chart - Create complex, vis
+ual diagrams with text. A smarter way of creating diagrams.-2025-06-10-203842.p
+ng  used on input line 428.
+(pdftex.def)             Requested size: 455.24411pt x 169.63878pt.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/12'.
+(microtype)             Ignoring protrusion settings for this character.
+<pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with text. 
+A smarter way of creating diagrams.-2025-06-10-203658.png, id=811, 3854.4pt x 7
+71.88374pt>
+File: pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with t
+ext. A smarter way of creating diagrams.-2025-06-10-203658.png Graphic file (ty
+pe png)
+<use pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with te
+xt. A smarter way of creating diagrams.-2025-06-10-203658.png>
+Package pdftex.def Info: pfe-pics/diagrames/Mermaid Chart - Create complex, vis
+ual diagrams with text. A smarter way of creating diagrams.-2025-06-10-203658.p
+ng  used on input line 439.
+(pdftex.def)             Requested size: 455.24411pt x 91.16158pt.
+ [19
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.443 
+       <./pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams wi
+th text. A smarter way of creating diagrams.-2025-06-10-203842.png>]) [20
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.360 \include{chapter_1}
+                          <./pfe-pics/diagrames/Mermaid Chart - Create complex,
+ visual diagrams with text. A smarter way of creating diagrams.-2025-06-10-2036
+58.png>]
 \openout2 = `chapter_2.aux'.
 
  (./chapter_2.tex [21
@@ -1137,15 +1180,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
                    \relax 
 l.27 ...hitecture du système de gestion scolaire}
                                                   
-<pfe-pics/diagrames/archetecture.png, id=838, 3854.4pt x 2241.37375pt>
+<pfe-pics/diagrames/archetecture.png, id=828, 3854.4pt x 2241.37375pt>
 File: pfe-pics/diagrames/archetecture.png Graphic file (type png)
 <use pfe-pics/diagrames/archetecture.png>
 Package pdftex.def Info: pfe-pics/diagrames/archetecture.png  used on input lin
 e 33.
 (pdftex.def)             Requested size: 409.71692pt x 238.24113pt.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/12'.
-(microtype)             Ignoring protrusion settings for this character.
 
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 1.3}) has been already used, duplicate ignored
@@ -1153,7 +1193,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
                    \relax 
 l.52 ...re du système de création de profils IA}
                                                    [22
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.1}) 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1172,7 +1212,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
                    \relax 
 l.70 \subsection{Modèle de données}
                                      
-<pfe-pics/diagrames/tabaales.png, id=846, 3854.4pt x 1816.7875pt>
+<pfe-pics/diagrames/tabaales.png, id=835, 3854.4pt x 1816.7875pt>
 File: pfe-pics/diagrames/tabaales.png Graphic file (type png)
 <use pfe-pics/diagrames/tabaales.png>
 Package pdftex.def Info: pfe-pics/diagrames/tabaales.png  used on input line 76
@@ -1185,13 +1225,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
                    \relax 
 l.105 \subsection{Diagramme de classes}
                                         [23
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.2}) 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.105 \subsection{Diagramme de classes}
                                         <./pfe-pics/diagrames/tabaales.png>]
-<pfe-pics/diagrames/class.png, id=852, 3854.4pt x 3672.72125pt>
+<pfe-pics/diagrames/class.png, id=841, 3854.4pt x 3672.72125pt>
 File: pfe-pics/diagrames/class.png Graphic file (type png)
 <use pfe-pics/diagrames/class.png>
 Package pdftex.def Info: pfe-pics/diagrames/class.png  used on input line 111.
@@ -1203,7 +1243,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
                    \relax 
 l.128 \subsection{Architecture frontend}
                                          [24
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.3}) 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.5}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1216,7 +1256,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
                    \relax 
 l.162 \subsection{Architecture backend}
                                        
-<pfe-pics/diagrames/State Diagram (for Authentication Flow).png, id=858, 3854.4
+<pfe-pics/diagrames/State Diagram (for Authentication Flow).png, id=847, 3854.4
 pt x 2550.52875pt>
 File: pfe-pics/diagrames/State Diagram (for Authentication Flow).png Graphic fi
 le (type png)
@@ -1225,7 +1265,7 @@ Package pdftex.def Info: pfe-pics/diagrames/State Diagram (for Authentication F
 low).png  used on input line 186.
 (pdftex.def)             Requested size: 409.71692pt x 271.10199pt.
  [25]
-<pfe-pics/diagrames/Activity Diagram (for Course Management).png, id=864, 1423.
+<pfe-pics/diagrames/Activity Diagram (for Course Management).png, id=853, 1423.
 3175pt x 3854.4pt>
 File: pfe-pics/diagrames/Activity Diagram (for Course Management).png Graphic f
 ile (type png)
@@ -1234,27 +1274,27 @@ Package pdftex.def Info: pfe-pics/diagrames/Activity Diagram (for Course Manage
 ment).png  used on input line 207.
 (pdftex.def)             Requested size: 207.60281pt x 562.19666pt.
  [26
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.4}) 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.211 
        <./pfe-pics/diagrames/State Diagram (for Authentication Flow).png>]
 [27
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.5}) 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.7}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.222 \end{itemize}
                     <./pfe-pics/diagrames/Activity Diagram (for Course Manageme
 nt).png>]
-<pfe-pics/diagrames/Attendance Tracking.png, id=875, 3854.4pt x 2149.02875pt>
+<pfe-pics/diagrames/Attendance Tracking.png, id=864, 3854.4pt x 2149.02875pt>
 File: pfe-pics/diagrames/Attendance Tracking.png Graphic file (type png)
 <use pfe-pics/diagrames/Attendance Tracking.png>
 Package pdftex.def Info: pfe-pics/diagrames/Attendance Tracking.png  used on in
 put line 228.
 (pdftex.def)             Requested size: 409.71692pt x 228.42555pt.
-<pfe-pics/diagrames/Assignment Submission and Grading.png, id=876, 3854.4pt x 1
+<pfe-pics/diagrames/Assignment Submission and Grading.png, id=865, 3854.4pt x 1
 995.455pt>
 File: pfe-pics/diagrames/Assignment Submission and Grading.png Graphic file (ty
 pe png)
@@ -1263,13 +1303,13 @@ Package pdftex.def Info: pfe-pics/diagrames/Assignment Submission and Grading.p
 ng  used on input line 249.
 (pdftex.def)             Requested size: 409.71692pt x 212.10182pt.
  [28
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.6}) 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.257   \item L
                a création et l'assignation de travaux par l'enseignant
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.7}) 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.9}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1277,7 +1317,7 @@ l.257   \item L
                a création et l'assignation de travaux par l'enseignant <./pfe-
 pics/diagrames/Attendance Tracking.png> <./pfe-pics/diagrames/Assignment Submis
 sion and Grading.png>]
-<pfe-pics/diagrames/Parent-Child Verification Process.png, id=883, 3854.4pt x 2
+<pfe-pics/diagrames/Parent-Child Verification Process.png, id=872, 3854.4pt x 2
 386.9175pt>
 File: pfe-pics/diagrames/Parent-Child Verification Process.png Graphic file (ty
 pe png)
@@ -1285,7 +1325,7 @@ pe png)
 Package pdftex.def Info: pfe-pics/diagrames/Parent-Child Verification Process.p
 ng  used on input line 270.
 (pdftex.def)             Requested size: 409.71692pt x 253.71133pt.
-<pfe-pics/diagrames/Course Enrollment Process.png, id=884, 3854.4pt x 2245.3887
+<pfe-pics/diagrames/Course Enrollment Process.png, id=873, 3854.4pt x 2245.3887
 5pt>
 File: pfe-pics/diagrames/Course Enrollment Process.png Graphic file (type png)
 <use pfe-pics/diagrames/Course Enrollment Process.png>
@@ -1293,13 +1333,13 @@ Package pdftex.def Info: pfe-pics/diagrames/Course Enrollment Process.png  used
  on input line 291.
 (pdftex.def)             Requested size: 409.71692pt x 238.6679pt.
  [29
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.8}) 
-has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.10})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.295 
        <./pfe-pics/diagrames/Parent-Child Verification Process.png>]
-<pfe-pics/diagrames/usecase.png, id=890, 3854.4pt x 306.14375pt>
+<pfe-pics/diagrames/usecase.png, id=879, 3854.4pt x 306.14375pt>
 File: pfe-pics/diagrames/usecase.png Graphic file (type png)
 <use pfe-pics/diagrames/usecase.png>
 Package pdftex.def Info: pfe-pics/diagrames/usecase.png  used on input line 314
@@ -1319,7 +1359,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 l.333 \subsection{Architecture des composants}
                                               
 <pfe-pics/diagrames/Component Diagram (showing the system_s architecture).png, 
-id=891, 3854.4pt x 1064.97874pt>
+id=880, 3854.4pt x 1064.97874pt>
 File: pfe-pics/diagrames/Component Diagram (showing the system_s architecture).
 png Graphic file (type png)
 <use pfe-pics/diagrames/Component Diagram (showing the system_s architecture).p
@@ -1328,13 +1368,13 @@ Package pdftex.def Info: pfe-pics/diagrames/Component Diagram (showing the syst
 em_s architecture).png  used on input line 339.
 (pdftex.def)             Requested size: 409.71692pt x 113.1992pt.
  [30
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.9}) 
-has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.11})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.342 \end{figure}
                   
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.10})
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.12})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1346,151 +1386,140 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 <to be read again> 
                    \relax 
 l.360 ...ion{Pipeline de traitement des documents}
-                                                   [31
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.11})
+                                                  
+<pfe-pics/diagrames/Pipeline de Traitement des Documents (Document Processing P
+ipeline).png, id=887, 1677.26625pt x 3854.4pt>
+File: pfe-pics/diagrames/Pipeline de Traitement des Documents (Document Process
+ing Pipeline).png Graphic file (type png)
+<use pfe-pics/diagrames/Pipeline de Traitement des Documents (Document Processi
+ng Pipeline).png>
+Package pdftex.def Info: pfe-pics/diagrames/Pipeline de Traitement des Document
+s (Document Processing Pipeline).png  used on input line 366.
+(pdftex.def)             Requested size: 273.14923pt x 627.6559pt.
+ [31
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.13})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.395   \item \textbf
-                     {ApiKey} : Clés d'accès pour l'intégration externe <./p
-fe-pics/diagrames/Component Diagram (showing the system_s architecture).png>]
+l.370 
+       <./pfe-pics/diagrames/Component Diagram (showing the system_s architectu
+re).png>] [32
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.14})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.376   \item \textbf
+                     {Étape 2 - Analyse structurelle} : Identification des ...
+ <./pfe-pics/diagrames/Pipeline de Traitement des Documents (Document Processin
+g Pipeline).png>]
+<pfe-pics/diagrames/modele_donnees_ia.png, id=899, 2388.925pt x 3854.4pt>
+File: pfe-pics/diagrames/modele_donnees_ia.png Graphic file (type png)
+<use pfe-pics/diagrames/modele_donnees_ia.png>
+Package pdftex.def Info: pfe-pics/diagrames/modele_donnees_ia.png  used on inpu
+t line 393.
+(pdftex.def)             Requested size: 409.71692pt x 661.00305pt.
+ [33] [34
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.15})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.401   \item \textbf
+                     {Profile} : Définition d'un profil IA avec ses paramè...
+ <./pfe-pics/diagrames/modele_donnees_ia.png>]
+<pfe-pics/diagrames/Flux de Conversation IA (AI Conversation Flow).png, id=909,
+ 3854.4pt x 2304.61pt>
+File: pfe-pics/diagrames/Flux de Conversation IA (AI Conversation Flow).png Gra
+phic file (type png)
+<use pfe-pics/diagrames/Flux de Conversation IA (AI Conversation Flow).png>
+Package pdftex.def Info: pfe-pics/diagrames/Flux de Conversation IA (AI Convers
+ation Flow).png  used on input line 424.
+(pdftex.def)             Requested size: 409.71692pt x 244.96268pt.
+ [35
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.16})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.451 
+       <./pfe-pics/diagrames/Flux de Conversation IA (AI Conversation Flow).png
+>]
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.4})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.432 \section{Intégration des deux systèmes}
+l.459 \section{Intégration des deux systèmes}
                                                
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 4.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.434 \subsection{Points d'intégration}
+l.461 \subsection{Points d'intégration}
                                         
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 4.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.448 \subsection{Architecture d'intégration}
-                                               [32]
-<pfe-pics/diagrames/dependeces.png, id=908, 3854.4pt x 942.52126pt>
-File: pfe-pics/diagrames/dependeces.png Graphic file (type png)
-<use pfe-pics/diagrames/dependeces.png>
-Package pdftex.def Info: pfe-pics/diagrames/dependeces.png  used on input line 
-464.
-(pdftex.def)             Requested size: 409.71692pt x 100.1829pt.
-
+l.475 \subsection{Architecture d'intégration}
+                                              
+<pfe-pics/diagrames/project_1_dep_diagrame.png, id=915, 3854.4pt x 435.6275pt>
+File: pfe-pics/diagrames/project_1_dep_diagrame.png Graphic file (type png)
+<use pfe-pics/diagrames/project_1_dep_diagrame.png>
+Package pdftex.def Info: pfe-pics/diagrames/project_1_dep_diagrame.png  used on
+ input line 491.
+(pdftex.def)             Requested size: 455.24411pt x 51.44879pt.
+<pfe-pics/diagrames/project_ai_profile_cretion_dep_diagrame.png, id=916, 3854.4
+pt x 1939.245pt>
+File: pfe-pics/diagrames/project_ai_profile_cretion_dep_diagrame.png Graphic fi
+le (type png)
+<use pfe-pics/diagrames/project_ai_profile_cretion_dep_diagrame.png>
+Package pdftex.def Info: pfe-pics/diagrames/project_ai_profile_cretion_dep_diag
+rame.png  used on input line 498.
+(pdftex.def)             Requested size: 455.24411pt x 229.03014pt.
+ [36
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.17})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.502 
+       <./pfe-pics/diagrames/project_1_dep_diagrame.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.5})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.469 ...idérations de sécurité et performance}
+l.523 ...idérations de sécurité et performance}
                                                   
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 5.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.471 \subsection{Stratégie de sécurité}
-                                           
+l.525 \subsection{Stratégie de sécurité}
+                                            [37
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.18})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.531 
+       <./pfe-pics/diagrames/project_ai_profile_cretion_dep_diagrame.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 5.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.489 \subsection{Optimisation des performances}
+l.543 \subsection{Optimisation des performances}
                                                 
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 5.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.505 \subsection{Stratégie de déploiement}
-                                              [33
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.12})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.517 \end{itemize}
-                    <./pfe-pics/diagrames/dependeces.png>]
+l.559 \subsection{Stratégie de déploiement}
+                                             
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.6})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.519 \section{Gestion de projet}
-                                 
-pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
-6.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.523 \subsection{Approche méthodologique}
-                                           
-pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
-6.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.537 \subsection{Organisation temporelle}
-                                          
-<pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with text. 
-A smarter way of creating diagrams.-2025-06-10-203842.png, id=914, 3854.4pt x 1
-436.36626pt>
-File: pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with t
-ext. A smarter way of creating diagrams.-2025-06-10-203842.png Graphic file (ty
-pe png)
-<use pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with te
-xt. A smarter way of creating diagrams.-2025-06-10-203842.png>
-Package pdftex.def Info: pfe-pics/diagrames/Mermaid Chart - Create complex, vis
-ual diagrams with text. A smarter way of creating diagrams.-2025-06-10-203842.p
-ng  used on input line 543.
-(pdftex.def)             Requested size: 455.24411pt x 169.63878pt.
- [34
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.13})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.555   \item \textbf
-                     {Phase de développement 1} (Janvier - Février 2025) :...
- <./pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with tex
-t. A smarter way of creating diagrams.-2025-06-10-203842.png>]
-pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
-6.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.568 \subsection{Dépendances et chemin critique}
-                                                  
-<pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with text. 
-A smarter way of creating diagrams.-2025-06-10-203658.png, id=920, 3854.4pt x 7
-71.88374pt>
-File: pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with t
-ext. A smarter way of creating diagrams.-2025-06-10-203658.png Graphic file (ty
-pe png)
-<use pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with te
-xt. A smarter way of creating diagrams.-2025-06-10-203658.png>
-Package pdftex.def Info: pfe-pics/diagrames/Mermaid Chart - Create complex, vis
-ual diagrams with text. A smarter way of creating diagrams.-2025-06-10-203658.p
-ng  used on input line 574.
-(pdftex.def)             Requested size: 455.24411pt x 91.16158pt.
- [35
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.14})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.608   \item \textbf
-                     {Documentation} : Rédaction de la documentation techni...
- <./pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with tex
-t. A smarter way of creating diagrams.-2025-06-10-203658.png>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6
-18.
-
-(/usr/share/texlive/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-pdfTeX warning (ext4): destination with the same identifier (name{section.0.7})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.647 \section{Conclusion de la conception}
-                                           ) [36{/usr/share/texlive/texmf-dist/
-fonts/enc/dvips/lm/lm-ts1.enc}]
+l.573 \section{Conclusion de la conception}
+                                           ) [38]
 \openout2 = `chapter_3.aux'.
 
- (./chapter_3.tex [37
+ (./chapter_3.tex [39
 
 
 
@@ -1519,7 +1548,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 <to be read again> 
                    \relax 
 l.72 \subsection{Technologies backend}
-                                       [38]
+                                       [40]
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.2})
  has been already used, duplicate ignored
 <to be read again> 
@@ -1531,7 +1560,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 <to be read again> 
                    \relax 
 l.138 \subsection{Implémentation du backend}
-                                              [39]
+                                              [41]
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 15
 7.
 
@@ -1561,7 +1590,7 @@ c file (type png)
 Package pdftex.def Info: pfe-pics/admin/Screenshot 2025-06-09 at 22-38-06 Vite 
 React TS.png  used on input line 200.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [40{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+ [42{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 <pfe-pics/admin/Screenshot 2025-06-09 at 22-39-15 Vite React TS.png, id=983, 13
 14.9125pt x 724.7075pt>
 File: pfe-pics/admin/Screenshot 2025-06-09 at 22-39-15 Vite React TS.png Graphi
@@ -1578,21 +1607,21 @@ c file (type png)
 Package pdftex.def Info: pfe-pics/admin/Screenshot 2025-06-09 at 22-40-11 Vite 
 React TS.png  used on input line 226.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [41
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.15})
+ [43
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.19})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.230 
       
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.16})
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.20})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.230 
        <./pfe-pics/admin/Screenshot 2025-06-09 at 22-38-06 Vite React TS.png> <
 ./pfe-pics/admin/Screenshot 2025-06-09 at 22-39-15 Vite React TS.png>]
-<pfe-pics/teacher/Screenshot 2025-06-09 at 22-51-23 Vite React TS.png, id=991, 
+<pfe-pics/teacher/Screenshot 2025-06-09 at 22-51-23 Vite React TS.png, id=992, 
 1314.9125pt x 724.7075pt>
 File: pfe-pics/teacher/Screenshot 2025-06-09 at 22-51-23 Vite React TS.png Grap
 hic file (type png)
@@ -1600,7 +1629,7 @@ hic file (type png)
 Package pdftex.def Info: pfe-pics/teacher/Screenshot 2025-06-09 at 22-51-23 Vit
 e React TS.png  used on input line 237.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/teacher/Screenshot 2025-06-09 at 22-53-59 Vite React TS.png, id=992, 
+<pfe-pics/teacher/Screenshot 2025-06-09 at 22-53-59 Vite React TS.png, id=993, 
 1314.9125pt x 724.7075pt>
 File: pfe-pics/teacher/Screenshot 2025-06-09 at 22-53-59 Vite React TS.png Grap
 hic file (type png)
@@ -1608,29 +1637,29 @@ hic file (type png)
 Package pdftex.def Info: pfe-pics/teacher/Screenshot 2025-06-09 at 22-53-59 Vit
 e React TS.png  used on input line 256.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [42
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.17})
+ [44
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.21})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.260 
       
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.18})
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.22})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.260 
        <./pfe-pics/admin/Screenshot 2025-06-09 at 22-40-11 Vite React TS.png> <
 ./pfe-pics/teacher/Screenshot 2025-06-09 at 22-51-23 Vite React TS.png>]
-<pfe-pics/teacher/Screenshot 2025-06-09 at 22-55-38 Vite React TS.png, id=999, 
-1314.9125pt x 724.7075pt>
+<pfe-pics/teacher/Screenshot 2025-06-09 at 22-55-38 Vite React TS.png, id=1000,
+ 1314.9125pt x 724.7075pt>
 File: pfe-pics/teacher/Screenshot 2025-06-09 at 22-55-38 Vite React TS.png Grap
 hic file (type png)
 <use pfe-pics/teacher/Screenshot 2025-06-09 at 22-55-38 Vite React TS.png>
 Package pdftex.def Info: pfe-pics/teacher/Screenshot 2025-06-09 at 22-55-38 Vit
 e React TS.png  used on input line 263.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/student/Screenshot 2025-06-09 at 22-43-56 Vite React TS.png, id=1000,
+<pfe-pics/student/Screenshot 2025-06-09 at 22-43-56 Vite React TS.png, id=1001,
  1314.9125pt x 724.7075pt>
 File: pfe-pics/student/Screenshot 2025-06-09 at 22-43-56 Vite React TS.png Grap
 hic file (type png)
@@ -1639,14 +1668,14 @@ Package pdftex.def Info: pfe-pics/student/Screenshot 2025-06-09 at 22-43-56 Vit
 e React TS.png  used on input line 274.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
 
-[43
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.19})
+[45
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.23})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.278 
       
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.20})
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.24})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1670,14 +1699,14 @@ Package pdftex.def Info: pfe-pics/student/Screenshot 2025-06-09 at 22-46-22 Vit
 e React TS.png  used on input line 300.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
 
-[44
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.21})
+[46
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.25})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.304 
       
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.22})
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.26})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1701,14 +1730,14 @@ Package pdftex.def Info: pfe-pics/parent/Screenshot 2025-06-09 at 22-58-13 Vite
  React TS.png  used on input line 330.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
 
-[45
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.23})
+[47
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.27})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.334 
       
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.24})
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.28})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1732,14 +1761,14 @@ Package pdftex.def Info: pfe-pics/auth/Screenshot 2025-06-09 at 23-00-18 Vite R
 eact TS.png  used on input line 348.
 (pdftex.def)             Requested size: 273.14923pt x 150.53435pt.
 
-[46
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.25})
+[48
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.29})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.352 
       
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.26})
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.30})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1767,14 +1796,14 @@ Your Password - School Management System - vertigoevilman1@gmail.com - Gmail.pn
 g  used on input line 374.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
 
-[47
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.27})
+[49
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.31})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.378 
       
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.28})
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.32})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1787,7 +1816,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
                    \relax 
 l.379 ...{Développement des applications mobiles}
                                                   
-<pfe-pics/Mobile /Students/Screenshot_20250610_130022_Expo Go.jpg, id=1040, 108
+<pfe-pics/Mobile /Students/Screenshot_20250610_130022_Expo Go.jpg, id=1041, 108
 4.05pt x 2348.775pt>
 File: pfe-pics/Mobile /Students/Screenshot_20250610_130022_Expo Go.jpg Graphic 
 file (type jpg)
@@ -1795,7 +1824,7 @@ file (type jpg)
 Package pdftex.def Info: pfe-pics/Mobile /Students/Screenshot_20250610_130022_E
 xpo Go.jpg  used on input line 403.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
-<pfe-pics/Mobile /Students/Screenshot_20250610_130124_Expo Go.jpg, id=1041, 108
+<pfe-pics/Mobile /Students/Screenshot_20250610_130124_Expo Go.jpg, id=1042, 108
 4.05pt x 2348.775pt>
 File: pfe-pics/Mobile /Students/Screenshot_20250610_130124_Expo Go.jpg Graphic 
 file (type jpg)
@@ -1803,15 +1832,15 @@ file (type jpg)
 Package pdftex.def Info: pfe-pics/Mobile /Students/Screenshot_20250610_130124_E
 xpo Go.jpg  used on input line 404.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
- [48
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.29})
+ [50
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.33})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.408 
        <./pfe-pics/auth/Screenshot 2025-06-09 at 23-08-41 Reset Your Password -
  School Management System - vertigoevilman1@gmail.com - Gmail.png>]
-<pfe-pics/Mobile /Students/Screenshot_20250610_130150_Expo Go.jpg, id=1047, 108
+<pfe-pics/Mobile /Students/Screenshot_20250610_130150_Expo Go.jpg, id=1048, 108
 4.05pt x 2348.775pt>
 File: pfe-pics/Mobile /Students/Screenshot_20250610_130150_Expo Go.jpg Graphic 
 file (type jpg)
@@ -1819,7 +1848,7 @@ file (type jpg)
 Package pdftex.def Info: pfe-pics/Mobile /Students/Screenshot_20250610_130150_E
 xpo Go.jpg  used on input line 411.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
-<pfe-pics/Mobile /Students/Screenshot_20250610_130310_Expo Go.jpg, id=1048, 108
+<pfe-pics/Mobile /Students/Screenshot_20250610_130310_Expo Go.jpg, id=1049, 108
 4.05pt x 2348.775pt>
 File: pfe-pics/Mobile /Students/Screenshot_20250610_130310_Expo Go.jpg Graphic 
 file (type jpg)
@@ -1827,8 +1856,8 @@ file (type jpg)
 Package pdftex.def Info: pfe-pics/Mobile /Students/Screenshot_20250610_130310_E
 xpo Go.jpg  used on input line 412.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
- [49
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.30})
+ [51
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.34})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1851,8 +1880,8 @@ ile (type jpg)
 Package pdftex.def Info: pfe-pics/Mobile /Teacher/Screenshot_20250610_131009_Ex
 po Go.jpg  used on input line 424.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
- [50
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.31})
+ [52
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.35})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1875,8 +1904,8 @@ ile (type jpg)
 Package pdftex.def Info: pfe-pics/Mobile /Teacher/Screenshot_20250610_131132_Ex
 po Go.jpg  used on input line 432.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
- [51
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.32})
+ [53
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.36})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1899,8 +1928,8 @@ ile (type jpg)
 Package pdftex.def Info: pfe-pics/Mobile /Parent /Screenshot_20250610_133022_Ex
 po Go.jpg  used on input line 444.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
- [52
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.33})
+ [54
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.37})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1923,15 +1952,15 @@ ile (type jpg)
 Package pdftex.def Info: pfe-pics/Mobile /Parent /Screenshot_20250610_133047_Ex
 po Go.jpg  used on input line 452.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
- [53
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.34})
+ [55
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.38})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.456 
        <./pfe-pics/Mobile /Parent /Screenshot_20250610_132939_Expo Go.jpg> <./p
 fe-pics/Mobile /Parent /Screenshot_20250610_133022_Expo Go.jpg>]
-<pfe-pics/Mobile /Auth/Screenshot_20250610_145348_Expo Go.jpg, id=1078, 1084.05
+<pfe-pics/Mobile /Auth/Screenshot_20250610_145348_Expo Go.jpg, id=1079, 1084.05
 pt x 2348.775pt>
 File: pfe-pics/Mobile /Auth/Screenshot_20250610_145348_Expo Go.jpg Graphic file
  (type jpg)
@@ -1939,7 +1968,7 @@ File: pfe-pics/Mobile /Auth/Screenshot_20250610_145348_Expo Go.jpg Graphic file
 Package pdftex.def Info: pfe-pics/Mobile /Auth/Screenshot_20250610_145348_Expo 
 Go.jpg  used on input line 463.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
-<pfe-pics/Mobile /Auth/Screenshot_20250610_145354_Expo Go.jpg, id=1079, 1084.05
+<pfe-pics/Mobile /Auth/Screenshot_20250610_145354_Expo Go.jpg, id=1080, 1084.05
 pt x 2348.775pt>
 File: pfe-pics/Mobile /Auth/Screenshot_20250610_145354_Expo Go.jpg Graphic file
  (type jpg)
@@ -1947,8 +1976,8 @@ File: pfe-pics/Mobile /Auth/Screenshot_20250610_145354_Expo Go.jpg Graphic file
 Package pdftex.def Info: pfe-pics/Mobile /Auth/Screenshot_20250610_145354_Expo 
 Go.jpg  used on input line 464.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
- [54
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.35})
+ [56
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.39})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1966,8 +1995,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 <to be read again> 
                    \relax 
 l.473 \subsection{Implémentation du backend}
-                                              [55
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.36})
+                                              [57
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.40})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1978,355 +2007,1186 @@ obile /Auth/Screenshot_20250610_145354_Expo Go.jpg>]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
+[]|\T1/lmr/m/n/12 (+20) GET,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--540
+[]|\T1/lmr/m/n/12 (+20) GET,
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 540--540
+\T1/lmr/m/n/12 (+20) PUT, DE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
+[]|\T1/lmr/m/n/12 (+20) GET,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--544
+[]|\T1/lmr/m/n/12 (+20) GET,
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 544--544
+\T1/lmr/m/n/12 (+20) PUT, DE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 546--546
+[]|\T1/lmr/m/n/12 (+20) GET,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 548--548
+[]|\T1/lmr/m/n/12 (+20) GET,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--550
+[]|\T1/lmr/m/n/12 (+20) GET,
+ []
+
+[58] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.562 # Authentification et récupération 
+                                           du token JWT
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.562 # Authentification et récupération 
+                                           du token JWT
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.562 # Authentification et récupération 
+                                           du token JWT
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.562 # Authentification et récupération 
+                                           du token JWT
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.567 # Réponse
+                
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.567 # Réponse
+                
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.585 # Création 
+                  d'un nouveau cours
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.585 # Création 
+                  d'un nouveau cours
+? 
+[59
+pdfTeX warning (ext4): destination with the same identifier (name{table.0.1}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.590     "n
+            ame": "Introduction à la programmation",]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.590     "name": "Introduction à 
+                                   la programmation",
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.590     "name": "Introduction à 
+                                   la programmation",
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.598 # Réponse
+                
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.598 # Réponse
+                
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.603     "name": "Introduction à 
+                                   la programmation",
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.603     "name": "Introduction à 
+                                   la programmation",
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--626
+[]|\T1/lmr/m/n/12 (+20) GET,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 628--628
+[]|\T1/lmr/m/n/12 (+20) GET,
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 628--628
+\T1/lmr/m/n/12 (+20) PUT, DE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 634--634
+[]|\T1/lmr/m/n/12 (+20) /api/profiles/ :id/-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 636--636
+[]|\T1/lmr/m/n/12 (+20) /api/profiles/ :id/-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 638--638
+[]|\T1/lmr/m/n/12 (+20) /api/profiles/ :id/-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 638--638
+[]|\T1/lmr/m/n/12 (+20) GET,
+ []
+
+
+Overfull \hbox (14.14386pt too wide) in paragraph at lines 640--640
+[]|\T1/lmr/m/n/12 (-20) /api/openrouter/models| 
+ []
+
+[60
+pdfTeX warning (ext4): destination with the same identifier (name{table.0.2}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.651 ...tlisting}[style=codestyle, language=bash]
+                                                  ]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.652 # Envoi d'une question à 
+                                un profil IA
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.652 # Envoi d'une question à 
+                                un profil IA
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.657     "message": "Quelle est la différence 
+                                                entre une classe et un objet...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.657     "message": "Quelle est la différence 
+                                                entre une classe et un objet...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.657 ...e et un objet en programmation orientée 
+                                                  objet?",
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.657 ...e et un objet en programmation orientée 
+                                                  objet?",
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.664 # Réponse
+                
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.664 # Réponse
+                
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667   "content": "Une classe est un modèle 
+                                              ou un plan qui définit la str...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667   "content": "Une classe est un modèle 
+                                              ou un plan qui définit la str...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...e est un modèle ou un plan qui définit 
+                                                  la structure et le comport...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...e est un modèle ou un plan qui définit 
+                                                  la structure et le comport...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ... le comportement (attributs et méthodes)
+                                                   que les objets de ce type...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ... le comportement (attributs et méthodes)
+                                                   que les objets de ce type...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...ts de ce type auront. Un objet, quant à 
+                                                  lui, est une instance conc...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...ts de ce type auront. Un objet, quant à 
+                                                  lui, est une instance conc...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...quant à lui, est une instance concrète 
+                                                  d'une classe qui occupe de...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...quant à lui, est une instance concrète 
+                                                  d'une classe qui occupe de...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...e classe qui occupe de l'espace mémoire 
+                                                  et possède des valeurs sp...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...e classe qui occupe de l'espace mémoire 
+                                                  et possède des valeurs sp...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ... occupe de l'espace mémoire et possède 
+                                                  des valeurs spécifiques p...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ... occupe de l'espace mémoire et possède 
+                                                  des valeurs spécifiques p...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...ire et possède des valeurs spécifiques 
+                                                  pour ses attributs. En ré...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...ire et possède des valeurs spécifiques 
+                                                  pour ses attributs. En ré...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...cifiques pour ses attributs. En résumé,
+                                                   une classe est le concept...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...cifiques pour ses attributs. En résumé,
+                                                   une classe est le concept...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...cifiques pour ses attributs. En résumé,
+                                                   une classe est le concept...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...cifiques pour ses attributs. En résumé,
+                                                   une classe est le concept...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...t tandis qu'un objet est la réalisation 
+                                                  concrète de ce concept.",
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...t tandis qu'un objet est la réalisation 
+                                                  concrète de ce concept.",
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...u'un objet est la réalisation concrète 
+                                                  de ce concept.",
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ...u'un objet est la réalisation concrète 
+                                                  de ce concept.",
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.684 # Création 
+                  d'une clé API pour un profil spécifique
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.684 # Création 
+                  d'une clé API pour un profil spécifique
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.684 # Création d'une clé 
+                             API pour un profil spécifique
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.684 # Création d'une clé 
+                             API pour un profil spécifique
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.684 ...d'une clé API pour un profil spécifique
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.684 ...d'une clé API pour un profil spécifique
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.694 # Réponse
+                
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.694 # Réponse
+                
+? 
+[61]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.710 // Dans le backend du système 
+                                     de gestion scolaire
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.710 // Dans le backend du système 
+                                     de gestion scolaire
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.724   // Associe un profil IA à 
+                                   un cours spécifique
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.724   // Associe un profil IA à 
+                                   un cours spécifique
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.724 ...ocie un profil IA à un cours spécifique
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.724 ...ocie un profil IA à un cours spécifique
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.752   // Récupère 
+                      les recommandations d'un profil IA pour un étudiant
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.752   // Récupère 
+                      les recommandations d'un profil IA pour un étudiant
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.752   // Récupère 
+                      les recommandations d'un profil IA pour un étudiant
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.752   // Récupère 
+                      les recommandations d'un profil IA pour un étudiant
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.752 ...ndations d'un profil IA pour un étudiant
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.752 ...ndations d'un profil IA pour un étudiant
+                                                  
+? 
+[62]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.766 ....error('Erreur lors de la récupération 
+                                                  des recommandations:', err...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.766 ....error('Erreur lors de la récupération 
+                                                  des recommandations:', err...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.766 ....error('Erreur lors de la récupération 
+                                                  des recommandations:', err...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.766 ....error('Erreur lors de la récupération 
+                                                  des recommandations:', err...
+
+? 
+
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 3.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.522 ...éveloppement de l'interface utilisateur}
+l.775 ...éveloppement de l'interface utilisateur}
                                                   
 <pfe-pics/ai-profile-creation/dashboared_befor_adding_a_new_ai_profile.png, id=
-1089, 1314.9125pt x 724.7075pt>
+1295, 1314.9125pt x 724.7075pt>
 File: pfe-pics/ai-profile-creation/dashboared_befor_adding_a_new_ai_profile.png
  Graphic file (type png)
 <use pfe-pics/ai-profile-creation/dashboared_befor_adding_a_new_ai_profile.png>
 
 Package pdftex.def Info: pfe-pics/ai-profile-creation/dashboared_befor_adding_a
-_new_ai_profile.png  used on input line 530.
+_new_ai_profile.png  used on input line 783.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [56]
-<pfe-pics/ai-profile-creation/creating_and_ai_prifile.png, id=1124, 1314.9125pt
+<pfe-pics/ai-profile-creation/creating_and_ai_prifile.png, id=1296, 1314.9125pt
  x 724.7075pt>
 File: pfe-pics/ai-profile-creation/creating_and_ai_prifile.png Graphic file (ty
 pe png)
 <use pfe-pics/ai-profile-creation/creating_and_ai_prifile.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/creating_and_ai_prifile.p
-ng  used on input line 548.
+ng  used on input line 801.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [57
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.37})
+ [63
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.41})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.556   \item D
-               éfinir les informations de base du profil (nom, description,...
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.38})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.556   \item D
-               éfinir les informations de base du profil (nom, description,...
- <./pfe-pics/ai-profile-creation/dashboared_befor_adding_a_new_ai_profile.png> 
-<./pfe-pics/ai-profile-creation/creating_and_ai_prifile.png>]
-<pfe-pics/ai-profile-creation/see_upladed_documents_knoladge.png, id=1131, 1314
+l.805 
+       <./pfe-pics/ai-profile-creation/dashboared_befor_adding_a_new_ai_profile
+.png>]
+<pfe-pics/ai-profile-creation/see_upladed_documents_knoladge.png, id=1310, 1314
 .9125pt x 724.7075pt>
 File: pfe-pics/ai-profile-creation/see_upladed_documents_knoladge.png Graphic f
 ile (type png)
 <use pfe-pics/ai-profile-creation/see_upladed_documents_knoladge.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/see_upladed_documents_kno
-ladge.png  used on input line 566.
+ladge.png  used on input line 819.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
 <pfe-pics/ai-profile-creation/extract_info_from_file_and_training_pfrile.png, i
-d=1132, 1314.9125pt x 724.7075pt>
+d=1311, 1314.9125pt x 724.7075pt>
 File: pfe-pics/ai-profile-creation/extract_info_from_file_and_training_pfrile.p
 ng Graphic file (type png)
 <use pfe-pics/ai-profile-creation/extract_info_from_file_and_training_pfrile.pn
 g>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/extract_info_from_file_an
-d_training_pfrile.png  used on input line 573.
+d_training_pfrile.png  used on input line 826.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [58
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.39})
+ [64
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.42})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.583   \item O
-               rganisation des documents par catégories
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.40})
+l.830 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.43})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.583   \item O
-               rganisation des documents par catégories <./pfe-pics/ai-profile
--creation/see_upladed_documents_knoladge.png> <./pfe-pics/ai-profile-creation/e
-xtract_info_from_file_and_training_pfrile.png>]
-<pfe-pics/ai-profile-creation/succesful_knoladge_integration.png, id=1139, 1314
+l.830 
+       <./pfe-pics/ai-profile-creation/creating_and_ai_prifile.png> <./pfe-pics
+/ai-profile-creation/see_upladed_documents_knoladge.png>]
+<pfe-pics/ai-profile-creation/succesful_knoladge_integration.png, id=1318, 1314
 .9125pt x 724.7075pt>
 File: pfe-pics/ai-profile-creation/succesful_knoladge_integration.png Graphic f
 ile (type png)
 <use pfe-pics/ai-profile-creation/succesful_knoladge_integration.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/succesful_knoladge_integr
-ation.png  used on input line 590.
+ation.png  used on input line 843.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/ai-profile-creation/chat_interface_to_test_the_profile.png, id=1140, 
+<pfe-pics/ai-profile-creation/chat_interface_to_test_the_profile.png, id=1319, 
 1314.9125pt x 724.7075pt>
 File: pfe-pics/ai-profile-creation/chat_interface_to_test_the_profile.png Graph
 ic file (type png)
 <use pfe-pics/ai-profile-creation/chat_interface_to_test_the_profile.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/chat_interface_to_test_th
-e_profile.png  used on input line 599.
+e_profile.png  used on input line 852.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+ [65
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.44})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.45})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.856 
+       <./pfe-pics/ai-profile-creation/extract_info_from_file_and_training_pfri
+le.png> <./pfe-pics/ai-profile-creation/succesful_knoladge_integration.png>]
 <pfe-pics/ai-profile-creation/chat_interface_for_testing_profile_2_test_prompt_
-succes.png, id=1141, 1314.9125pt x 724.7075pt>
+succes.png, id=1327, 1314.9125pt x 724.7075pt>
 File: pfe-pics/ai-profile-creation/chat_interface_for_testing_profile_2_test_pr
 ompt_succes.png Graphic file (type png)
 <use pfe-pics/ai-profile-creation/chat_interface_for_testing_profile_2_test_pro
 mpt_succes.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/chat_interface_for_testin
-g_profile_2_test_prompt_succes.png  used on input line 606.
+g_profile_2_test_prompt_succes.png  used on input line 859.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [59
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.41})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.610 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.42})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.610 
-       <./pfe-pics/ai-profile-creation/succesful_knoladge_integration.png> <./p
-fe-pics/ai-profile-creation/chat_interface_to_test_the_profile.png>]
-<pfe-pics/ai-profile-creation/create_and_api_key_for_trained_profile.png, id=11
-48, 1314.9125pt x 724.7075pt>
+<pfe-pics/ai-profile-creation/create_and_api_key_for_trained_profile.png, id=13
+28, 1314.9125pt x 724.7075pt>
 File: pfe-pics/ai-profile-creation/create_and_api_key_for_trained_profile.png G
 raphic file (type png)
 <use pfe-pics/ai-profile-creation/create_and_api_key_for_trained_profile.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/create_and_api_key_for_tr
-ained_profile.png  used on input line 625.
+ained_profile.png  used on input line 878.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/ai-profile-creation/adding_openRouter_api.png, id=1149, 1314.9125pt x
+
+[66
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.46})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.882 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.47})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.882 
+       <./pfe-pics/ai-profile-creation/chat_interface_to_test_the_profile.png> 
+<./pfe-pics/ai-profile-creation/chat_interface_for_testing_profile_2_test_promp
+t_succes.png>]
+<pfe-pics/ai-profile-creation/adding_openRouter_api.png, id=1335, 1314.9125pt x
  724.7075pt>
 File: pfe-pics/ai-profile-creation/adding_openRouter_api.png Graphic file (type
  png)
 <use pfe-pics/ai-profile-creation/adding_openRouter_api.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/adding_openRouter_api.png
-  used on input line 632.
+  used on input line 885.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [60
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.43})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.636 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.44})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.636 
-       <./pfe-pics/ai-profile-creation/chat_interface_for_testing_profile_2_tes
-t_prompt_succes.png> <./pfe-pics/ai-profile-creation/create_and_api_key_for_tra
-ined_profile.png>]
-<pfe-pics/ai-profile-creation/oneRouter_keys_hestory.png, id=1156, 1314.9125pt 
+<pfe-pics/ai-profile-creation/oneRouter_keys_hestory.png, id=1336, 1314.9125pt 
 x 724.7075pt>
 File: pfe-pics/ai-profile-creation/oneRouter_keys_hestory.png Graphic file (typ
 e png)
 <use pfe-pics/ai-profile-creation/oneRouter_keys_hestory.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/oneRouter_keys_hestory.pn
-g  used on input line 639.
+g  used on input line 892.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/ai-profile-creation/api_diagnostics.png, id=1157, 1314.9125pt x 724.7
+ [67
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.48})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.896 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.49})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.896 
+       <./pfe-pics/ai-profile-creation/create_and_api_key_for_trained_profile.p
+ng> <./pfe-pics/ai-profile-creation/adding_openRouter_api.png>]
+<pfe-pics/ai-profile-creation/api_diagnostics.png, id=1344, 1314.9125pt x 724.7
 075pt>
 File: pfe-pics/ai-profile-creation/api_diagnostics.png Graphic file (type png)
 <use pfe-pics/ai-profile-creation/api_diagnostics.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/api_diagnostics.png  used
- on input line 655.
+ on input line 908.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [61
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.45})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.659 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.46})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.659 
-       <./pfe-pics/ai-profile-creation/adding_openRouter_api.png> <./pfe-pics/a
-i-profile-creation/oneRouter_keys_hestory.png>]
-<pfe-pics/ai-profile-creation/test_openRouter_connection.png, id=1165, 1314.912
+<pfe-pics/ai-profile-creation/test_openRouter_connection.png, id=1345, 1314.912
 5pt x 724.7075pt>
 File: pfe-pics/ai-profile-creation/test_openRouter_connection.png Graphic file 
 (type png)
 <use pfe-pics/ai-profile-creation/test_openRouter_connection.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/test_openRouter_connectio
-n.png  used on input line 662.
+n.png  used on input line 915.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
-3.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.667 ...ion{Pipeline de traitement des documents}
-                                                   [62
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.47})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.683 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.48})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.683 
-       <./pfe-pics/ai-profile-creation/api_diagnostics.png> <./pfe-pics/ai-prof
-ile-creation/test_openRouter_connection.png>]
-pdfTeX warning (ext4): destination with the same identifier (name{section.0.4})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.717 \section{Intégration et tests}
-                                     
-pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
-4.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.719 \subsection{Stratégie d'intégration}
-                                            
-pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
-4.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.733 \subsection{Tests et validation}
-                                       [63]
-pdfTeX warning (ext4): destination with the same identifier (name{section.0.5})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.749 \section{Déploiement et mise en production}
-                                                  
-pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
-5.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.751 ...uration de l'environnement de production}
-                                                  
-pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
-5.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.767 \subsection{Stratégie de déploiement}
-                                             
-pdfTeX warning (ext4): destination with the same identifier (name{section.0.6})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.781 ...�fis rencontrés et solutions apportées}
-                                                  
-pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
-6.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.783 \subsection{Défis techniques}
-                                    
-pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
-6.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.799 \subsection{Solutions et optimisations}
-                                              [64]
-pdfTeX warning (ext4): destination with the same identifier (name{section.0.7})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.815 ...tion{Pages d'accueil et de présentation}
-                                                  
-<pfe-pics/landing/hero.png, id=1180, 1314.9125pt x 724.7075pt>
-File: pfe-pics/landing/hero.png Graphic file (type png)
-<use pfe-pics/landing/hero.png>
-Package pdftex.def Info: pfe-pics/landing/hero.png  used on input line 823.
-(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/landing/info.png, id=1181, 1314.9125pt x 724.7075pt>
-File: pfe-pics/landing/info.png Graphic file (type png)
-<use pfe-pics/landing/info.png>
-Package pdftex.def Info: pfe-pics/landing/info.png  used on input line 830.
-(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [65
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.49})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.834 
-       <./pfe-pics/landing/hero.png>]
-<pfe-pics/landing/stats.png, id=1187, 1314.9125pt x 724.7075pt>
-File: pfe-pics/landing/stats.png Graphic file (type png)
-<use pfe-pics/landing/stats.png>
-Package pdftex.def Info: pfe-pics/landing/stats.png  used on input line 837.
-(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vite React TS.png, id=1188,
- 1314.9125pt x 724.7075pt>
-File: pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vite React TS.png Grap
-hic file (type png)
-<use pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vite React TS.png>
-Package pdftex.def Info: pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vit
-e React TS.png  used on input line 844.
-(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [66
+ [68
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.50})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.848 
+l.919 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.51})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.848 
-       <./pfe-pics/landing/info.png> <./pfe-pics/landing/stats.png>]
-<pfe-pics/landing/Screenshot 2025-06-09 at 23-12-17 Vite React TS.png, id=1195,
+l.919 
+       <./pfe-pics/ai-profile-creation/oneRouter_keys_hestory.png> <./pfe-pics/
+ai-profile-creation/api_diagnostics.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
+3.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.920 ...ion{Pipeline de traitement des documents}
+                                                   [69
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.52})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.963   \item \textbf
+                     {Construction de prompts} : Génération dynamique de p...
+ <./pfe-pics/ai-profile-creation/test_openRouter_connection.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{section.0.4})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.970 \section{Intégration et tests}
+                                     
+pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
+4.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.972 \subsection{Stratégie d'intégration}
+                                            
+pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
+4.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.986 \subsection{Tests et validation}
+                                      
+pdfTeX warning (ext4): destination with the same identifier (name{section.0.5})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1002 ...tion{Déploiement et mise en production}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
+5.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1004 ...ration de l'environnement de production}
+                                                   [70]
+pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
+5.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1020 \subsection{Stratégie de déploiement}
+                                              
+pdfTeX warning (ext4): destination with the same identifier (name{section.0.6})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1034 ...fis rencontrés et solutions apportées}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
+6.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1036 \subsection{Défis techniques}
+                                     
+pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
+6.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1052 \subsection{Solutions et optimisations}
+                                              
+pdfTeX warning (ext4): destination with the same identifier (name{section.0.7})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1068 ...ion{Pages d'accueil et de présentation}
+                                                   [71]
+<pfe-pics/landing/hero.png, id=1365, 1314.9125pt x 724.7075pt>
+File: pfe-pics/landing/hero.png Graphic file (type png)
+<use pfe-pics/landing/hero.png>
+Package pdftex.def Info: pfe-pics/landing/hero.png  used on input line 1076.
+(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+<pfe-pics/landing/info.png, id=1366, 1314.9125pt x 724.7075pt>
+File: pfe-pics/landing/info.png Graphic file (type png)
+<use pfe-pics/landing/info.png>
+Package pdftex.def Info: pfe-pics/landing/info.png  used on input line 1083.
+(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+<pfe-pics/landing/stats.png, id=1367, 1314.9125pt x 724.7075pt>
+File: pfe-pics/landing/stats.png Graphic file (type png)
+<use pfe-pics/landing/stats.png>
+Package pdftex.def Info: pfe-pics/landing/stats.png  used on input line 1090.
+(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+ [72
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.53})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1094 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.54})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1094 
+        <./pfe-pics/landing/hero.png> <./pfe-pics/landing/info.png>]
+<pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vite React TS.png, id=1374,
+ 1314.9125pt x 724.7075pt>
+File: pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vite React TS.png Grap
+hic file (type png)
+<use pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vite React TS.png>
+Package pdftex.def Info: pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vit
+e React TS.png  used on input line 1097.
+(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+<pfe-pics/landing/Screenshot 2025-06-09 at 23-12-17 Vite React TS.png, id=1375,
  1314.9125pt x 724.7075pt>
 File: pfe-pics/landing/Screenshot 2025-06-09 at 23-12-17 Vite React TS.png Grap
 hic file (type png)
 <use pfe-pics/landing/Screenshot 2025-06-09 at 23-12-17 Vite React TS.png>
 Package pdftex.def Info: pfe-pics/landing/Screenshot 2025-06-09 at 23-12-17 Vit
-e React TS.png  used on input line 851.
+e React TS.png  used on input line 1104.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/landing/contact.png, id=1196, 1314.9125pt x 724.7075pt>
-File: pfe-pics/landing/contact.png Graphic file (type png)
-<use pfe-pics/landing/contact.png>
-Package pdftex.def Info: pfe-pics/landing/contact.png  used on input line 858.
-(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [67
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.52})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.862 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.53})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.862 
-       <./pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vite React TS.png>
- <./pfe-pics/landing/Screenshot 2025-06-09 at 23-12-17 Vite React TS.png>]
-<pfe-pics/landing/fotter.png, id=1204, 1314.9125pt x 362.35374pt>
-File: pfe-pics/landing/fotter.png Graphic file (type png)
-<use pfe-pics/landing/fotter.png>
-Package pdftex.def Info: pfe-pics/landing/fotter.png  used on input line 865.
-(pdftex.def)             Requested size: 386.96027pt x 106.63356pt.
-
-[68
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.54})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.886 
-      
+ [73
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.55})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.886 
-       <./pfe-pics/landing/contact.png> <./pfe-pics/landing/fotter.png>]
-[69]) [70] [71
+l.1108 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.56})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1108 
+        <./pfe-pics/landing/stats.png> <./pfe-pics/landing/Screenshot 2025-06-0
+9 at 23-12-47 Vite React TS.png>]
+<pfe-pics/landing/contact.png, id=1383, 1314.9125pt x 724.7075pt>
+File: pfe-pics/landing/contact.png Graphic file (type png)
+<use pfe-pics/landing/contact.png>
+Package pdftex.def Info: pfe-pics/landing/contact.png  used on input line 1111.
+
+(pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
+<pfe-pics/landing/fotter.png, id=1384, 1314.9125pt x 362.35374pt>
+File: pfe-pics/landing/fotter.png Graphic file (type png)
+<use pfe-pics/landing/fotter.png>
+Package pdftex.def Info: pfe-pics/landing/fotter.png  used on input line 1118.
+(pdftex.def)             Requested size: 386.96027pt x 106.63356pt.
+ [74
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.57})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1126 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.58})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1126 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.59})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1126 
+        <./pfe-pics/landing/Screenshot 2025-06-09 at 23-12-17 Vite React TS.png
+> <./pfe-pics/landing/contact.png> <./pfe-pics/landing/fotter.png>] [75])
+[76] [77
 
 
 
@@ -2348,40 +3208,37 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.0.3})
 <to be read again> 
                    \relax 
 l.403 \section{Perspectives d'évolution}
-                                          [72]
+                                          [78]
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.4})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.419 \section{Mot de fin}
-                           [73] [74
+                           [79] [80
 
 ] (./main.aux (./chapter_1.aux)
 (./chapter_2.aux) (./chapter_3.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F015741155256DCD27441B1A4BDEB1E9;22055.
+(rerunfilecheck)             Checksum: 824F8A168EB286D1B6B559A330E4AA3B;21176.
  ) 
 Here is how much of TeX's memory you used:
- 31503 strings out of 476034
- 598215 string characters out of 5792864
- 1999388 words of memory out of 6000000
- 50881 multiletter control sequences out of 15000+600000
- 577090 words of font info for 180 fonts, out of 8000000 for 9000
+ 31781 strings out of 476034
+ 603308 string characters out of 5792864
+ 2139388 words of memory out of 6000000
+ 50993 multiletter control sequences out of 15000+600000
+ 576427 words of font info for 175 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 84i,17n,80p,1001b,1362s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,17n,80p,1001b,2111s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/lm/lmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr
 12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on main.pdf (74 pages, 9429288 bytes).
+Output written on main.pdf (80 pages, 10231970 bytes).
 PDF statistics:
- 1341 PDF objects out of 1440 (max. 8388607)
- 1010 compressed objects within 11 object streams
- 243 named destinations out of 1000 (max. 500000)
- 36991 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1552 PDF objects out of 1728 (max. 8388607)
+ 1211 compressed objects within 13 object streams
+ 414 named destinations out of 1000 (max. 500000)
+ 34923 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -519,6 +519,259 @@ async def get_profiles(
     return await profile_service.get_user_profiles(current_user.id)
 \end{lstlisting}
 
+\subsubsection{Documentation des API et exemples d'utilisation}
+
+Les deux systèmes exposent des API RESTful pour permettre l'intégration avec d'autres applications. Voici une documentation détaillée des principaux endpoints avec des exemples d'utilisation.
+
+\paragraph{API du système de gestion scolaire}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{3.5cm}|p{2cm}|p{8.5cm}|}
+\hline
+\textbf{Endpoint} & \textbf{Méthode} & \textbf{Description} \\
+\hline
+/api/auth/login & POST & Authentification utilisateur et génération de token JWT \\
+\hline
+/api/auth/verify & GET & Vérification de la validité du token JWT \\
+\hline
+/api/users & GET, POST & Récupération et création d'utilisateurs \\
+\hline
+/api/users/:id & GET, PUT, DELETE & Opérations sur un utilisateur spécifique \\
+\hline
+/api/courses & GET, POST & Récupération et création de cours \\
+\hline
+/api/courses/:id & GET, PUT, DELETE & Opérations sur un cours spécifique \\
+\hline
+/api/attendance & GET, POST & Récupération et enregistrement des présences \\
+\hline
+/api/grades & GET, POST & Récupération et enregistrement des notes \\
+\hline
+/api/documents & GET, POST & Gestion des documents pédagogiques \\
+\hline
+/api/profiles/\\integrate/:courseId & POST & Intégration d'un profil IA à un cours \\
+\hline
+\end{tabular}
+\caption{Principaux endpoints de l'API du système de gestion scolaire}
+\label{tab:school_api_endpoints}
+\end{table}
+
+\paragraph{Exemple d'authentification avec curl}
+
+\begin{lstlisting}[style=codestyle, language=bash]
+# Authentification et récupération du token JWT
+curl -X POST http://localhost:3001/api/auth/login \
+  -H "Content-Type: application/json" \
+  -d '{"email": "teacher@school.com", "password": "password123"}'
+
+# Réponse
+{
+  "success": true,
+  "data": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+    "user": {
+      "id": "t123",
+      "email": "teacher@school.com",
+      "role": "teacher",
+      "name": "John Doe"
+    }
+  }
+}
+\end{lstlisting}
+
+\paragraph{Exemple de création d'un cours avec curl}
+
+\begin{lstlisting}[style=codestyle, language=bash]
+# Création d'un nouveau cours
+curl -X POST http://localhost:3001/api/courses \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." \
+  -d '{
+    "name": "Introduction à la programmation",
+    "description": "Fondamentaux de la programmation en Python",
+    "startDate": "2025-09-15",
+    "endDate": "2026-01-30",
+    "schedule": "Lundi 14:00-16:00",
+    "maxStudents": 30
+  }'
+
+# Réponse
+{
+  "success": true,
+  "data": {
+    "id": "c456",
+    "name": "Introduction à la programmation",
+    "description": "Fondamentaux de la programmation en Python",
+    "teacherId": "t123",
+    "startDate": "2025-09-15",
+    "endDate": "2026-01-30",
+    "schedule": "Lundi 14:00-16:00",
+    "maxStudents": 30,
+    "createdAt": "2025-06-10T14:30:22Z"
+  }
+}
+\end{lstlisting}
+
+\paragraph{API du système de création de profils IA}
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|p{3.8cm}|p{2cm}|p{8.2cm}|}
+\hline
+\textbf{Endpoint} & \textbf{Méthode} & \textbf{Description} \\
+\hline
+/api/auth/token & POST & Authentification et génération de token JWT \\
+\hline
+/api/profiles & GET, POST & Récupération et création de profils IA \\
+\hline
+/api/profiles/:id & GET, PUT, DELETE & Opérations sur un profil spécifique \\
+\hline
+/api/documents & POST & Upload de documents pour l'entraînement \\
+\hline
+/api/documents/:id & GET, DELETE & Opérations sur un document spécifique \\
+\hline
+/api/profiles/:id/chat & POST & Conversation avec un profil IA \\
+\hline
+/api/profiles/:id/train & POST & Démarrage d'un entraînement sur de nouveaux documents \\
+\hline
+/api/profiles/:id/keys & GET, POST & Gestion des clés API pour un profil \\
+\hline
+/api/openrouter/models & GET & Liste des modèles disponibles via OpenRouter \\
+\hline
+/api/health & GET & Vérification de l'état du système \\
+\hline
+\end{tabular}
+\caption{Principaux endpoints de l'API du système de création de profils IA}
+\label{tab:ai_api_endpoints}
+\end{table}
+
+\paragraph{Exemple d'interaction avec un profil IA}
+
+\begin{lstlisting}[style=codestyle, language=bash]
+# Envoi d'une question à un profil IA
+curl -X POST http://localhost:8000/api/profiles/p789/chat \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." \
+  -d '{
+    "message": "Quelle est la différence entre une classe et un objet en programmation orientée objet?",
+    "context": {
+      "courseId": "c456",
+      "previousMessages": []
+    }
+  }'
+
+# Réponse
+{
+  "id": "msg123",
+  "content": "Une classe est un modèle ou un plan qui définit la structure et le comportement (attributs et méthodes) que les objets de ce type auront. Un objet, quant à lui, est une instance concrète d'une classe qui occupe de l'espace mémoire et possède des valeurs spécifiques pour ses attributs. En résumé, une classe est le concept abstrait tandis qu'un objet est la réalisation concrète de ce concept.",
+  "role": "assistant",
+  "sources": [
+    {
+      "document_id": "doc456",
+      "document_name": "Introduction_POO.pdf",
+      "page": 12,
+      "relevance_score": 0.92
+    }
+  ],
+  "created_at": "2025-06-10T15:45:12Z"
+}
+\end{lstlisting}
+
+\paragraph{Exemple de création d'une clé API pour un profil}
+
+\begin{lstlisting}[style=codestyle, language=bash]
+# Création d'une clé API pour un profil spécifique
+curl -X POST http://localhost:8000/api/profiles/p789/keys \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." \
+  -d '{
+    "name": "Integration Moodle",
+    "expires_in_days": 90,
+    "permissions": ["read", "chat"]
+  }'
+
+# Réponse
+{
+  "key_id": "key123",
+  "api_key": "pfeia_789xyz123abc456def",
+  "name": "Integration Moodle",
+  "permissions": ["read", "chat"],
+  "created_at": "2025-06-10T16:00:35Z",
+  "expires_at": "2025-09-08T16:00:35Z"
+}
+\end{lstlisting}
+
+\paragraph{Intégration des systèmes via API}
+
+L'exemple suivant montre comment le système de gestion scolaire peut interagir avec le système de profils IA :
+
+\begin{lstlisting}[style=codestyle, language=JavaScript]
+// Dans le backend du système de gestion scolaire
+// services/aiProfileService.js
+
+const axios = require('axios');
+const config = require('../config');
+
+class AIProfileService {
+  constructor() {
+    this.apiClient = axios.create({
+      baseURL: config.AI_PROFILES_API_URL,
+      timeout: 10000
+    });
+  }
+
+  // Associe un profil IA à un cours spécifique
+  async linkProfileToCourse(profileId, courseId, token) {
+    try {
+      const response = await this.apiClient.post(
+        `/api/integration/link`,
+        {
+          profileId,
+          courseId,
+          settings: {
+            visibleToStudents: true,
+            allowQuestions: true,
+            contextIncludesCourseProgress: true
+          }
+        },
+        {
+          headers: {
+            Authorization: `Bearer ${token}`
+          }
+        }
+      );
+      
+      return response.data;
+    } catch (error) {
+      console.error('Erreur lors de la liaison du profil au cours:', error);
+      throw error;
+    }
+  }
+
+  // Récupère les recommandations d'un profil IA pour un étudiant
+  async getStudentRecommendations(studentId, courseId, token) {
+    try {
+      const response = await this.apiClient.get(
+        `/api/profiles/course/${courseId}/recommendations/${studentId}`,
+        {
+          headers: {
+            Authorization: `Bearer ${token}`
+          }
+        }
+      );
+      
+      return response.data;
+    } catch (error) {
+      console.error('Erreur lors de la récupération des recommandations:', error);
+      throw error;
+    }
+  }
+}
+
+module.exports = new AIProfileService();
+\end{lstlisting}
+
 \subsection{Développement de l'interface utilisateur}
 
 L'interface utilisateur du système de création de profils IA a été conçue pour être intuitive et efficace, permettant aux utilisateurs de créer et gérer facilement leurs profils IA :
