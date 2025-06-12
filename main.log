@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.6.10)  12 JUN 2025 00:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.6.10)  12 JUN 2025 02:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -999,7 +999,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 pdfTeX warning: pdflatex (file ./page_de_garde_memoire.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<page_de_garde_memoire.pdf, id=346, 597.51233pt x 845.0471pt>
+<page_de_garde_memoire.pdf, id=344, 597.51233pt x 845.0471pt>
 File: page_de_garde_memoire.pdf Graphic file (type pdf)
 <use page_de_garde_memoire.pdf>
 Package pdftex.def Info: page_de_garde_memoire.pdf  used on input line 250.
@@ -1020,7 +1020,7 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./page_de_garde_memoire.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<page_de_garde_memoire.pdf, id=349, page=1, 597.51233pt x 845.0471pt>
+<page_de_garde_memoire.pdf, id=347, page=1, 597.51233pt x 845.0471pt>
 File: page_de_garde_memoire.pdf Graphic file (type pdf)
 <use page_de_garde_memoire.pdf, page 1>
 Package pdftex.def Info: page_de_garde_memoire.pdf , page1 used on input line 2
@@ -1110,9 +1110,32 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (./chapter_1.tex [12
 
 
-] [13] [14] [15] [16] [17] [18]
+] [13] [14] [15]
+
+! LaTeX Error: Unicode character ≥ (U+2265)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 ...) et des plateformes mobiles (Android ≥
+                                                   5.0, iOS ≥ 12.0)
+? 
+
+! LaTeX Error: Unicode character ≥ (U+2265)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 ...eformes mobiles (Android ≥ 5.0, iOS ≥
+                                                   12.0)
+? 
+[16] [17] [18] [19]
 <pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with text. 
-A smarter way of creating diagrams.-2025-06-10-203842.png, id=809, 3854.4pt x 1
+A smarter way of creating diagrams.-2025-06-10-203842.png, id=815, 3854.4pt x 1
 436.36626pt>
 File: pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with t
 ext. A smarter way of creating diagrams.-2025-06-10-203842.png Graphic file (ty
@@ -1121,13 +1144,13 @@ pe png)
 xt. A smarter way of creating diagrams.-2025-06-10-203842.png>
 Package pdftex.def Info: pfe-pics/diagrames/Mermaid Chart - Create complex, vis
 ual diagrams with text. A smarter way of creating diagrams.-2025-06-10-203842.p
-ng  used on input line 428.
+ng  used on input line 491.
 (pdftex.def)             Requested size: 455.24411pt x 169.63878pt.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
 <pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with text. 
-A smarter way of creating diagrams.-2025-06-10-203658.png, id=811, 3854.4pt x 7
+A smarter way of creating diagrams.-2025-06-10-203658.png, id=817, 3854.4pt x 7
 71.88374pt>
 File: pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams with t
 ext. A smarter way of creating diagrams.-2025-06-10-203658.png Graphic file (ty
@@ -1136,27 +1159,28 @@ pe png)
 xt. A smarter way of creating diagrams.-2025-06-10-203658.png>
 Package pdftex.def Info: pfe-pics/diagrames/Mermaid Chart - Create complex, vis
 ual diagrams with text. A smarter way of creating diagrams.-2025-06-10-203658.p
-ng  used on input line 439.
+ng  used on input line 502.
 (pdftex.def)             Requested size: 455.24411pt x 91.16158pt.
- [19
+ [20
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.443 
-       <./pfe-pics/diagrames/Mermaid Chart - Create complex, visual diagrams wi
-th text. A smarter way of creating diagrams.-2025-06-10-203842.png>]) [20
+l.505 \end{figure}
+                   <./pfe-pics/diagrames/Mermaid Chart - Create complex, visual
+ diagrams with text. A smarter way of creating diagrams.-2025-06-10-203842.png>
+]) [21
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.360 \include{chapter_1}
+l.361 \include{chapter_1}
                           <./pfe-pics/diagrames/Mermaid Chart - Create complex,
  visual diagrams with text. A smarter way of creating diagrams.-2025-06-10-2036
-58.png>]
+58.png>] [22]
 \openout2 = `chapter_2.aux'.
 
- (./chapter_2.tex [21
+ (./chapter_2.tex [23
 
 
 
@@ -1180,7 +1204,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
                    \relax 
 l.27 ...hitecture du système de gestion scolaire}
                                                   
-<pfe-pics/diagrames/archetecture.png, id=828, 3854.4pt x 2241.37375pt>
+<pfe-pics/diagrames/archetecture.png, id=838, 3854.4pt x 2241.37375pt>
 File: pfe-pics/diagrames/archetecture.png Graphic file (type png)
 <use pfe-pics/diagrames/archetecture.png>
 Package pdftex.def Info: pfe-pics/diagrames/archetecture.png  used on input lin
@@ -1192,7 +1216,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 <to be read again> 
                    \relax 
 l.52 ...re du système de création de profils IA}
-                                                   [22
+                                                   [24
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1212,7 +1236,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
                    \relax 
 l.70 \subsection{Modèle de données}
                                      
-<pfe-pics/diagrames/tabaales.png, id=835, 3854.4pt x 1816.7875pt>
+<pfe-pics/diagrames/tabaales.png, id=844, 3854.4pt x 1816.7875pt>
 File: pfe-pics/diagrames/tabaales.png Graphic file (type png)
 <use pfe-pics/diagrames/tabaales.png>
 Package pdftex.def Info: pfe-pics/diagrames/tabaales.png  used on input line 76
@@ -1224,14 +1248,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 <to be read again> 
                    \relax 
 l.105 \subsection{Diagramme de classes}
-                                        [23
+                                        [25
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.105 \subsection{Diagramme de classes}
                                         <./pfe-pics/diagrames/tabaales.png>]
-<pfe-pics/diagrames/class.png, id=841, 3854.4pt x 3672.72125pt>
+<pfe-pics/diagrames/class.png, id=851, 3854.4pt x 3672.72125pt>
 File: pfe-pics/diagrames/class.png Graphic file (type png)
 <use pfe-pics/diagrames/class.png>
 Package pdftex.def Info: pfe-pics/diagrames/class.png  used on input line 111.
@@ -1242,7 +1266,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 <to be read again> 
                    \relax 
 l.128 \subsection{Architecture frontend}
-                                         [24
+                                         [26
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.5}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1256,7 +1280,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
                    \relax 
 l.162 \subsection{Architecture backend}
                                        
-<pfe-pics/diagrames/State Diagram (for Authentication Flow).png, id=847, 3854.4
+<pfe-pics/diagrames/State Diagram (for Authentication Flow).png, id=857, 3854.4
 pt x 2550.52875pt>
 File: pfe-pics/diagrames/State Diagram (for Authentication Flow).png Graphic fi
 le (type png)
@@ -1264,8 +1288,8 @@ le (type png)
 Package pdftex.def Info: pfe-pics/diagrames/State Diagram (for Authentication F
 low).png  used on input line 186.
 (pdftex.def)             Requested size: 409.71692pt x 271.10199pt.
- [25]
-<pfe-pics/diagrames/Activity Diagram (for Course Management).png, id=853, 1423.
+ [27]
+<pfe-pics/diagrames/Activity Diagram (for Course Management).png, id=862, 1423.
 3175pt x 3854.4pt>
 File: pfe-pics/diagrames/Activity Diagram (for Course Management).png Graphic f
 ile (type png)
@@ -1273,14 +1297,14 @@ ile (type png)
 Package pdftex.def Info: pfe-pics/diagrames/Activity Diagram (for Course Manage
 ment).png  used on input line 207.
 (pdftex.def)             Requested size: 207.60281pt x 562.19666pt.
- [26
+ [28
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.211 
        <./pfe-pics/diagrames/State Diagram (for Authentication Flow).png>]
-[27
+[29
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.7}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1288,13 +1312,13 @@ has been already used, duplicate ignored
 l.222 \end{itemize}
                     <./pfe-pics/diagrames/Activity Diagram (for Course Manageme
 nt).png>]
-<pfe-pics/diagrames/Attendance Tracking.png, id=864, 3854.4pt x 2149.02875pt>
+<pfe-pics/diagrames/Attendance Tracking.png, id=873, 3854.4pt x 2149.02875pt>
 File: pfe-pics/diagrames/Attendance Tracking.png Graphic file (type png)
 <use pfe-pics/diagrames/Attendance Tracking.png>
 Package pdftex.def Info: pfe-pics/diagrames/Attendance Tracking.png  used on in
 put line 228.
 (pdftex.def)             Requested size: 409.71692pt x 228.42555pt.
-<pfe-pics/diagrames/Assignment Submission and Grading.png, id=865, 3854.4pt x 1
+<pfe-pics/diagrames/Assignment Submission and Grading.png, id=874, 3854.4pt x 1
 995.455pt>
 File: pfe-pics/diagrames/Assignment Submission and Grading.png Graphic file (ty
 pe png)
@@ -1302,7 +1326,7 @@ pe png)
 Package pdftex.def Info: pfe-pics/diagrames/Assignment Submission and Grading.p
 ng  used on input line 249.
 (pdftex.def)             Requested size: 409.71692pt x 212.10182pt.
- [28
+ [30
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1317,7 +1341,7 @@ l.257   \item L
                a création et l'assignation de travaux par l'enseignant <./pfe-
 pics/diagrames/Attendance Tracking.png> <./pfe-pics/diagrames/Assignment Submis
 sion and Grading.png>]
-<pfe-pics/diagrames/Parent-Child Verification Process.png, id=872, 3854.4pt x 2
+<pfe-pics/diagrames/Parent-Child Verification Process.png, id=881, 3854.4pt x 2
 386.9175pt>
 File: pfe-pics/diagrames/Parent-Child Verification Process.png Graphic file (ty
 pe png)
@@ -1325,21 +1349,21 @@ pe png)
 Package pdftex.def Info: pfe-pics/diagrames/Parent-Child Verification Process.p
 ng  used on input line 270.
 (pdftex.def)             Requested size: 409.71692pt x 253.71133pt.
-<pfe-pics/diagrames/Course Enrollment Process.png, id=873, 3854.4pt x 2245.3887
+<pfe-pics/diagrames/Course Enrollment Process.png, id=882, 3854.4pt x 2245.3887
 5pt>
 File: pfe-pics/diagrames/Course Enrollment Process.png Graphic file (type png)
 <use pfe-pics/diagrames/Course Enrollment Process.png>
 Package pdftex.def Info: pfe-pics/diagrames/Course Enrollment Process.png  used
  on input line 291.
 (pdftex.def)             Requested size: 409.71692pt x 238.6679pt.
- [29
+ [31
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.10})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.295 
        <./pfe-pics/diagrames/Parent-Child Verification Process.png>]
-<pfe-pics/diagrames/usecase.png, id=879, 3854.4pt x 306.14375pt>
+<pfe-pics/diagrames/usecase.png, id=889, 3854.4pt x 306.14375pt>
 File: pfe-pics/diagrames/usecase.png Graphic file (type png)
 <use pfe-pics/diagrames/usecase.png>
 Package pdftex.def Info: pfe-pics/diagrames/usecase.png  used on input line 314
@@ -1359,7 +1383,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 l.333 \subsection{Architecture des composants}
                                               
 <pfe-pics/diagrames/Component Diagram (showing the system_s architecture).png, 
-id=880, 3854.4pt x 1064.97874pt>
+id=890, 3854.4pt x 1064.97874pt>
 File: pfe-pics/diagrames/Component Diagram (showing the system_s architecture).
 png Graphic file (type png)
 <use pfe-pics/diagrames/Component Diagram (showing the system_s architecture).p
@@ -1367,7 +1391,7 @@ ng>
 Package pdftex.def Info: pfe-pics/diagrames/Component Diagram (showing the syst
 em_s architecture).png  used on input line 339.
 (pdftex.def)             Requested size: 409.71692pt x 113.1992pt.
- [30
+ [32
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.11})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1388,7 +1412,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 l.360 ...ion{Pipeline de traitement des documents}
                                                   
 <pfe-pics/diagrames/Pipeline de Traitement des Documents (Document Processing P
-ipeline).png, id=887, 1677.26625pt x 3854.4pt>
+ipeline).png, id=897, 1677.26625pt x 3854.4pt>
 File: pfe-pics/diagrames/Pipeline de Traitement des Documents (Document Process
 ing Pipeline).png Graphic file (type png)
 <use pfe-pics/diagrames/Pipeline de Traitement des Documents (Document Processi
@@ -1396,14 +1420,14 @@ ng Pipeline).png>
 Package pdftex.def Info: pfe-pics/diagrames/Pipeline de Traitement des Document
 s (Document Processing Pipeline).png  used on input line 366.
 (pdftex.def)             Requested size: 273.14923pt x 627.6559pt.
- [31
+ [33
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.13})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.370 
        <./pfe-pics/diagrames/Component Diagram (showing the system_s architectu
-re).png>] [32
+re).png>] [34
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.14})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1412,13 +1436,13 @@ l.376   \item \textbf
                      {Étape 2 - Analyse structurelle} : Identification des ...
  <./pfe-pics/diagrames/Pipeline de Traitement des Documents (Document Processin
 g Pipeline).png>]
-<pfe-pics/diagrames/modele_donnees_ia.png, id=899, 2388.925pt x 3854.4pt>
+<pfe-pics/diagrames/modele_donnees_ia.png, id=908, 2388.925pt x 3854.4pt>
 File: pfe-pics/diagrames/modele_donnees_ia.png Graphic file (type png)
 <use pfe-pics/diagrames/modele_donnees_ia.png>
 Package pdftex.def Info: pfe-pics/diagrames/modele_donnees_ia.png  used on inpu
 t line 393.
 (pdftex.def)             Requested size: 409.71692pt x 661.00305pt.
- [33] [34
+ [35] [36
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.15})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1426,7 +1450,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.15})
 l.401   \item \textbf
                      {Profile} : Définition d'un profil IA avec ses paramè...
  <./pfe-pics/diagrames/modele_donnees_ia.png>]
-<pfe-pics/diagrames/Flux de Conversation IA (AI Conversation Flow).png, id=909,
+<pfe-pics/diagrames/Flux de Conversation IA (AI Conversation Flow).png, id=918,
  3854.4pt x 2304.61pt>
 File: pfe-pics/diagrames/Flux de Conversation IA (AI Conversation Flow).png Gra
 phic file (type png)
@@ -1434,92 +1458,90 @@ phic file (type png)
 Package pdftex.def Info: pfe-pics/diagrames/Flux de Conversation IA (AI Convers
 ation Flow).png  used on input line 424.
 (pdftex.def)             Requested size: 409.71692pt x 244.96268pt.
- [35
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.16})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.451 
-       <./pfe-pics/diagrames/Flux de Conversation IA (AI Conversation Flow).png
->]
+
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.4})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.459 \section{Intégration des deux systèmes}
-                                               
+l.445 ...ecture d'intégration des deux systèmes}
+                                                  
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 4.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.461 \subsection{Points d'intégration}
-                                        
+l.447 ...ection{Points d'intégration conceptuels}
+                                                   [37
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.16})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.452   \item \textbf
+                     {Authentification unifiée} : Système SSO permettant u...
+ <./pfe-pics/diagrames/Flux de Conversation IA (AI Conversation Flow).png>]
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 4.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.475 \subsection{Architecture d'intégration}
-                                              
-<pfe-pics/diagrames/project_1_dep_diagrame.png, id=915, 3854.4pt x 435.6275pt>
+l.461 \subsection{Diagrammes de dépendances}
+                                             
+<pfe-pics/diagrames/project_1_dep_diagrame.png, id=925, 3854.4pt x 435.6275pt>
 File: pfe-pics/diagrames/project_1_dep_diagrame.png Graphic file (type png)
 <use pfe-pics/diagrames/project_1_dep_diagrame.png>
 Package pdftex.def Info: pfe-pics/diagrames/project_1_dep_diagrame.png  used on
- input line 491.
+ input line 467.
 (pdftex.def)             Requested size: 455.24411pt x 51.44879pt.
-<pfe-pics/diagrames/project_ai_profile_cretion_dep_diagrame.png, id=916, 3854.4
+<pfe-pics/diagrames/project_ai_profile_cretion_dep_diagrame.png, id=926, 3854.4
 pt x 1939.245pt>
 File: pfe-pics/diagrames/project_ai_profile_cretion_dep_diagrame.png Graphic fi
 le (type png)
 <use pfe-pics/diagrames/project_ai_profile_cretion_dep_diagrame.png>
 Package pdftex.def Info: pfe-pics/diagrames/project_ai_profile_cretion_dep_diag
-rame.png  used on input line 498.
+rame.png  used on input line 474.
 (pdftex.def)             Requested size: 455.24411pt x 229.03014pt.
- [36
+ [38
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.17})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.502 
-       <./pfe-pics/diagrames/project_1_dep_diagrame.png>]
+l.484   \item \textbf
+                     {API Gateway} : Point d'entrée unifié gérant le rout...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.18})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.484   \item \textbf
+                     {API Gateway} : Point d'entrée unifié gérant le rout...
+ <./pfe-pics/diagrames/project_1_dep_diagrame.png> <./pfe-pics/diagrames/projec
+t_ai_profile_cretion_dep_diagrame.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.5})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.523 ...idérations de sécurité et performance}
+l.493 ...dérations architecturales transversales}
                                                   
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 5.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.525 \subsection{Stratégie de sécurité}
-                                            [37
-pdfTeX warning (ext4): destination with the same identifier (name{figure.0.18})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.531 
-       <./pfe-pics/diagrames/project_ai_profile_cretion_dep_diagrame.png>]
+l.495 \subsection{Stratégie de sécurité}
+                                           
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 5.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.543 \subsection{Optimisation des performances}
-                                                
-pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
-5.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.559 \subsection{Stratégie de déploiement}
-                                             
+l.513 \subsection{Approche de performance}
+                                          
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.6})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.573 \section{Conclusion de la conception}
-                                           ) [38]
+l.529 \section{Conclusion de la conception}
+                                            [39]) [40]
 \openout2 = `chapter_3.aux'.
 
- (./chapter_3.tex [39
+ (./chapter_3.tex
+[41
 
 
 
@@ -1548,7 +1570,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 <to be read again> 
                    \relax 
 l.72 \subsection{Technologies backend}
-                                       [40]
+                                       [42]
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.2})
  has been already used, duplicate ignored
 <to be read again> 
@@ -1560,7 +1582,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 <to be read again> 
                    \relax 
 l.138 \subsection{Implémentation du backend}
-                                              [41]
+                                              [43]
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 15
 7.
 
@@ -1580,211 +1602,211 @@ pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 2.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.190 ...ection{Développement des interfaces web}
+l.184 ...ection{Développement des interfaces web}
                                                   
-<pfe-pics/admin/Screenshot 2025-06-09 at 22-38-06 Vite React TS.png, id=944, 13
+<pfe-pics/admin/Screenshot 2025-06-09 at 22-38-06 Vite React TS.png, id=954, 13
 14.9125pt x 724.7075pt>
 File: pfe-pics/admin/Screenshot 2025-06-09 at 22-38-06 Vite React TS.png Graphi
 c file (type png)
 <use pfe-pics/admin/Screenshot 2025-06-09 at 22-38-06 Vite React TS.png>
 Package pdftex.def Info: pfe-pics/admin/Screenshot 2025-06-09 at 22-38-06 Vite 
-React TS.png  used on input line 200.
+React TS.png  used on input line 194.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [42{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-<pfe-pics/admin/Screenshot 2025-06-09 at 22-39-15 Vite React TS.png, id=983, 13
+ [44{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+<pfe-pics/admin/Screenshot 2025-06-09 at 22-39-15 Vite React TS.png, id=987, 13
 14.9125pt x 724.7075pt>
 File: pfe-pics/admin/Screenshot 2025-06-09 at 22-39-15 Vite React TS.png Graphi
 c file (type png)
 <use pfe-pics/admin/Screenshot 2025-06-09 at 22-39-15 Vite React TS.png>
 Package pdftex.def Info: pfe-pics/admin/Screenshot 2025-06-09 at 22-39-15 Vite 
-React TS.png  used on input line 219.
+React TS.png  used on input line 213.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/admin/Screenshot 2025-06-09 at 22-40-11 Vite React TS.png, id=984, 13
+<pfe-pics/admin/Screenshot 2025-06-09 at 22-40-11 Vite React TS.png, id=988, 13
 14.9125pt x 724.7075pt>
 File: pfe-pics/admin/Screenshot 2025-06-09 at 22-40-11 Vite React TS.png Graphi
 c file (type png)
 <use pfe-pics/admin/Screenshot 2025-06-09 at 22-40-11 Vite React TS.png>
 Package pdftex.def Info: pfe-pics/admin/Screenshot 2025-06-09 at 22-40-11 Vite 
-React TS.png  used on input line 226.
+React TS.png  used on input line 220.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [43
+ [45
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.19})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.230 
+l.224 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.20})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.230 
+l.224 
        <./pfe-pics/admin/Screenshot 2025-06-09 at 22-38-06 Vite React TS.png> <
 ./pfe-pics/admin/Screenshot 2025-06-09 at 22-39-15 Vite React TS.png>]
-<pfe-pics/teacher/Screenshot 2025-06-09 at 22-51-23 Vite React TS.png, id=992, 
+<pfe-pics/teacher/Screenshot 2025-06-09 at 22-51-23 Vite React TS.png, id=995, 
 1314.9125pt x 724.7075pt>
 File: pfe-pics/teacher/Screenshot 2025-06-09 at 22-51-23 Vite React TS.png Grap
 hic file (type png)
 <use pfe-pics/teacher/Screenshot 2025-06-09 at 22-51-23 Vite React TS.png>
 Package pdftex.def Info: pfe-pics/teacher/Screenshot 2025-06-09 at 22-51-23 Vit
-e React TS.png  used on input line 237.
+e React TS.png  used on input line 231.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/teacher/Screenshot 2025-06-09 at 22-53-59 Vite React TS.png, id=993, 
+<pfe-pics/teacher/Screenshot 2025-06-09 at 22-53-59 Vite React TS.png, id=996, 
 1314.9125pt x 724.7075pt>
 File: pfe-pics/teacher/Screenshot 2025-06-09 at 22-53-59 Vite React TS.png Grap
 hic file (type png)
 <use pfe-pics/teacher/Screenshot 2025-06-09 at 22-53-59 Vite React TS.png>
 Package pdftex.def Info: pfe-pics/teacher/Screenshot 2025-06-09 at 22-53-59 Vit
-e React TS.png  used on input line 256.
+e React TS.png  used on input line 250.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [44
+ [46
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.21})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.260 
+l.254 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.22})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.260 
+l.254 
        <./pfe-pics/admin/Screenshot 2025-06-09 at 22-40-11 Vite React TS.png> <
 ./pfe-pics/teacher/Screenshot 2025-06-09 at 22-51-23 Vite React TS.png>]
-<pfe-pics/teacher/Screenshot 2025-06-09 at 22-55-38 Vite React TS.png, id=1000,
+<pfe-pics/teacher/Screenshot 2025-06-09 at 22-55-38 Vite React TS.png, id=1003,
  1314.9125pt x 724.7075pt>
 File: pfe-pics/teacher/Screenshot 2025-06-09 at 22-55-38 Vite React TS.png Grap
 hic file (type png)
 <use pfe-pics/teacher/Screenshot 2025-06-09 at 22-55-38 Vite React TS.png>
 Package pdftex.def Info: pfe-pics/teacher/Screenshot 2025-06-09 at 22-55-38 Vit
-e React TS.png  used on input line 263.
+e React TS.png  used on input line 257.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/student/Screenshot 2025-06-09 at 22-43-56 Vite React TS.png, id=1001,
+<pfe-pics/student/Screenshot 2025-06-09 at 22-43-56 Vite React TS.png, id=1004,
  1314.9125pt x 724.7075pt>
 File: pfe-pics/student/Screenshot 2025-06-09 at 22-43-56 Vite React TS.png Grap
 hic file (type png)
 <use pfe-pics/student/Screenshot 2025-06-09 at 22-43-56 Vite React TS.png>
 Package pdftex.def Info: pfe-pics/student/Screenshot 2025-06-09 at 22-43-56 Vit
-e React TS.png  used on input line 274.
+e React TS.png  used on input line 268.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
 
-[45
+[47
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.23})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.278 
+l.272 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.24})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.278 
+l.272 
        <./pfe-pics/teacher/Screenshot 2025-06-09 at 22-53-59 Vite React TS.png>
  <./pfe-pics/teacher/Screenshot 2025-06-09 at 22-55-38 Vite React TS.png>]
-<pfe-pics/student/Screenshot 2025-06-09 at 22-45-09 Vite React TS.png, id=1008,
+<pfe-pics/student/Screenshot 2025-06-09 at 22-45-09 Vite React TS.png, id=1011,
  1314.9125pt x 724.7075pt>
 File: pfe-pics/student/Screenshot 2025-06-09 at 22-45-09 Vite React TS.png Grap
 hic file (type png)
 <use pfe-pics/student/Screenshot 2025-06-09 at 22-45-09 Vite React TS.png>
 Package pdftex.def Info: pfe-pics/student/Screenshot 2025-06-09 at 22-45-09 Vit
-e React TS.png  used on input line 293.
+e React TS.png  used on input line 287.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/student/Screenshot 2025-06-09 at 22-46-22 Vite React TS.png, id=1009,
+<pfe-pics/student/Screenshot 2025-06-09 at 22-46-22 Vite React TS.png, id=1012,
  1314.9125pt x 724.7075pt>
 File: pfe-pics/student/Screenshot 2025-06-09 at 22-46-22 Vite React TS.png Grap
 hic file (type png)
 <use pfe-pics/student/Screenshot 2025-06-09 at 22-46-22 Vite React TS.png>
 Package pdftex.def Info: pfe-pics/student/Screenshot 2025-06-09 at 22-46-22 Vit
-e React TS.png  used on input line 300.
+e React TS.png  used on input line 294.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
 
-[46
+[48
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.25})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.304 
+l.298 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.26})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.304 
+l.298 
        <./pfe-pics/student/Screenshot 2025-06-09 at 22-43-56 Vite React TS.png>
  <./pfe-pics/student/Screenshot 2025-06-09 at 22-45-09 Vite React TS.png>]
-<pfe-pics/parent/Screenshot 2025-06-09 at 22-57-22 Vite React TS.png, id=1016, 
+<pfe-pics/parent/Screenshot 2025-06-09 at 22-57-22 Vite React TS.png, id=1019, 
 1314.9125pt x 724.7075pt>
 File: pfe-pics/parent/Screenshot 2025-06-09 at 22-57-22 Vite React TS.png Graph
 ic file (type png)
 <use pfe-pics/parent/Screenshot 2025-06-09 at 22-57-22 Vite React TS.png>
 Package pdftex.def Info: pfe-pics/parent/Screenshot 2025-06-09 at 22-57-22 Vite
- React TS.png  used on input line 311.
+ React TS.png  used on input line 305.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/parent/Screenshot 2025-06-09 at 22-58-13 Vite React TS.png, id=1017, 
+<pfe-pics/parent/Screenshot 2025-06-09 at 22-58-13 Vite React TS.png, id=1020, 
 1314.9125pt x 724.7075pt>
 File: pfe-pics/parent/Screenshot 2025-06-09 at 22-58-13 Vite React TS.png Graph
 ic file (type png)
 <use pfe-pics/parent/Screenshot 2025-06-09 at 22-58-13 Vite React TS.png>
 Package pdftex.def Info: pfe-pics/parent/Screenshot 2025-06-09 at 22-58-13 Vite
- React TS.png  used on input line 330.
+ React TS.png  used on input line 324.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
 
-[47
+[49
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.27})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.334 
+l.328 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.28})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.334 
+l.328 
        <./pfe-pics/student/Screenshot 2025-06-09 at 22-46-22 Vite React TS.png>
  <./pfe-pics/parent/Screenshot 2025-06-09 at 22-57-22 Vite React TS.png>]
-<pfe-pics/parent/Screenshot 2025-06-09 at 22-59-25 Vite React TS.png, id=1024, 
+<pfe-pics/parent/Screenshot 2025-06-09 at 22-59-25 Vite React TS.png, id=1028, 
 1314.9125pt x 1080.035pt>
 File: pfe-pics/parent/Screenshot 2025-06-09 at 22-59-25 Vite React TS.png Graph
 ic file (type png)
 <use pfe-pics/parent/Screenshot 2025-06-09 at 22-59-25 Vite React TS.png>
 Package pdftex.def Info: pfe-pics/parent/Screenshot 2025-06-09 at 22-59-25 Vite
- React TS.png  used on input line 337.
+ React TS.png  used on input line 331.
 (pdftex.def)             Requested size: 386.96027pt x 317.83301pt.
-<pfe-pics/auth/Screenshot 2025-06-09 at 23-00-18 Vite React TS.png, id=1025, 13
+<pfe-pics/auth/Screenshot 2025-06-09 at 23-00-18 Vite React TS.png, id=1029, 13
 14.9125pt x 724.7075pt>
 File: pfe-pics/auth/Screenshot 2025-06-09 at 23-00-18 Vite React TS.png Graphic
  file (type png)
 <use pfe-pics/auth/Screenshot 2025-06-09 at 23-00-18 Vite React TS.png>
 Package pdftex.def Info: pfe-pics/auth/Screenshot 2025-06-09 at 23-00-18 Vite R
-eact TS.png  used on input line 348.
+eact TS.png  used on input line 342.
 (pdftex.def)             Requested size: 273.14923pt x 150.53435pt.
 
-[48
+[50
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.29})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.352 
+l.346 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.30})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.352 
+l.346 
        <./pfe-pics/parent/Screenshot 2025-06-09 at 22-58-13 Vite React TS.png> 
 <./pfe-pics/parent/Screenshot 2025-06-09 at 22-59-25 Vite React TS.png>]
-<pfe-pics/auth/Screenshot 2025-06-09 at 23-02-10 Vite React TS.png, id=1032, 13
+<pfe-pics/auth/Screenshot 2025-06-09 at 23-02-10 Vite React TS.png, id=1036, 13
 14.9125pt x 724.7075pt>
 File: pfe-pics/auth/Screenshot 2025-06-09 at 23-02-10 Vite React TS.png Graphic
  file (type png)
 <use pfe-pics/auth/Screenshot 2025-06-09 at 23-02-10 Vite React TS.png>
 Package pdftex.def Info: pfe-pics/auth/Screenshot 2025-06-09 at 23-02-10 Vite R
-eact TS.png  used on input line 367.
+eact TS.png  used on input line 361.
 (pdftex.def)             Requested size: 273.14923pt x 150.53435pt.
 <pfe-pics/auth/Screenshot 2025-06-09 at 23-08-41 Reset Your Password - School M
-anagement System - vertigoevilman1@gmail.com - Gmail.png, id=1033, 1314.9125pt 
+anagement System - vertigoevilman1@gmail.com - Gmail.png, id=1037, 1314.9125pt 
 x 724.7075pt>
 File: pfe-pics/auth/Screenshot 2025-06-09 at 23-08-41 Reset Your Password - Sch
 ool Management System - vertigoevilman1@gmail.com - Gmail.png Graphic file (typ
@@ -1793,265 +1815,265 @@ e png)
 ol Management System - vertigoevilman1@gmail.com - Gmail.png>
 Package pdftex.def Info: pfe-pics/auth/Screenshot 2025-06-09 at 23-08-41 Reset 
 Your Password - School Management System - vertigoevilman1@gmail.com - Gmail.pn
-g  used on input line 374.
+g  used on input line 368.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
 
-[49
+[51
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.31})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.378 
+l.372 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.32})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.378 
+l.372 
        <./pfe-pics/auth/Screenshot 2025-06-09 at 23-00-18 Vite React TS.png> <.
 /pfe-pics/auth/Screenshot 2025-06-09 at 23-02-10 Vite React TS.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 2.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.379 ...{Développement des applications mobiles}
+l.373 ...{Développement des applications mobiles}
                                                   
-<pfe-pics/Mobile /Students/Screenshot_20250610_130022_Expo Go.jpg, id=1041, 108
+<pfe-pics/Mobile /Students/Screenshot_20250610_130022_Expo Go.jpg, id=1044, 108
 4.05pt x 2348.775pt>
 File: pfe-pics/Mobile /Students/Screenshot_20250610_130022_Expo Go.jpg Graphic 
 file (type jpg)
 <use pfe-pics/Mobile /Students/Screenshot_20250610_130022_Expo Go.jpg>
 Package pdftex.def Info: pfe-pics/Mobile /Students/Screenshot_20250610_130022_E
-xpo Go.jpg  used on input line 403.
+xpo Go.jpg  used on input line 397.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
-<pfe-pics/Mobile /Students/Screenshot_20250610_130124_Expo Go.jpg, id=1042, 108
+<pfe-pics/Mobile /Students/Screenshot_20250610_130124_Expo Go.jpg, id=1045, 108
 4.05pt x 2348.775pt>
 File: pfe-pics/Mobile /Students/Screenshot_20250610_130124_Expo Go.jpg Graphic 
 file (type jpg)
 <use pfe-pics/Mobile /Students/Screenshot_20250610_130124_Expo Go.jpg>
 Package pdftex.def Info: pfe-pics/Mobile /Students/Screenshot_20250610_130124_E
-xpo Go.jpg  used on input line 404.
+xpo Go.jpg  used on input line 398.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
- [50
+ [52
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.33})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.408 
+l.402 
        <./pfe-pics/auth/Screenshot 2025-06-09 at 23-08-41 Reset Your Password -
  School Management System - vertigoevilman1@gmail.com - Gmail.png>]
-<pfe-pics/Mobile /Students/Screenshot_20250610_130150_Expo Go.jpg, id=1048, 108
+<pfe-pics/Mobile /Students/Screenshot_20250610_130150_Expo Go.jpg, id=1051, 108
 4.05pt x 2348.775pt>
 File: pfe-pics/Mobile /Students/Screenshot_20250610_130150_Expo Go.jpg Graphic 
 file (type jpg)
 <use pfe-pics/Mobile /Students/Screenshot_20250610_130150_Expo Go.jpg>
 Package pdftex.def Info: pfe-pics/Mobile /Students/Screenshot_20250610_130150_E
-xpo Go.jpg  used on input line 411.
+xpo Go.jpg  used on input line 405.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
-<pfe-pics/Mobile /Students/Screenshot_20250610_130310_Expo Go.jpg, id=1049, 108
+<pfe-pics/Mobile /Students/Screenshot_20250610_130310_Expo Go.jpg, id=1052, 108
 4.05pt x 2348.775pt>
 File: pfe-pics/Mobile /Students/Screenshot_20250610_130310_Expo Go.jpg Graphic 
 file (type jpg)
 <use pfe-pics/Mobile /Students/Screenshot_20250610_130310_Expo Go.jpg>
 Package pdftex.def Info: pfe-pics/Mobile /Students/Screenshot_20250610_130310_E
-xpo Go.jpg  used on input line 412.
+xpo Go.jpg  used on input line 406.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
- [51
+ [53
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.34})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.416 
+l.410 
        <./pfe-pics/Mobile /Students/Screenshot_20250610_130022_Expo Go.jpg> <./
 pfe-pics/Mobile /Students/Screenshot_20250610_130124_Expo Go.jpg>]
-<pfe-pics/Mobile /Teacher/Screenshot_20250610_130952_Expo Go.jpg, id=1054, 1084
+<pfe-pics/Mobile /Teacher/Screenshot_20250610_130952_Expo Go.jpg, id=1057, 1084
 .05pt x 2348.775pt>
 File: pfe-pics/Mobile /Teacher/Screenshot_20250610_130952_Expo Go.jpg Graphic f
 ile (type jpg)
 <use pfe-pics/Mobile /Teacher/Screenshot_20250610_130952_Expo Go.jpg>
 Package pdftex.def Info: pfe-pics/Mobile /Teacher/Screenshot_20250610_130952_Ex
-po Go.jpg  used on input line 423.
+po Go.jpg  used on input line 417.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
-<pfe-pics/Mobile /Teacher/Screenshot_20250610_131009_Expo Go.jpg, id=1055, 1084
+<pfe-pics/Mobile /Teacher/Screenshot_20250610_131009_Expo Go.jpg, id=1058, 1084
 .05pt x 2348.775pt>
 File: pfe-pics/Mobile /Teacher/Screenshot_20250610_131009_Expo Go.jpg Graphic f
 ile (type jpg)
 <use pfe-pics/Mobile /Teacher/Screenshot_20250610_131009_Expo Go.jpg>
 Package pdftex.def Info: pfe-pics/Mobile /Teacher/Screenshot_20250610_131009_Ex
-po Go.jpg  used on input line 424.
+po Go.jpg  used on input line 418.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
- [52
+ [54
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.35})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.428 
+l.422 
        <./pfe-pics/Mobile /Students/Screenshot_20250610_130150_Expo Go.jpg> <./
 pfe-pics/Mobile /Students/Screenshot_20250610_130310_Expo Go.jpg>]
-<pfe-pics/Mobile /Teacher/Screenshot_20250610_131112_Expo Go.jpg, id=1060, 1084
+<pfe-pics/Mobile /Teacher/Screenshot_20250610_131112_Expo Go.jpg, id=1063, 1084
 .05pt x 2348.775pt>
 File: pfe-pics/Mobile /Teacher/Screenshot_20250610_131112_Expo Go.jpg Graphic f
 ile (type jpg)
 <use pfe-pics/Mobile /Teacher/Screenshot_20250610_131112_Expo Go.jpg>
 Package pdftex.def Info: pfe-pics/Mobile /Teacher/Screenshot_20250610_131112_Ex
-po Go.jpg  used on input line 431.
+po Go.jpg  used on input line 425.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
-<pfe-pics/Mobile /Teacher/Screenshot_20250610_131132_Expo Go.jpg, id=1061, 1084
+<pfe-pics/Mobile /Teacher/Screenshot_20250610_131132_Expo Go.jpg, id=1064, 1084
 .05pt x 2348.775pt>
 File: pfe-pics/Mobile /Teacher/Screenshot_20250610_131132_Expo Go.jpg Graphic f
 ile (type jpg)
 <use pfe-pics/Mobile /Teacher/Screenshot_20250610_131132_Expo Go.jpg>
 Package pdftex.def Info: pfe-pics/Mobile /Teacher/Screenshot_20250610_131132_Ex
-po Go.jpg  used on input line 432.
+po Go.jpg  used on input line 426.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
- [53
+ [55
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.36})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.436 
+l.430 
        <./pfe-pics/Mobile /Teacher/Screenshot_20250610_130952_Expo Go.jpg> <./p
 fe-pics/Mobile /Teacher/Screenshot_20250610_131009_Expo Go.jpg>]
-<pfe-pics/Mobile /Parent /Screenshot_20250610_132939_Expo Go.jpg, id=1066, 1084
+<pfe-pics/Mobile /Parent /Screenshot_20250610_132939_Expo Go.jpg, id=1070, 1084
 .05pt x 2348.775pt>
 File: pfe-pics/Mobile /Parent /Screenshot_20250610_132939_Expo Go.jpg Graphic f
 ile (type jpg)
 <use pfe-pics/Mobile /Parent /Screenshot_20250610_132939_Expo Go.jpg>
 Package pdftex.def Info: pfe-pics/Mobile /Parent /Screenshot_20250610_132939_Ex
-po Go.jpg  used on input line 443.
+po Go.jpg  used on input line 437.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
-<pfe-pics/Mobile /Parent /Screenshot_20250610_133022_Expo Go.jpg, id=1067, 1084
+<pfe-pics/Mobile /Parent /Screenshot_20250610_133022_Expo Go.jpg, id=1071, 1084
 .05pt x 2348.775pt>
 File: pfe-pics/Mobile /Parent /Screenshot_20250610_133022_Expo Go.jpg Graphic f
 ile (type jpg)
 <use pfe-pics/Mobile /Parent /Screenshot_20250610_133022_Expo Go.jpg>
 Package pdftex.def Info: pfe-pics/Mobile /Parent /Screenshot_20250610_133022_Ex
-po Go.jpg  used on input line 444.
+po Go.jpg  used on input line 438.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
- [54
+ [56
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.37})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.448 
+l.442 
        <./pfe-pics/Mobile /Teacher/Screenshot_20250610_131112_Expo Go.jpg> <./p
 fe-pics/Mobile /Teacher/Screenshot_20250610_131132_Expo Go.jpg>]
-<pfe-pics/Mobile /Parent /Screenshot_20250610_133032_Expo Go.jpg, id=1072, 1084
+<pfe-pics/Mobile /Parent /Screenshot_20250610_133032_Expo Go.jpg, id=1076, 1084
 .05pt x 2348.775pt>
 File: pfe-pics/Mobile /Parent /Screenshot_20250610_133032_Expo Go.jpg Graphic f
 ile (type jpg)
 <use pfe-pics/Mobile /Parent /Screenshot_20250610_133032_Expo Go.jpg>
 Package pdftex.def Info: pfe-pics/Mobile /Parent /Screenshot_20250610_133032_Ex
-po Go.jpg  used on input line 451.
+po Go.jpg  used on input line 445.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
-<pfe-pics/Mobile /Parent /Screenshot_20250610_133047_Expo Go.jpg, id=1073, 1084
+<pfe-pics/Mobile /Parent /Screenshot_20250610_133047_Expo Go.jpg, id=1077, 1084
 .05pt x 2348.775pt>
 File: pfe-pics/Mobile /Parent /Screenshot_20250610_133047_Expo Go.jpg Graphic f
 ile (type jpg)
 <use pfe-pics/Mobile /Parent /Screenshot_20250610_133047_Expo Go.jpg>
 Package pdftex.def Info: pfe-pics/Mobile /Parent /Screenshot_20250610_133047_Ex
-po Go.jpg  used on input line 452.
+po Go.jpg  used on input line 446.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
- [55
+ [57
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.38})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.456 
+l.450 
        <./pfe-pics/Mobile /Parent /Screenshot_20250610_132939_Expo Go.jpg> <./p
 fe-pics/Mobile /Parent /Screenshot_20250610_133022_Expo Go.jpg>]
-<pfe-pics/Mobile /Auth/Screenshot_20250610_145348_Expo Go.jpg, id=1079, 1084.05
+<pfe-pics/Mobile /Auth/Screenshot_20250610_145348_Expo Go.jpg, id=1082, 1084.05
 pt x 2348.775pt>
 File: pfe-pics/Mobile /Auth/Screenshot_20250610_145348_Expo Go.jpg Graphic file
  (type jpg)
 <use pfe-pics/Mobile /Auth/Screenshot_20250610_145348_Expo Go.jpg>
 Package pdftex.def Info: pfe-pics/Mobile /Auth/Screenshot_20250610_145348_Expo 
-Go.jpg  used on input line 463.
+Go.jpg  used on input line 457.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
-<pfe-pics/Mobile /Auth/Screenshot_20250610_145354_Expo Go.jpg, id=1080, 1084.05
+<pfe-pics/Mobile /Auth/Screenshot_20250610_145354_Expo Go.jpg, id=1083, 1084.05
 pt x 2348.775pt>
 File: pfe-pics/Mobile /Auth/Screenshot_20250610_145354_Expo Go.jpg Graphic file
  (type jpg)
 <use pfe-pics/Mobile /Auth/Screenshot_20250610_145354_Expo Go.jpg>
 Package pdftex.def Info: pfe-pics/Mobile /Auth/Screenshot_20250610_145354_Expo 
-Go.jpg  used on input line 464.
+Go.jpg  used on input line 458.
 (pdftex.def)             Requested size: 182.09486pt x 394.51984pt.
- [56
+ [58
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.39})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.468 
+l.462 
        <./pfe-pics/Mobile /Parent /Screenshot_20250610_133032_Expo Go.jpg> <./p
 fe-pics/Mobile /Parent /Screenshot_20250610_133047_Expo Go.jpg>]
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.469 ...t du système de création de profils IA}
+l.463 ...t du système de création de profils IA}
                                                   
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.473 \subsection{Implémentation du backend}
-                                              [57
+l.467 \subsection{Implémentation du backend}
+                                              [59
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.40})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.484   \item \textbf
+l.478   \item \textbf
                      {Intégration avec OpenAI} : Connexion sécurisée avec...
  <./pfe-pics/Mobile /Auth/Screenshot_20250610_145348_Expo Go.jpg> <./pfe-pics/M
 obile /Auth/Screenshot_20250610_145354_Expo Go.jpg>]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
+Underfull \hbox (badness 10000) in paragraph at lines 524--524
 []|\T1/lmr/m/n/12 (+20) GET,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 []|\T1/lmr/m/n/12 (+20) GET,
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 540--540
+Underfull \hbox (badness 1231) in paragraph at lines 526--526
 \T1/lmr/m/n/12 (+20) PUT, DE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--542
+Underfull \hbox (badness 10000) in paragraph at lines 528--528
 []|\T1/lmr/m/n/12 (+20) GET,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 544--544
+Underfull \hbox (badness 10000) in paragraph at lines 530--530
 []|\T1/lmr/m/n/12 (+20) GET,
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 544--544
+Underfull \hbox (badness 1231) in paragraph at lines 530--530
 \T1/lmr/m/n/12 (+20) PUT, DE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 546--546
+Underfull \hbox (badness 10000) in paragraph at lines 532--532
 []|\T1/lmr/m/n/12 (+20) GET,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 548--548
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
 []|\T1/lmr/m/n/12 (+20) GET,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--550
+Underfull \hbox (badness 10000) in paragraph at lines 536--536
 []|\T1/lmr/m/n/12 (+20) GET,
  []
 
-[58] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+[60] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -2064,7 +2086,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.562 # Authentification et récupération 
+l.548 # Authentification et récupération 
                                            du token JWT
 ? 
 
@@ -2074,7 +2096,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.562 # Authentification et récupération 
+l.548 # Authentification et récupération 
                                            du token JWT
 ? 
 
@@ -2084,7 +2106,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.562 # Authentification et récupération 
+l.548 # Authentification et récupération 
                                            du token JWT
 ? 
 
@@ -2094,7 +2116,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.562 # Authentification et récupération 
+l.548 # Authentification et récupération 
                                            du token JWT
 ? 
 
@@ -2104,7 +2126,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.567 # Réponse
+l.553 # Réponse
                 
 ? 
 
@@ -2114,7 +2136,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.567 # Réponse
+l.553 # Réponse
                 
 ? 
 
@@ -2124,7 +2146,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.585 # Création 
+l.566 # Création 
                   d'un nouveau cours
 ? 
 
@@ -2134,36 +2156,36 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.585 # Création 
+l.566 # Création 
                   d'un nouveau cours
 ? 
-[59
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.570     "name": "Introduction à 
+                                   la programmation",
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.570     "name": "Introduction à 
+                                   la programmation",
+? 
+[61
 pdfTeX warning (ext4): destination with the same identifier (name{table.0.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.590     "n
-            ame": "Introduction à la programmation",]
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.590     "name": "Introduction à 
-                                   la programmation",
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A0.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.590     "name": "Introduction à 
-                                   la programmation",
-? 
+l.576 #
+        Réponse (version simplifiée)]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
 
@@ -2171,8 +2193,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.598 # Réponse
-                
+l.576 # Réponse 
+                 (version simplifiée)
 ? 
 
 ! LaTeX Error: Invalid UTF-8 byte "A9.
@@ -2181,8 +2203,28 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.598 # Réponse
-                
+l.576 # Réponse 
+                 (version simplifiée)
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.576 # Réponse (version simplifiée)
+                                      
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.576 # Réponse (version simplifiée)
+                                      
 ? 
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
@@ -2191,7 +2233,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.603     "name": "Introduction à 
+l.581     "name": "Introduction à 
                                    la programmation",
 ? 
 
@@ -2201,76 +2243,204 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.603     "name": "Introduction à 
+l.581     "name": "Introduction à 
                                    la programmation",
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 599--599
 []|\T1/lmr/m/n/12 (+20) GET,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 628--628
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 []|\T1/lmr/m/n/12 (+20) GET,
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 628--628
+Underfull \hbox (badness 1231) in paragraph at lines 601--601
 \T1/lmr/m/n/12 (+20) PUT, DE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-[]|\T1/lmr/m/n/12 (+20) /api/profiles/ :id/-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 636--636
-[]|\T1/lmr/m/n/12 (+20) /api/profiles/ :id/-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
-[]|\T1/lmr/m/n/12 (+20) /api/profiles/ :id/-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
 []|\T1/lmr/m/n/12 (+20) GET,
  []
 
 
-Overfull \hbox (14.14386pt too wide) in paragraph at lines 640--640
-[]|\T1/lmr/m/n/12 (-20) /api/openrouter/models| 
- []
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
 
-[60
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.625 # Envoi d'une question à 
+                                un profil IA
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.625 # Envoi d'une question à 
+                                un profil IA
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.629     "message": "Quelle est la différence 
+                                                entre une classe et un objet...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.629     "message": "Quelle est la différence 
+                                                entre une classe et un objet...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.633 # Réponse 
+                 simplifiée
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.633 # Réponse 
+                 simplifiée
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.633 # Réponse simplifiée
+                            
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.633 # Réponse simplifiée
+                            
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.636   "content": "Une classe est un modèle 
+                                              qui définit la structure et l...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.636   "content": "Une classe est un modèle 
+                                              qui définit la structure et l...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.636 ... "Une classe est un modèle qui définit 
+                                                  la structure et le comport...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.636 ... "Une classe est un modèle qui définit 
+                                                  la structure et le comport...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.636 ...ent. Un objet est une instance concrète 
+                                                  d'une classe qui occupe de...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.636 ...ent. Un objet est une instance concrète 
+                                                  d'une classe qui occupe de...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.636 ...e classe qui occupe de l'espace mémoire.
+                                                  ",
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.636 ...e classe qui occupe de l'espace mémoire.
+                                                  ",
+? 
+[62
 pdfTeX warning (ext4): destination with the same identifier (name{table.0.2}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.651 ...tlisting}[style=codestyle, language=bash]
-                                                  ]
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.652 # Envoi d'une question à 
-                                un profil IA
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A0.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.652 # Envoi d'une question à 
-                                un profil IA
-? 
+l.637   "
+         sources": [{ "document_name": "Introduction_POO.pdf", "page": 12 }]]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
 
@@ -2278,329 +2448,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.657     "message": "Quelle est la différence 
-                                                entre une classe et un objet...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A9.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.657     "message": "Quelle est la différence 
-                                                entre une classe et un objet...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.657 ...e et un objet en programmation orientée 
-                                                  objet?",
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A9.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.657 ...e et un objet en programmation orientée 
-                                                  objet?",
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.664 # Réponse
-                
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A9.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.664 # Réponse
-                
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667   "content": "Une classe est un modèle 
-                                              ou un plan qui définit la str...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A8.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667   "content": "Une classe est un modèle 
-                                              ou un plan qui définit la str...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ...e est un modèle ou un plan qui définit 
-                                                  la structure et le comport...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A9.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ...e est un modèle ou un plan qui définit 
-                                                  la structure et le comport...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ... le comportement (attributs et méthodes)
-                                                   que les objets de ce type...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A9.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ... le comportement (attributs et méthodes)
-                                                   que les objets de ce type...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ...ts de ce type auront. Un objet, quant à 
-                                                  lui, est une instance conc...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A0.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ...ts de ce type auront. Un objet, quant à 
-                                                  lui, est une instance conc...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ...quant à lui, est une instance concrète 
-                                                  d'une classe qui occupe de...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A8.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ...quant à lui, est une instance concrète 
-                                                  d'une classe qui occupe de...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ...e classe qui occupe de l'espace mémoire 
-                                                  et possède des valeurs sp...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A9.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ...e classe qui occupe de l'espace mémoire 
-                                                  et possède des valeurs sp...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ... occupe de l'espace mémoire et possède 
-                                                  des valeurs spécifiques p...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A8.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ... occupe de l'espace mémoire et possède 
-                                                  des valeurs spécifiques p...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ...ire et possède des valeurs spécifiques 
-                                                  pour ses attributs. En ré...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A9.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ...ire et possède des valeurs spécifiques 
-                                                  pour ses attributs. En ré...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ...cifiques pour ses attributs. En résumé,
-                                                   une classe est le concept...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A9.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ...cifiques pour ses attributs. En résumé,
-                                                   une classe est le concept...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ...cifiques pour ses attributs. En résumé,
-                                                   une classe est le concept...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A9.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ...cifiques pour ses attributs. En résumé,
-                                                   une classe est le concept...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ...t tandis qu'un objet est la réalisation 
-                                                  concrète de ce concept.",
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A9.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ...t tandis qu'un objet est la réalisation 
-                                                  concrète de ce concept.",
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ...u'un objet est la réalisation concrète 
-                                                  de ce concept.",
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A8.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 ...u'un objet est la réalisation concrète 
-                                                  de ce concept.",
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.684 # Création 
+l.644 # Création 
                   d'une clé API pour un profil spécifique
 ? 
 
@@ -2610,7 +2458,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.684 # Création 
+l.644 # Création 
                   d'une clé API pour un profil spécifique
 ? 
 
@@ -2620,7 +2468,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.684 # Création d'une clé 
+l.644 # Création d'une clé 
                              API pour un profil spécifique
 ? 
 
@@ -2630,7 +2478,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.684 # Création d'une clé 
+l.644 # Création d'une clé 
                              API pour un profil spécifique
 ? 
 
@@ -2640,7 +2488,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.684 ...d'une clé API pour un profil spécifique
+l.644 ...d'une clé API pour un profil spécifique
                                                   
 ? 
 
@@ -2650,7 +2498,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.684 ...d'une clé API pour un profil spécifique
+l.644 ...d'une clé API pour un profil spécifique
                                                   
 ? 
 
@@ -2660,7 +2508,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.694 # Réponse
+l.654 # Réponse
                 
 ? 
 
@@ -2670,10 +2518,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.694 # Réponse
+l.654 # Réponse
                 
 ? 
-[61]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
 
@@ -2681,7 +2528,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.710 // Dans le backend du système 
+l.670 // Dans le backend du système 
                                      de gestion scolaire
 ? 
 
@@ -2691,7 +2538,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.710 // Dans le backend du système 
+l.670 // Dans le backend du système 
                                      de gestion scolaire
 ? 
 
@@ -2701,7 +2548,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.724   // Associe un profil IA à 
+l.684   // Associe un profil IA à 
                                    un cours spécifique
 ? 
 
@@ -2711,7 +2558,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.724   // Associe un profil IA à 
+l.684   // Associe un profil IA à 
                                    un cours spécifique
 ? 
 
@@ -2721,7 +2568,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.724 ...ocie un profil IA à un cours spécifique
+l.684 ...ocie un profil IA à un cours spécifique
                                                   
 ? 
 
@@ -2731,9 +2578,10 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.724 ...ocie un profil IA à un cours spécifique
+l.684 ...ocie un profil IA à un cours spécifique
                                                   
 ? 
+[63]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
 
@@ -2741,8 +2589,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.752   // Récupère 
-                      les recommandations d'un profil IA pour un étudiant
+l.702   // Autres méthodes.
+                            ..
 ? 
 
 ! LaTeX Error: Invalid UTF-8 byte "A9.
@@ -2751,442 +2599,2581 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.752   // Récupère 
-                      les recommandations d'un profil IA pour un étudiant
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.752   // Récupère 
-                      les recommandations d'un profil IA pour un étudiant
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A8.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.752   // Récupère 
-                      les recommandations d'un profil IA pour un étudiant
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.752 ...ndations d'un profil IA pour un étudiant
-                                                  
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A9.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.752 ...ndations d'un profil IA pour un étudiant
-                                                  
-? 
-[62]
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.766 ....error('Erreur lors de la récupération 
-                                                  des recommandations:', err...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A9.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.766 ....error('Erreur lors de la récupération 
-                                                  des recommandations:', err...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.766 ....error('Erreur lors de la récupération 
-                                                  des recommandations:', err...
-
-? 
-
-! LaTeX Error: Invalid UTF-8 byte "A9.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.766 ....error('Erreur lors de la récupération 
-                                                  des recommandations:', err...
-
+l.702   // Autres méthodes.
+                            ..
 ? 
 
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 3.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.775 ...éveloppement de l'interface utilisateur}
+l.706 ...éveloppement de l'interface utilisateur}
                                                   
 <pfe-pics/ai-profile-creation/dashboared_befor_adding_a_new_ai_profile.png, id=
-1295, 1314.9125pt x 724.7075pt>
+1230, 1314.9125pt x 724.7075pt>
 File: pfe-pics/ai-profile-creation/dashboared_befor_adding_a_new_ai_profile.png
  Graphic file (type png)
 <use pfe-pics/ai-profile-creation/dashboared_befor_adding_a_new_ai_profile.png>
 
 Package pdftex.def Info: pfe-pics/ai-profile-creation/dashboared_befor_adding_a
-_new_ai_profile.png  used on input line 783.
+_new_ai_profile.png  used on input line 714.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/ai-profile-creation/creating_and_ai_prifile.png, id=1296, 1314.9125pt
+<pfe-pics/ai-profile-creation/creating_and_ai_prifile.png, id=1231, 1314.9125pt
  x 724.7075pt>
 File: pfe-pics/ai-profile-creation/creating_and_ai_prifile.png Graphic file (ty
 pe png)
 <use pfe-pics/ai-profile-creation/creating_and_ai_prifile.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/creating_and_ai_prifile.p
-ng  used on input line 801.
+ng  used on input line 732.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [63
+ [64
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.41})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.805 
+l.736 
        <./pfe-pics/ai-profile-creation/dashboared_befor_adding_a_new_ai_profile
 .png>]
-<pfe-pics/ai-profile-creation/see_upladed_documents_knoladge.png, id=1310, 1314
+<pfe-pics/ai-profile-creation/see_upladed_documents_knoladge.png, id=1246, 1314
 .9125pt x 724.7075pt>
 File: pfe-pics/ai-profile-creation/see_upladed_documents_knoladge.png Graphic f
 ile (type png)
 <use pfe-pics/ai-profile-creation/see_upladed_documents_knoladge.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/see_upladed_documents_kno
-ladge.png  used on input line 819.
+ladge.png  used on input line 750.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
 <pfe-pics/ai-profile-creation/extract_info_from_file_and_training_pfrile.png, i
-d=1311, 1314.9125pt x 724.7075pt>
+d=1247, 1314.9125pt x 724.7075pt>
 File: pfe-pics/ai-profile-creation/extract_info_from_file_and_training_pfrile.p
 ng Graphic file (type png)
 <use pfe-pics/ai-profile-creation/extract_info_from_file_and_training_pfrile.pn
 g>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/extract_info_from_file_an
-d_training_pfrile.png  used on input line 826.
+d_training_pfrile.png  used on input line 757.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [64
+ [65
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.42})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.830 
+l.761 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.43})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.830 
+l.761 
        <./pfe-pics/ai-profile-creation/creating_and_ai_prifile.png> <./pfe-pics
 /ai-profile-creation/see_upladed_documents_knoladge.png>]
-<pfe-pics/ai-profile-creation/succesful_knoladge_integration.png, id=1318, 1314
+<pfe-pics/ai-profile-creation/succesful_knoladge_integration.png, id=1254, 1314
 .9125pt x 724.7075pt>
 File: pfe-pics/ai-profile-creation/succesful_knoladge_integration.png Graphic f
 ile (type png)
 <use pfe-pics/ai-profile-creation/succesful_knoladge_integration.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/succesful_knoladge_integr
-ation.png  used on input line 843.
+ation.png  used on input line 774.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/ai-profile-creation/chat_interface_to_test_the_profile.png, id=1319, 
+<pfe-pics/ai-profile-creation/chat_interface_to_test_the_profile.png, id=1255, 
 1314.9125pt x 724.7075pt>
 File: pfe-pics/ai-profile-creation/chat_interface_to_test_the_profile.png Graph
 ic file (type png)
 <use pfe-pics/ai-profile-creation/chat_interface_to_test_the_profile.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/chat_interface_to_test_th
-e_profile.png  used on input line 852.
+e_profile.png  used on input line 783.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [65
+ [66
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.44})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.856 
+l.787 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.45})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.856 
+l.787 
        <./pfe-pics/ai-profile-creation/extract_info_from_file_and_training_pfri
 le.png> <./pfe-pics/ai-profile-creation/succesful_knoladge_integration.png>]
 <pfe-pics/ai-profile-creation/chat_interface_for_testing_profile_2_test_prompt_
-succes.png, id=1327, 1314.9125pt x 724.7075pt>
+succes.png, id=1262, 1314.9125pt x 724.7075pt>
 File: pfe-pics/ai-profile-creation/chat_interface_for_testing_profile_2_test_pr
 ompt_succes.png Graphic file (type png)
 <use pfe-pics/ai-profile-creation/chat_interface_for_testing_profile_2_test_pro
 mpt_succes.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/chat_interface_for_testin
-g_profile_2_test_prompt_succes.png  used on input line 859.
+g_profile_2_test_prompt_succes.png  used on input line 790.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/ai-profile-creation/create_and_api_key_for_trained_profile.png, id=13
-28, 1314.9125pt x 724.7075pt>
+<pfe-pics/ai-profile-creation/create_and_api_key_for_trained_profile.png, id=12
+63, 1314.9125pt x 724.7075pt>
 File: pfe-pics/ai-profile-creation/create_and_api_key_for_trained_profile.png G
 raphic file (type png)
 <use pfe-pics/ai-profile-creation/create_and_api_key_for_trained_profile.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/create_and_api_key_for_tr
-ained_profile.png  used on input line 878.
+ained_profile.png  used on input line 809.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
 
-[66
+[67
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.46})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.882 
+l.813 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.47})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.882 
+l.813 
        <./pfe-pics/ai-profile-creation/chat_interface_to_test_the_profile.png> 
 <./pfe-pics/ai-profile-creation/chat_interface_for_testing_profile_2_test_promp
 t_succes.png>]
-<pfe-pics/ai-profile-creation/adding_openRouter_api.png, id=1335, 1314.9125pt x
+<pfe-pics/ai-profile-creation/adding_openRouter_api.png, id=1271, 1314.9125pt x
  724.7075pt>
 File: pfe-pics/ai-profile-creation/adding_openRouter_api.png Graphic file (type
  png)
 <use pfe-pics/ai-profile-creation/adding_openRouter_api.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/adding_openRouter_api.png
-  used on input line 885.
+  used on input line 816.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/ai-profile-creation/oneRouter_keys_hestory.png, id=1336, 1314.9125pt 
+<pfe-pics/ai-profile-creation/oneRouter_keys_hestory.png, id=1272, 1314.9125pt 
 x 724.7075pt>
 File: pfe-pics/ai-profile-creation/oneRouter_keys_hestory.png Graphic file (typ
 e png)
 <use pfe-pics/ai-profile-creation/oneRouter_keys_hestory.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/oneRouter_keys_hestory.pn
-g  used on input line 892.
+g  used on input line 823.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [67
+ [68
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.48})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.896 
+l.827 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.49})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.896 
+l.827 
        <./pfe-pics/ai-profile-creation/create_and_api_key_for_trained_profile.p
 ng> <./pfe-pics/ai-profile-creation/adding_openRouter_api.png>]
-<pfe-pics/ai-profile-creation/api_diagnostics.png, id=1344, 1314.9125pt x 724.7
+<pfe-pics/ai-profile-creation/api_diagnostics.png, id=1279, 1314.9125pt x 724.7
 075pt>
 File: pfe-pics/ai-profile-creation/api_diagnostics.png Graphic file (type png)
 <use pfe-pics/ai-profile-creation/api_diagnostics.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/api_diagnostics.png  used
- on input line 908.
+ on input line 839.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/ai-profile-creation/test_openRouter_connection.png, id=1345, 1314.912
+<pfe-pics/ai-profile-creation/test_openRouter_connection.png, id=1280, 1314.912
 5pt x 724.7075pt>
 File: pfe-pics/ai-profile-creation/test_openRouter_connection.png Graphic file 
 (type png)
 <use pfe-pics/ai-profile-creation/test_openRouter_connection.png>
 Package pdftex.def Info: pfe-pics/ai-profile-creation/test_openRouter_connectio
-n.png  used on input line 915.
+n.png  used on input line 846.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [68
+ [69
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.50})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.919 
+l.850 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.51})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.919 
+l.850 
        <./pfe-pics/ai-profile-creation/oneRouter_keys_hestory.png> <./pfe-pics/
 ai-profile-creation/api_diagnostics.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 3.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.920 ...ion{Pipeline de traitement des documents}
-                                                   [69
+l.851 ...ion{Pipeline de traitement des documents}
+                                                   [70
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.52})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.963   \item \textbf
+l.894   \item \textbf
                      {Construction de prompts} : Génération dynamique de p...
  <./pfe-pics/ai-profile-creation/test_openRouter_connection.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.4})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.970 \section{Intégration et tests}
+l.901 \section{Intégration et tests}
                                      
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 4.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.972 \subsection{Stratégie d'intégration}
-                                            
+l.903 ...section{Mise en œuvre de l'intégration}
+                                                  
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.928     # Route vers le système 
+                                   de gestion scolaire
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.928     # Route vers le système 
+                                   de gestion scolaire
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.935     # Route vers le système 
+                                   de profils IA
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.935     # Route vers le système 
+                                   de profils IA
+? 
+[71]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.972 ...Ajouter des informations sur le système 
+                                                  source
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.972 ...Ajouter des informations sur le système 
+                                                  source
+? 
+[72]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1027   // Autres méthodes 
+                             d'intégration...
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1027   // Autres méthodes 
+                             d'intégration...
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1027   // Autres méthodes d'intégration.
+                                            ..
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1027   // Autres méthodes d'intégration.
+                                            ..
+? 
+
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 4.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.986 \subsection{Tests et validation}
-                                      
+l.1033 \subsection{Tests d'intégration}
+                                        
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1049     // Setup: créer 
+                            un utilisateur de test et un cours
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1049     // Setup: créer 
+                            un utilisateur de test et un cours
+? 
+[73]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1077   // Autres tests d'intégration.
+                                        ..
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1077   // Autres tests d'intégration.
+                                        ..
+? 
+
+pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
+4.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1085 \subsection{Validation de l'intégration}
+                                                
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1110 ...n: ['p(95)<500'],  // 95% des requêtes 
+                                                  doivent répondre en moins...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "AA.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1110 ...n: ['p(95)<500'],  // 95% des requêtes 
+                                                  doivent répondre en moins...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1110 ... // 95% des requêtes doivent répondre 
+                                                  en moins de 500ms
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1110 ... // 95% des requêtes doivent répondre 
+                                                  en moins de 500ms
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1119 ...r la navigation entre les deux systèmes
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1119 ...r la navigation entre les deux systèmes
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1130 ...'interaction avec un profil IA associé 
+                                                  à un cours
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1130 ...'interaction avec un profil IA associé 
+                                                  à un cours
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1130 ...teraction avec un profil IA associé à 
+                                                  un cours
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1130 ...teraction avec un profil IA associé à 
+                                                  un cours
+? 
+[74]
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.5})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1002 ...tion{Déploiement et mise en production}
+l.1148 ...tion{Déploiement et mise en production}
                                                   
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 5.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1004 ...ration de l'environnement de production}
-                                                   [70]
+l.1150 ...ion de l'infrastructure de déploiement}
+                                                  
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2023/02/27 1.9 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2023/02/27 1.9 listings language file
+)
+
+! Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1154 ...listing}[style=codestyle, language=YAML]
+                                                  
+? 
+
+! Package Listings Error: language yaml undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1154 ...listing}[style=codestyle, language=YAML]
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1159   # Service du système 
+                               de gestion scolaire
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1159   # Service du système 
+                               de gestion scolaire
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1174   # Service du système 
+                               de profils IA
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1174   # Service du système 
+                               de profils IA
+? 
+[75]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1189   # Bases de données 
+                             et cache
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1189   # Bases de données 
+                             et cache
+? 
+
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 5.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1020 \subsection{Stratégie de déploiement}
-                                              
+l.1230 ...d'intégration et déploiement continus}
+                                                  
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2023/02/27 1.9 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2023/02/27 1.9 listings language file
+)
+
+! Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1234 ...listing}[style=codestyle, language=YAML]
+                                                  
+? 
+
+! Package Listings Error: language yaml undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1234 ...listing}[style=codestyle, language=YAML]
+                                                  
+? 
+[76]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1268       # Installation des dépendances 
+                                             et exécution des tests
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1268       # Installation des dépendances 
+                                             et exécution des tests
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1268 ...allation des dépendances et exécution 
+                                                  des tests
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1268 ...allation des dépendances et exécution 
+                                                  des tests
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1269       # Étapes 
+                       omises pour concision
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "89.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1269       # Étapes 
+                       omises pour concision
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1289         # Déploiement 
+                              via SSH
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1289         # Déploiement 
+                              via SSH
+? 
+
+pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
+5.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1293 ...on{Stratégie de déploiement bleu-vert}
+                                                  
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1303 # Définition 
+                     des variables
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1303 # Définition 
+                     des variables
+? 
+[77]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1309 # Déterminer 
+                     l'environnement cible
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1309 # Déterminer 
+                     l'environnement cible
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1316 echo "Déploiement 
+                          vers l'environnement $NEXT_ENV (actuel: $CURRENT_E...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1316 echo "Déploiement 
+                          vers l'environnement $NEXT_ENV (actuel: $CURRENT_E...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1318 # Préparation 
+                      du nouvel environnement
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1318 # Préparation 
+                      du nouvel environnement
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1322 # Mise à 
+                 jour des images
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1322 # Mise à 
+                 jour des images
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1325 # Démarrage 
+                    du nouvel environnement
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1325 # Démarrage 
+                    du nouvel environnement
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1328 # Vérification 
+                       de la santé du nouvel environnement
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1328 # Vérification 
+                       de la santé du nouvel environnement
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1328 # Vérification de la santé 
+                                    du nouvel environnement
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1328 # Vérification de la santé 
+                                    du nouvel environnement
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1330   echo "Vérification 
+                             de la santé de $service..."
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1330   echo "Vérification 
+                             de la santé de $service..."
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1330   echo "Vérification de la santé 
+                                          de $service..."
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1330   echo "Vérification de la santé 
+                                          de $service..."
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1333       echo "$service est prêt 
+                                      !"
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "AA.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1333       echo "$service est prêt 
+                                      !"
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1338       echo "Échec 
+                          du déploiement : $service n'est pas sain après 3...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "89.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1338       echo "Échec 
+                          du déploiement : $service n'est pas sain après 3...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1338       echo "Échec du déploiement 
+                                          : $service n'est pas sain après 3...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1338       echo "Échec du déploiement 
+                                          : $service n'est pas sain après 3...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1338 ...iement : $service n'est pas sain après 
+                                                  30 tentatives"
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1338 ...iement : $service n'est pas sain après 
+                                                  30 tentatives"
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1339       # Revenir à 
+                          l'environnement précédent
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1339       # Revenir à 
+                          l'environnement précédent
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1339 ...# Revenir à l'environnement précédent
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1339 ...# Revenir à l'environnement précédent
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1339 ...# Revenir à l'environnement précédent
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1339 ...# Revenir à l'environnement précédent
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1350 # Mise à 
+                 jour du proxy Nginx pour rediriger le trafic
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1350 # Mise à 
+                 jour du proxy Nginx pour rediriger le trafic
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1354 # Mettre à 
+                   jour l'environnement actuel
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1354 # Mettre à 
+                   jour l'environnement actuel
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1357 echo "Déploiement 
+                          vers $NEXT_ENV terminé avec succès"
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1357 echo "Déploiement 
+                          vers $NEXT_ENV terminé avec succès"
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1357 echo "Déploiement vers $NEXT_ENV terminé 
+                                                  avec succès"
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1357 echo "Déploiement vers $NEXT_ENV terminé 
+                                                  avec succès"
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1357 ...nt vers $NEXT_ENV terminé avec succès"
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1357 ...nt vers $NEXT_ENV terminé avec succès"
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1359 # Arrêt 
+                de l'ancien environnement après un délai pour terminer les...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "AA.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1359 # Arrêt 
+                de l'ancien environnement après un délai pour terminer les...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1359 # Arrêt de l'ancien environnement après 
+                                                 un délai pour terminer les...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1359 # Arrêt de l'ancien environnement après 
+                                                 un délai pour terminer les...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1359 ...l'ancien environnement après un délai 
+                                                  pour terminer les sessions...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1359 ...l'ancien environnement après un délai 
+                                                  pour terminer les sessions...
+
+? 
+[78]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1363 ...ien environnement $CURRENT_ENV terminé"
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1363 ...ien environnement $CURRENT_ENV terminé"
+                                                  
+? 
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2023/02/27 1.9 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2023/02/27 1.9 listings language file
+)
+
+! Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1370 ...listing}[style=codestyle, language=YAML]
+                                                  
+? 
+
+! Package Listings Error: language yaml undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1370 ...listing}[style=codestyle, language=YAML]
+                                                  
+? 
+[79] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2023/02/27 1.9 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2023/02/27 1.9 listings language file
+)
+
+! Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1432 ...listing}[style=codestyle, language=YAML]
+                                                  
+? 
+
+! Package Listings Error: language yaml undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1432 ...listing}[style=codestyle, language=YAML]
+                                                  
+? 
+[80]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1511 # Création 
+                   du répertoire de sauvegarde
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1511 # Création 
+                   du répertoire de sauvegarde
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1511 # Création du répertoire 
+                                  de sauvegarde
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1511 # Création du répertoire 
+                                  de sauvegarde
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1514 echo "Début 
+                    de la sauvegarde - ${DATE}"
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1514 echo "Début 
+                    de la sauvegarde - ${DATE}"
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1517 echo "Sauvegarde de la base de données 
+                                               MySQL..."
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1517 echo "Sauvegarde de la base de données 
+                                               MySQL..."
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1521 echo "Sauvegarde de la base de données 
+                                               PostgreSQL..."
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1521 echo "Sauvegarde de la base de données 
+                                               PostgreSQL..."
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1524 # Sauvegarde des fichiers uploadés
+                                          
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1524 # Sauvegarde des fichiers uploadés
+                                          
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1525 echo "Sauvegarde des fichiers uploadés.
+                                               .."
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1525 echo "Sauvegarde des fichiers uploadés.
+                                               .."
+? 
+[81]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1539 echo "Sauvegarde terminée"
+                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1539 echo "Sauvegarde terminée"
+                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1545   echo "Synchronisation terminée"
+                                         
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1545   echo "Synchronisation terminée"
+                                         
+? 
+
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.6})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1034 ...fis rencontrés et solutions apportées}
+l.1549 ...fis rencontrés et solutions apportées}
                                                   
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 6.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1036 \subsection{Défis techniques}
+l.1551 ...implémentation et solutions techniques}
+                                                  
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1568 ...ge et OCR pour les pages problématiques
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1568 ...ge et OCR pour les pages problématiques
+                                                  
+? 
+[82]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1595 ... Enregistrement pour analyse ultérieure
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1595 ... Enregistrement pour analyse ultérieure
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1603 ...     # Si le score est bas, déclencher 
+                                                  une optimisation de template
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1603 ...     # Si le score est bas, déclencher 
+                                                  une optimisation de template
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1613   // Composant de tableau virtualisé 
+                                             avec pagination infinie
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1613   // Composant de tableau virtualisé 
+                                             avec pagination infinie
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1638     // Observer pour détecter 
+                                      la fin de la liste
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1638     // Observer pour détecter 
+                                      la fin de la liste
+? 
+[83]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1651     // Rendu du composant - simplifié 
+                                              pour concision
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1651     // Rendu du composant - simplifié 
+                                              pour concision
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1654         {/* En-tête 
+                            et corps du tableau omis pour concision */}
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "AA.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1654         {/* En-tête 
+                            et corps du tableau omis pour concision */}
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1688       // Écouter 
+                         les changements de connectivité
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "89.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1688       // Écouter 
+                         les changements de connectivité
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1688 ...�couter les changements de connectivité
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1688 ...�couter les changements de connectivité
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1693         // Si connexion récupérée,
+                                             lancer la synchronisation
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1693         // Si connexion récupérée,
+                                             lancer la synchronisation
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1693         // Si connexion récupérée,
+                                             lancer la synchronisation
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1693         // Si connexion récupérée,
+                                             lancer la synchronisation
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1693         // Si connexion récupérée,
+                                             lancer la synchronisation
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1693         // Si connexion récupérée,
+                                             lancer la synchronisation
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1698     // Ajouter une opération 
+                                     à la file d'attente
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1698     // Ajouter une opération 
+                                     à la file d'attente
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1698     // Ajouter une opération à 
+                                        la file d'attente
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1698     // Ajouter une opération à 
+                                        la file d'attente
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1700       // Générer 
+                          un ID temporaire si nécessaire
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1700       // Générer 
+                          un ID temporaire si nécessaire
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1700       // Générer 
+                          un ID temporaire si nécessaire
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1700       // Générer 
+                          un ID temporaire si nécessaire
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1700 ...énérer un ID temporaire si nécessaire
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1700 ...énérer un ID temporaire si nécessaire
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1703       // Ajouter à 
+                           la file et persister
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1703       // Ajouter à 
+                           la file et persister
+? 
+[84]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1719     // Méthodes 
+                        de traitement omises pour concision
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1719     // Méthodes 
+                        de traitement omises pour concision
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1728 ...ervice de chiffrement pour les données 
+                                                  sensibles
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1728 ...ervice de chiffrement pour les données 
+                                                  sensibles
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1735     // Chiffrer des données 
+                                    sensibles
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1735     // Chiffrer des données 
+                                    sensibles
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1737       // Générer 
+                          un vecteur d'initialisation aléatoire
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1737       // Générer 
+                          un vecteur d'initialisation aléatoire
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1737       // Générer 
+                          un vecteur d'initialisation aléatoire
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1737       // Générer 
+                          un vecteur d'initialisation aléatoire
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1737 ...r un vecteur d'initialisation aléatoire
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1737 ...r un vecteur d'initialisation aléatoire
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1740       // Créer 
+                       le chiffreur avec la clé et l'IV
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1740       // Créer 
+                       le chiffreur avec la clé et l'IV
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1740       // Créer le chiffreur avec la clé 
+                                                 et l'IV
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1740       // Créer le chiffreur avec la clé 
+                                                 et l'IV
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1743       // Chiffrer les données
                                      
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1743       // Chiffrer les données
+                                     
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1747       // Récupérer 
+                            le tag d'authentification
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1747       // Récupérer 
+                            le tag d'authentification
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1747       // Récupérer 
+                            le tag d'authentification
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1747       // Récupérer 
+                            le tag d'authentification
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1750       // Retourner les données 
+                                       chiffrées avec l'IV et le tag d'auth...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1750       // Retourner les données 
+                                       chiffrées avec l'IV et le tag d'auth...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1750       // Retourner les données chiffrées 
+                                                  avec l'IV et le tag d'auth...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1750       // Retourner les données chiffrées 
+                                                  avec l'IV et le tag d'auth...
+
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1758     // Déchiffrer 
+                          des données
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1758     // Déchiffrer 
+                          des données
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1758     // Déchiffrer des données
+                                      
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1758     // Déchiffrer des données
+                                      
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1762       // Créer 
+                       le déchiffreur
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1762       // Créer 
+                       le déchiffreur
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1762       // Créer le déchiffreur
+                                      
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1762       // Créer le déchiffreur
+                                      
+? 
+[85]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1769       // Définir 
+                         le tag d'authentification
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1769       // Définir 
+                         le tag d'authentification
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1772       // Déchiffrer
+                           
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1772       // Déchiffrer
+                           
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1776       // Parser les données 
+                                    JSON
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1776       // Parser les données 
+                                    JSON
+? 
+
 pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
 6.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1052 \subsection{Solutions et optimisations}
-                                              
+l.1783 ...Défis d'utilisabilité et solutions UX}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{subsection.0.
+6.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1801 ... d'intégration et solutions techniques}
+                                                  
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1815   // Service d'événements 
+                                   inter-systèmes
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1815   // Service d'événements 
+                                   inter-systèmes
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@EC�).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1815   // Service d'événements 
+                                   inter-systèmes
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1815   // Service d'événements inter-systèmes
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1815   // Service d'événements inter-systèmes
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1821 ...  // S'abonner aux canaux d'événements
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1821 ...  // S'abonner aux canaux d'événements
+                                                  
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@EC�).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1821 ...  // S'abonner aux canaux d'événements
+                                                  
+? 
+[86]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1836     // Publier un événement
+                                    
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1836     // Publier un événement
+                                    
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@EC�).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1836     // Publier un événement
+                                    
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1849     // S'abonner à 
+                           un type d'événement
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1849     // S'abonner à 
+                           un type d'événement
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1849     // S'abonner à un type d'événement
+                                                
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1849     // S'abonner à un type d'événement
+                                                
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@EC�).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1849     // S'abonner à un type d'événement
+                                                
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1858     // Traiter un événement 
+                                     reçu
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1858     // Traiter un événement 
+                                     reçu
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@EC�).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1858     // Traiter un événement 
+                                     reçu
+? 
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1858     // Traiter un événement reçu
+                                          
+? 
+
+! LaTeX Error: Invalid UTF-8 byte "A7.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1858     // Traiter un événement reçu
+                                          
+? 
+
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.7})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1068 ...ion{Pages d'accueil et de présentation}
-                                                   [71]
-<pfe-pics/landing/hero.png, id=1365, 1314.9125pt x 724.7075pt>
+l.1874 ...ion{Pages d'accueil et de présentation}
+                                                   [87]
+<pfe-pics/landing/hero.png, id=2189, 1314.9125pt x 724.7075pt>
 File: pfe-pics/landing/hero.png Graphic file (type png)
 <use pfe-pics/landing/hero.png>
-Package pdftex.def Info: pfe-pics/landing/hero.png  used on input line 1076.
+Package pdftex.def Info: pfe-pics/landing/hero.png  used on input line 1882.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/landing/info.png, id=1366, 1314.9125pt x 724.7075pt>
+<pfe-pics/landing/info.png, id=2190, 1314.9125pt x 724.7075pt>
 File: pfe-pics/landing/info.png Graphic file (type png)
 <use pfe-pics/landing/info.png>
-Package pdftex.def Info: pfe-pics/landing/info.png  used on input line 1083.
+Package pdftex.def Info: pfe-pics/landing/info.png  used on input line 1889.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/landing/stats.png, id=1367, 1314.9125pt x 724.7075pt>
+<pfe-pics/landing/stats.png, id=2191, 1314.9125pt x 724.7075pt>
 File: pfe-pics/landing/stats.png Graphic file (type png)
 <use pfe-pics/landing/stats.png>
-Package pdftex.def Info: pfe-pics/landing/stats.png  used on input line 1090.
+Package pdftex.def Info: pfe-pics/landing/stats.png  used on input line 1896.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [72
+ [88
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.53})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1094 
+l.1900 
        
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.54})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1094 
+l.1900 
         <./pfe-pics/landing/hero.png> <./pfe-pics/landing/info.png>]
-<pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vite React TS.png, id=1374,
+<pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vite React TS.png, id=2198,
  1314.9125pt x 724.7075pt>
 File: pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vite React TS.png Grap
 hic file (type png)
 <use pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vite React TS.png>
 Package pdftex.def Info: pfe-pics/landing/Screenshot 2025-06-09 at 23-12-47 Vit
-e React TS.png  used on input line 1097.
+e React TS.png  used on input line 1903.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/landing/Screenshot 2025-06-09 at 23-12-17 Vite React TS.png, id=1375,
+<pfe-pics/landing/Screenshot 2025-06-09 at 23-12-17 Vite React TS.png, id=2199,
  1314.9125pt x 724.7075pt>
 File: pfe-pics/landing/Screenshot 2025-06-09 at 23-12-17 Vite React TS.png Grap
 hic file (type png)
 <use pfe-pics/landing/Screenshot 2025-06-09 at 23-12-17 Vite React TS.png>
 Package pdftex.def Info: pfe-pics/landing/Screenshot 2025-06-09 at 23-12-17 Vit
-e React TS.png  used on input line 1104.
+e React TS.png  used on input line 1910.
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
- [73
+ [89
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.55})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1108 
+l.1914 
        
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.56})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1108 
+l.1914 
         <./pfe-pics/landing/stats.png> <./pfe-pics/landing/Screenshot 2025-06-0
 9 at 23-12-47 Vite React TS.png>]
-<pfe-pics/landing/contact.png, id=1383, 1314.9125pt x 724.7075pt>
+<pfe-pics/landing/contact.png, id=2206, 1314.9125pt x 724.7075pt>
 File: pfe-pics/landing/contact.png Graphic file (type png)
 <use pfe-pics/landing/contact.png>
-Package pdftex.def Info: pfe-pics/landing/contact.png  used on input line 1111.
+Package pdftex.def Info: pfe-pics/landing/contact.png  used on input line 1917.
 
 (pdftex.def)             Requested size: 386.96027pt x 213.26712pt.
-<pfe-pics/landing/fotter.png, id=1384, 1314.9125pt x 362.35374pt>
+<pfe-pics/landing/fotter.png, id=2207, 1314.9125pt x 362.35374pt>
 File: pfe-pics/landing/fotter.png Graphic file (type png)
 <use pfe-pics/landing/fotter.png>
-Package pdftex.def Info: pfe-pics/landing/fotter.png  used on input line 1118.
+Package pdftex.def Info: pfe-pics/landing/fotter.png  used on input line 1924.
 (pdftex.def)             Requested size: 386.96027pt x 106.63356pt.
- [74
+ [90
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.57})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1126 
+l.1932 
        
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.58})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1126 
+l.1932 
        
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.59})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1126 
+l.1932 
         <./pfe-pics/landing/Screenshot 2025-06-09 at 23-12-17 Vite React TS.png
-> <./pfe-pics/landing/contact.png> <./pfe-pics/landing/fotter.png>] [75])
-[76] [77
+> <./pfe-pics/landing/contact.png> <./pfe-pics/landing/fotter.png>] [91])
+[92] [93
 
 
 
@@ -3195,50 +5182,50 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.0.1})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.373 \section{Bilan du projet}
+l.374 \section{Bilan du projet}
                                
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.387 \section{Compétences acquises}
+l.388 \section{Compétences acquises}
                                      
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.403 \section{Perspectives d'évolution}
-                                          [78]
+l.404 \section{Perspectives d'évolution}
+                                          [94]
 pdfTeX warning (ext4): destination with the same identifier (name{section.0.4})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.419 \section{Mot de fin}
-                           [79] [80
+l.424 \section{Mot de fin}
+                           [95] [96
 
 ] (./main.aux (./chapter_1.aux)
 (./chapter_2.aux) (./chapter_3.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 824F8A168EB286D1B6B559A330E4AA3B;21176.
+(rerunfilecheck)             Checksum: 8FA18900D95F9A32B8B7454EFF02EC65;22228.
  ) 
 Here is how much of TeX's memory you used:
- 31781 strings out of 476034
- 603308 string characters out of 5792864
- 2139388 words of memory out of 6000000
- 50993 multiletter control sequences out of 15000+600000
- 576427 words of font info for 175 fonts, out of 8000000 for 9000
+ 32998 strings out of 476034
+ 622200 string characters out of 5792864
+ 2131388 words of memory out of 6000000
+ 51408 multiletter control sequences out of 15000+600000
+ 577072 words of font info for 180 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 84i,17n,80p,1001b,2111s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,17n,80p,1001b,2256s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/lm/lmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr
 12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on main.pdf (80 pages, 10231970 bytes).
+Output written on main.pdf (96 pages, 10301377 bytes).
 PDF statistics:
- 1552 PDF objects out of 1728 (max. 8388607)
- 1211 compressed objects within 13 object streams
- 414 named destinations out of 1000 (max. 500000)
+ 2536 PDF objects out of 2984 (max. 8388607)
+ 2171 compressed objects within 22 object streams
+ 1180 named destinations out of 1200 (max. 500000)
  34923 words of extra memory for PDF output out of 35830 (max. 10000000)
 

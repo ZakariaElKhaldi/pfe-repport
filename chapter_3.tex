@@ -5,7 +5,7 @@
 \newpage
 
 \section{Outils et technologies de développement}
-Pour la réalisation de nos deux projets complémentaires, nous avons sélectionné un ensemble d'outils et de technologies modernes qui répondent aux exigences de performance, de scalabilité et de maintenabilité.
+Pour la réalisation de nos deux systèmes dont l'architecture a été détaillée dans le chapitre précédent, nous avons sélectionné un ensemble d'outils et de technologies modernes qui répondent aux exigences établies dans le cahier des charges.
 
 \subsection{Environnement de développement}
 L'environnement de développement a été configuré avec soin pour assurer une productivité optimale et une collaboration efficace :
@@ -171,19 +171,13 @@ export class CourseController {
     try {
       const courseData = req.body;
       const teacherId = req.user.id; // From JWT token
-      
       const course = await this.courseService.createCourse(courseData, teacherId);
-      
-      res.status(201).json({
-        success: true,
-        data: course
-      });
+      res.status(201).json({ success: true, data: course });
     } catch (error) {
       handleError(error, res);
     }
   }
-  
-  // Other course-related methods...
+  // Other methods...
 }
 \end{lstlisting}
 
@@ -493,7 +487,6 @@ Voici un exemple de structure d'endpoint FastAPI pour la création d'un profil I
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.ext.asyncio import AsyncSession
 from typing import List
-
 from app.schemas.profile import ProfileCreate, ProfileResponse
 from app.services.profile_service import ProfileService
 from app.dependencies import get_db, get_current_user
@@ -509,14 +502,7 @@ async def create_profile(
 ):
     profile_service = ProfileService(db)
     return await profile_service.create_profile(profile_data, current_user.id)
-
-@router.get("/", response_model=List[ProfileResponse])
-async def get_profiles(
-    current_user: User = Depends(get_current_user),
-    db: AsyncSession = Depends(get_db)
-):
-    profile_service = ProfileService(db)
-    return await profile_service.get_user_profiles(current_user.id)
+# Additional endpoints...
 \end{lstlisting}
 
 \subsubsection{Documentation des API et exemples d'utilisation}
@@ -569,12 +555,7 @@ curl -X POST http://localhost:3001/api/auth/login \
   "success": true,
   "data": {
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
-    "user": {
-      "id": "t123",
-      "email": "teacher@school.com",
-      "role": "teacher",
-      "name": "John Doe"
-    }
+    "user": { "id": "t123", "role": "teacher", "name": "John Doe" }
   }
 }
 \end{lstlisting}
@@ -584,30 +565,22 @@ curl -X POST http://localhost:3001/api/auth/login \
 \begin{lstlisting}[style=codestyle, language=bash]
 # Création d'un nouveau cours
 curl -X POST http://localhost:3001/api/courses \
-  -H "Content-Type: application/json" \
   -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." \
   -d '{
     "name": "Introduction à la programmation",
     "description": "Fondamentaux de la programmation en Python",
     "startDate": "2025-09-15",
-    "endDate": "2026-01-30",
-    "schedule": "Lundi 14:00-16:00",
-    "maxStudents": 30
+    "endDate": "2026-01-30"
   }'
 
-# Réponse
+# Réponse (version simplifiée)
 {
   "success": true,
   "data": {
     "id": "c456",
     "name": "Introduction à la programmation",
-    "description": "Fondamentaux de la programmation en Python",
-    "teacherId": "t123",
-    "startDate": "2025-09-15",
-    "endDate": "2026-01-30",
-    "schedule": "Lundi 14:00-16:00",
-    "maxStudents": 30,
-    "createdAt": "2025-06-10T14:30:22Z"
+    "teacherId": "t123"
+    // Autres champs omis pour concision
   }
 }
 \end{lstlisting}
@@ -617,7 +590,7 @@ curl -X POST http://localhost:3001/api/courses \
 \begin{table}[H]
 \centering
 \renewcommand{\arraystretch}{1.2}
-\begin{tabular}{|p{3.8cm}|p{2cm}|p{8.2cm}|}
+\begin{tabular}{|p{4.5cm}|p{2cm}|p{7.5cm}|}
 \hline
 \textbf{Endpoint} & \textbf{Méthode} & \textbf{Description} \\
 \hline
@@ -651,30 +624,17 @@ curl -X POST http://localhost:3001/api/courses \
 \begin{lstlisting}[style=codestyle, language=bash]
 # Envoi d'une question à un profil IA
 curl -X POST http://localhost:8000/api/profiles/p789/chat \
-  -H "Content-Type: application/json" \
   -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." \
   -d '{
-    "message": "Quelle est la différence entre une classe et un objet en programmation orientée objet?",
-    "context": {
-      "courseId": "c456",
-      "previousMessages": []
-    }
+    "message": "Quelle est la différence entre une classe et un objet en POO?",
+    "context": { "courseId": "c456" }
   }'
 
-# Réponse
+# Réponse simplifiée
 {
   "id": "msg123",
-  "content": "Une classe est un modèle ou un plan qui définit la structure et le comportement (attributs et méthodes) que les objets de ce type auront. Un objet, quant à lui, est une instance concrète d'une classe qui occupe de l'espace mémoire et possède des valeurs spécifiques pour ses attributs. En résumé, une classe est le concept abstrait tandis qu'un objet est la réalisation concrète de ce concept.",
-  "role": "assistant",
-  "sources": [
-    {
-      "document_id": "doc456",
-      "document_name": "Introduction_POO.pdf",
-      "page": 12,
-      "relevance_score": 0.92
-    }
-  ],
-  "created_at": "2025-06-10T15:45:12Z"
+  "content": "Une classe est un modèle qui définit la structure et le comportement. Un objet est une instance concrète d'une classe qui occupe de l'espace mémoire.",
+  "sources": [{ "document_name": "Introduction_POO.pdf", "page": 12 }]
 }
 \end{lstlisting}
 
@@ -729,47 +689,18 @@ class AIProfileService {
         {
           profileId,
           courseId,
-          settings: {
-            visibleToStudents: true,
-            allowQuestions: true,
-            contextIncludesCourseProgress: true
-          }
+          settings: { visibleToStudents: true, allowQuestions: true }
         },
-        {
-          headers: {
-            Authorization: `Bearer ${token}`
-          }
-        }
+        { headers: { Authorization: `Bearer ${token}` } }
       );
-      
       return response.data;
     } catch (error) {
-      console.error('Erreur lors de la liaison du profil au cours:', error);
+      console.error('Erreur lors de la liaison du profil:', error);
       throw error;
     }
   }
-
-  // Récupère les recommandations d'un profil IA pour un étudiant
-  async getStudentRecommendations(studentId, courseId, token) {
-    try {
-      const response = await this.apiClient.get(
-        `/api/profiles/course/${courseId}/recommendations/${studentId}`,
-        {
-          headers: {
-            Authorization: `Bearer ${token}`
-          }
-        }
-      );
-      
-      return response.data;
-    } catch (error) {
-      console.error('Erreur lors de la récupération des recommandations:', error);
-      throw error;
-    }
-  }
+  // Autres méthodes...
 }
-
-module.exports = new AIProfileService();
 \end{lstlisting}
 
 \subsection{Développement de l'interface utilisateur}
@@ -969,100 +900,975 @@ L'interaction avec les modèles de langage a été optimisée pour obtenir les m
 
 \section{Intégration et tests}
 
-\subsection{Stratégie d'intégration}
+\subsection{Mise en œuvre de l'intégration}
 
-L'intégration entre nos deux systèmes a été réalisée de manière progressive, en suivant une approche par étapes :
-
-\begin{itemize}
-  \item \textbf{Authentification unifiée} : Mise en place d'un système SSO permettant aux utilisateurs de naviguer entre les deux plateformes avec un seul compte
-  
-  \item \textbf{API Gateway commun} : Configuration de Nginx comme point d'entrée unifié pour les requêtes vers les deux systèmes
-  
-  \item \textbf{Partage de ressources} : Développement de mécanismes permettant l'utilisation des documents pédagogiques du système scolaire comme source pour les profils IA
-  
-  \item \textbf{Intégration UI} : Création de composants permettant d'accéder aux fonctionnalités des profils IA directement depuis l'interface du système scolaire
-\end{itemize}
-
-\subsection{Tests et validation}
-
-Une stratégie de test complète a été mise en place pour garantir la qualité des deux systèmes :
+En nous basant sur l'architecture d'intégration définie dans le chapitre précédent, nous avons implémenté les mécanismes suivants pour faire communiquer nos deux systèmes :
 
 \begin{itemize}
-  \item \textbf{Tests unitaires} : Vérification du comportement isolé de chaque composant
-  
-  \item \textbf{Tests d'intégration} : Validation des interactions entre les différents modules
-  
-  \item \textbf{Tests end-to-end} : Simulation de scénarios utilisateur complets
-  
-  \item \textbf{Tests de performance} : Évaluation du comportement sous charge et optimisation
-  
-  \item \textbf{Tests d'utilisabilité} : Sessions avec des utilisateurs réels pour valider l'expérience utilisateur
+  \item \textbf{Configuration Nginx} : Mise en place d'un fichier de configuration Nginx agissant comme API Gateway :
 \end{itemize}
+
+\begin{lstlisting}[style=codestyle, language=bash]
+# /etc/nginx/sites-available/education-platform.conf
+server {
+    listen 80;
+    server_name education-platform.example.com;
+    
+    # Redirection vers HTTPS
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    server_name education-platform.example.com;
+    
+    ssl_certificate /etc/ssl/certs/education-platform.crt;
+    ssl_certificate_key /etc/ssl/private/education-platform.key;
+    
+    # Route vers le système de gestion scolaire
+    location /school/ {
+        proxy_pass http://school-management:3001/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+    
+    # Route vers le système de profils IA
+    location /ai-profiles/ {
+        proxy_pass http://ai-profiles:8000/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+    
+    # Gestion des websockets pour le chat
+    location /ai-profiles/ws/ {
+        proxy_pass http://ai-profiles:8000/ws/;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+    }
+}
+\end{lstlisting}
+
+\begin{itemize}
+  \item \textbf{Implémentation du middleware d'authentification partagée} : Pour permettre la navigation entre les deux systèmes avec un seul token :
+\end{itemize}
+
+\begin{lstlisting}[style=codestyle, language=JavaScript]
+// middleware/sharedAuth.js
+const jwt = require('jsonwebtoken');
+const { SECRET_KEY } = require('../config');
+
+const verifySharedToken = (req, res, next) => {
+  const token = req.headers.authorization?.split(' ')[1];
+  
+  if (!token) {
+    return res.status(401).json({ message: 'Authentification requise' });
+  }
+  
+  try {
+    const decoded = jwt.verify(token, SECRET_KEY);
+    req.user = decoded;
+    
+    // Ajouter des informations sur le système source
+    req.user.source = 'school_management';
+    
+    next();
+  } catch (error) {
+    return res.status(401).json({ message: 'Token invalide' });
+  }
+};
+
+module.exports = { verifySharedToken };
+\end{lstlisting}
+
+\begin{itemize}
+  \item \textbf{Développement du service d'intégration des profils IA} : Implémentation côté système de gestion scolaire :
+\end{itemize}
+
+\begin{lstlisting}[style=codestyle, language=JavaScript]
+// services/aiProfileIntegration.js
+const axios = require('axios');
+const config = require('../config');
+
+class AIProfileIntegrationService {
+  constructor() {
+    this.apiClient = axios.create({
+      baseURL: config.AI_PROFILES_API_URL,
+      timeout: 10000
+    });
+  }
+
+  async associateProfileWithCourse(profileId, courseId, token) {
+    try {
+      const response = await this.apiClient.post(
+        '/integration/associate',
+        {
+          profileId,
+          courseId,
+          settings: {
+            visibleToStudents: true,
+            allowDirectQuestions: true
+          }
+        },
+        {
+          headers: {
+            Authorization: `Bearer ${token}`
+          }
+        }
+      );
+      
+      return response.data;
+    } catch (error) {
+      console.error('Error associating profile with course:', error);
+      throw error;
+    }
+  }
+  
+  // Autres méthodes d'intégration...
+}
+
+module.exports = new AIProfileIntegrationService();
+\end{lstlisting}
+
+\subsection{Tests d'intégration}
+
+Pour valider le bon fonctionnement de l'intégration entre nos deux systèmes, nous avons développé une suite de tests automatisés :
+
+\begin{lstlisting}[style=codestyle, language=JavaScript]
+// tests/integration/aiProfileIntegration.test.js
+const request = require('supertest');
+const app = require('../../app');
+const mongoose = require('mongoose');
+const { generateTestToken } = require('../utils/auth');
+
+describe('AI Profile Integration', () => {
+  let authToken;
+  let testCourseId;
+  
+  beforeAll(async () => {
+    // Setup: créer un utilisateur de test et un cours
+    authToken = generateTestToken({ role: 'teacher' });
+    
+    const courseResponse = await request(app)
+      .post('/api/courses')
+      .set('Authorization', `Bearer ${authToken}`)
+      .send({
+        name: 'Test Integration Course',
+        description: 'Course for integration testing'
+      });
+      
+    testCourseId = courseResponse.body.data.id;
+  });
+  
+  test('Should associate an AI profile with a course', async () => {
+    const profileId = 'test-profile-123';
+    
+    const response = await request(app)
+      .post(`/api/courses/${testCourseId}/ai-profiles`)
+      .set('Authorization', `Bearer ${authToken}`)
+      .send({ profileId });
+      
+    expect(response.status).toBe(200);
+    expect(response.body.success).toBe(true);
+    expect(response.body.data.courseId).toBe(testCourseId);
+    expect(response.body.data.profileId).toBe(profileId);
+  });
+  
+  // Autres tests d'intégration...
+  
+  afterAll(async () => {
+    await mongoose.connection.close();
+  });
+});
+\end{lstlisting}
+
+\subsection{Validation de l'intégration}
+
+Pour assurer la qualité de l'intégration, nous avons mis en place une approche de validation complète :
+
+\begin{itemize}
+  \item \textbf{Tests unitaires} : Vérification du comportement isolé des composants d'intégration
+  
+  \item \textbf{Tests d'intégration} : Validation des interactions entre les systèmes
+  
+  \item \textbf{Tests end-to-end} : Simulation de scénarios utilisateur complets traversant les deux systèmes
+  
+  \item \textbf{Tests de charge} : Évaluation des performances sous contrainte à l'aide de l'outil k6
+\end{itemize}
+
+Exemple de script de test de charge pour l'intégration :
+
+\begin{lstlisting}[style=codestyle, language=JavaScript]
+// tests/performance/integration-load.js (k6 script)
+import http from 'k6/http';
+import { check, sleep } from 'k6';
+
+export const options = {
+  vus: 50,              // 50 utilisateurs virtuels
+  duration: '2m',       // pendant 2 minutes
+  thresholds: {
+    http_req_duration: ['p(95)<500'],  // 95% des requêtes doivent répondre en moins de 500ms
+    http_req_failed: ['rate<0.01'],    // moins de 1% d'erreurs
+  },
+};
+
+export default function() {
+  const BASE_URL = 'https://education-platform.example.com';
+  const authToken = generateTestToken();  // fonction fictive
+  
+  // Tester la navigation entre les deux systèmes
+  const schoolResponse = http.get(`${BASE_URL}/school/api/courses`, {
+    headers: { Authorization: `Bearer ${authToken}` },
+  });
+  
+  check(schoolResponse, {
+    'school API status is 200': (r) => r.status === 200,
+  });
+  
+  sleep(1);
+  
+  // Tester l'interaction avec un profil IA associé à un cours
+  const aiResponse = http.post(`${BASE_URL}/ai-profiles/api/chat`, {
+    headers: { Authorization: `Bearer ${authToken}` },
+    payload: JSON.stringify({
+      courseId: 'course-123',
+      message: 'Tell me about object-oriented programming'
+    }),
+  });
+  
+  check(aiResponse, {
+    'AI API status is 200': (r) => r.status === 200,
+    'AI response contains content': (r) => JSON.parse(r.body).content !== undefined,
+  });
+  
+  sleep(2);
+}
+\end{lstlisting}
 
 \section{Déploiement et mise en production}
 
-\subsection{Configuration de l'environnement de production}
+\subsection{Configuration de l'infrastructure de déploiement}
 
-La mise en production des systèmes a nécessité une configuration soignée de l'environnement :
+Pour le déploiement de nos systèmes, nous avons mis en place une infrastructure basée sur Docker et Docker Compose, avec le fichier de configuration suivant :
 
-\begin{itemize}
-  \item \textbf{Infrastructure cloud} : Déploiement sur une infrastructure cloud flexible et évolutive
-  
-  \item \textbf{Conteneurisation} : Utilisation de Docker pour garantir la cohérence entre environnements
-  
-  \item \textbf{Équilibrage de charge} : Configuration de load balancers pour distribuer le trafic
-  
-  \item \textbf{Surveillance} : Mise en place d'outils de monitoring pour suivre la santé et les performances
-  
-  \item \textbf{Sauvegardes} : Stratégie de sauvegarde régulière des données critiques
-\end{itemize}
+\begin{lstlisting}[style=codestyle, language=YAML]
+# docker-compose.yml
+version: '3.8'
 
-\subsection{Stratégie de déploiement}
+services:
+  # Service du système de gestion scolaire
+  school-management:
+    build: 
+      context: ./school-management
+      dockerfile: Dockerfile.production
+    restart: always
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=mysql://user:password@mysql:3306/school_db
+      - JWT_SECRET=${JWT_SECRET}
+    depends_on:
+      - mysql
+    networks:
+      - app-network
 
-Une approche de déploiement continu a été adoptée pour minimiser les risques :
+  # Service du système de profils IA
+  ai-profiles:
+    build:
+      context: ./ai-profiles
+      dockerfile: Dockerfile.production
+    restart: always
+    environment:
+      - POSTGRES_DSN=postgresql://user:password@postgres:5432/ai_profiles_db
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - app-network
 
-\begin{itemize}
-  \item \textbf{Environnements multiples} : Séparation claire entre développement, test et production
+  # Bases de données et cache
+  mysql:
+    image: mysql:8.0
+    restart: always
+    # Configuration omise pour concision
+    networks:
+      - app-network
   
-  \item \textbf{Déploiement automatisé} : Utilisation de GitHub Actions pour l'intégration et le déploiement continus
-  
-  \item \textbf{Déploiement bleu-vert} : Stratégie permettant des mises à jour sans interruption de service
-  
-  \item \textbf{Rollback automatisé} : Mécanismes de retour arrière en cas de problème détecté
-\end{itemize}
+  postgres:
+    image: postgres:14
+    restart: always
+    # Configuration omise pour concision
+    networks:
+      - app-network
+
+  redis:
+    image: redis:7-alpine
+    restart: always
+    networks:
+      - app-network
+
+  # Serveur Nginx pour l'API Gateway
+  nginx:
+    image: nginx:1.23-alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    # Configuration omise pour concision
+    networks:
+      - app-network
+
+volumes:
+  mysql-data:
+  postgres-data:
+  redis-data:
+
+networks:
+  app-network:
+    driver: bridge
+\end{lstlisting}
+
+\subsection{Pipeline d'intégration et déploiement continus}
+
+Nous avons configuré GitHub Actions pour automatiser l'intégration et le déploiement continus :
+
+\begin{lstlisting}[style=codestyle, language=YAML]
+# .github/workflows/ci-cd.yml
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        service: [school-management, ai-profiles]
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      # Configuration Node.js ou Python selon le service
+      - name: Set up Node.js
+        if: matrix.service == 'school-management'
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Set up Python
+        if: matrix.service == 'ai-profiles'
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      # Installation des dépendances et exécution des tests
+      # Étapes omises pour concision
+
+  build:
+    name: Build
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build and push Docker images
+        # Configuration omise pour concision
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Deploy to production
+        # Déploiement via SSH
+        # Configuration omise pour concision
+\end{lstlisting}
+
+\subsection{Stratégie de déploiement bleu-vert}
+
+Pour permettre des mises à jour sans interruption de service, nous avons implémenté un script de déploiement bleu-vert :
+
+\begin{lstlisting}[style=codestyle, language=bash]
+#!/bin/bash
+# deploy-blue-green.sh
+
+set -e
+
+# Définition des variables
+DOCKER_REPO="our-org"
+SERVICES=("school-management" "ai-profiles")
+CURRENT_ENV=$(cat /opt/education-platform/current_env)
+NEXT_ENV=""
+
+# Déterminer l'environnement cible
+if [ "$CURRENT_ENV" == "blue" ]; then
+  NEXT_ENV="green"
+else
+  NEXT_ENV="blue"
+fi
+
+echo "Déploiement vers l'environnement $NEXT_ENV (actuel: $CURRENT_ENV)"
+
+# Préparation du nouvel environnement
+cd /opt/education-platform
+cp docker-compose.${NEXT_ENV}.yml docker-compose.yml
+
+# Mise à jour des images
+docker-compose pull
+
+# Démarrage du nouvel environnement
+docker-compose up -d
+
+# Vérification de la santé du nouvel environnement
+for service in "${SERVICES[@]}"; do
+  echo "Vérification de la santé de $service..."
+  for i in {1..30}; do
+    if curl -s "http://localhost:${NEXT_ENV}-health-check-port/$service/health" | grep -q "ok"; then
+      echo "$service est prêt !"
+      break
+    fi
+    
+    if [ $i -eq 30 ]; then
+      echo "Échec du déploiement : $service n'est pas sain après 30 tentatives"
+      # Revenir à l'environnement précédent
+      cp docker-compose.${CURRENT_ENV}.yml docker-compose.yml
+      docker-compose up -d
+      exit 1
+    fi
+    
+    echo "En attente de $service... ($i/30)"
+    sleep 2
+  done
+done
+
+# Mise à jour du proxy Nginx pour rediriger le trafic
+cp nginx/conf/upstream.${NEXT_ENV}.conf nginx/conf/upstream.conf
+docker-compose restart nginx
+
+# Mettre à jour l'environnement actuel
+echo "$NEXT_ENV" > /opt/education-platform/current_env
+
+echo "Déploiement vers $NEXT_ENV terminé avec succès"
+
+# Arrêt de l'ancien environnement après un délai pour terminer les sessions en cours
+sleep 60
+docker-compose -f docker-compose.${CURRENT_ENV}.yml down
+
+echo "Nettoyage de l'ancien environnement $CURRENT_ENV terminé"
+\end{lstlisting}
+
+\subsection{Monitoring et journalisation}
+
+Pour surveiller nos applications en production, nous avons configuré Prometheus et Grafana :
+
+\begin{lstlisting}[style=codestyle, language=YAML]
+# docker-compose.monitoring.yml
+version: '3.8'
+
+services:
+  prometheus:
+    image: prom/prometheus:latest
+    volumes:
+      - ./monitoring/prometheus:/etc/prometheus
+      - prometheus-data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+    ports:
+      - "9090:9090"
+    networks:
+      - monitoring-network
+
+  grafana:
+    image: grafana/grafana:latest
+    volumes:
+      - ./monitoring/grafana/provisioning:/etc/grafana/provisioning
+      - grafana-data:/var/lib/grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_PASSWORD}
+      - GF_USERS_ALLOW_SIGN_UP=false
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+    networks:
+      - monitoring-network
+
+  node-exporter:
+    image: prom/node-exporter:latest
+    restart: always
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    command:
+      - '--path.procfs=/host/proc'
+      - '--path.sysfs=/host/sys'
+      - '--path.rootfs=/rootfs'
+    ports:
+      - "9100:9100"
+    networks:
+      - monitoring-network
+
+volumes:
+  prometheus-data:
+  grafana-data:
+
+networks:
+  monitoring-network:
+    driver: bridge
+  app-network:
+    external: true
+\end{lstlisting}
+
+Pour la journalisation centralisée, nous avons déployé ELK Stack (Elasticsearch, Logstash, Kibana) :
+
+\begin{lstlisting}[style=codestyle, language=YAML]
+# docker-compose.logging.yml
+version: '3.8'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.0
+    environment:
+      - discovery.type=single-node
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    volumes:
+      - elasticsearch-data:/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+    networks:
+      - logging-network
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash:7.17.0
+    volumes:
+      - ./logging/logstash/pipeline:/usr/share/logstash/pipeline
+    ports:
+      - "5000:5000"
+    depends_on:
+      - elasticsearch
+    networks:
+      - logging-network
+      - app-network
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.17.0
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    ports:
+      - "5601:5601"
+    depends_on:
+      - elasticsearch
+    networks:
+      - logging-network
+
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:7.17.0
+    user: root
+    volumes:
+      - ./logging/filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
+      - /var/lib/docker/containers:/var/lib/docker/containers:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    depends_on:
+      - elasticsearch
+      - logstash
+    networks:
+      - logging-network
+      - app-network
+
+volumes:
+  elasticsearch-data:
+
+networks:
+  logging-network:
+    driver: bridge
+  app-network:
+    external: true
+\end{lstlisting}
+
+\subsection{Sauvegarde et récupération}
+
+Pour assurer la sécurité des données, nous avons mis en place un script de sauvegarde automatique :
+
+\begin{lstlisting}[style=codestyle, language=bash]
+#!/bin/bash
+# backup.sh
+
+# Configuration
+BACKUP_DIR="/opt/education-platform/backups"
+MYSQL_CONTAINER="education-platform_mysql_1"
+POSTGRES_CONTAINER="education-platform_postgres_1"
+BACKUP_RETENTION_DAYS=14
+DATE=$(date +%Y%m%d_%H%M%S)
+
+# Création du répertoire de sauvegarde
+mkdir -p ${BACKUP_DIR}/${DATE}
+
+echo "Début de la sauvegarde - ${DATE}"
+
+# Sauvegarde MySQL
+echo "Sauvegarde de la base de données MySQL..."
+docker exec ${MYSQL_CONTAINER} mysqldump -u root -p${MYSQL_ROOT_PASSWORD} --all-databases > ${BACKUP_DIR}/${DATE}/mysql_backup.sql
+
+# Sauvegarde PostgreSQL
+echo "Sauvegarde de la base de données PostgreSQL..."
+docker exec ${POSTGRES_CONTAINER} pg_dumpall -U user > ${BACKUP_DIR}/${DATE}/postgres_backup.sql
+
+# Sauvegarde des fichiers uploadés
+echo "Sauvegarde des fichiers uploadés..."
+cp -r /opt/education-platform/uploads ${BACKUP_DIR}/${DATE}/uploads
+
+# Compression
+echo "Compression des sauvegardes..."
+tar -czf ${BACKUP_DIR}/backup_${DATE}.tar.gz -C ${BACKUP_DIR} ${DATE}
+
+# Nettoyage des fichiers temporaires
+rm -rf ${BACKUP_DIR}/${DATE}
+
+# Suppression des anciennes sauvegardes
+echo "Nettoyage des anciennes sauvegardes..."
+find ${BACKUP_DIR} -name "backup_*.tar.gz" -type f -mtime +${BACKUP_RETENTION_DAYS} -delete
+
+echo "Sauvegarde terminée"
+
+# Synchronisation avec le stockage externe (optionnel)
+if [ -n "${REMOTE_BACKUP_ENABLED}" ] && [ "${REMOTE_BACKUP_ENABLED}" = "true" ]; then
+  echo "Synchronisation avec le stockage externe..."
+  rclone sync ${BACKUP_DIR} remote:education-platform-backups
+  echo "Synchronisation terminée"
+fi
+\end{lstlisting}
 
 \section{Défis rencontrés et solutions apportées}
 
-\subsection{Défis techniques}
+\subsection{Défis d'implémentation et solutions techniques}
 
-Au cours du développement, plusieurs défis techniques significatifs ont été rencontrés :
+Au cours du développement, nous avons rencontré plusieurs défis techniques spécifiques à l'implémentation des systèmes conçus :
 
 \begin{itemize}
-  \item \textbf{Traitement de documents hétérogènes} : La diversité des formats et structures de documents a complexifié l'extraction et l'analyse automatisées
+  \item \textbf{Parsing des documents complexes} : Les documents PDF avec des structures complexes (tableaux imbriqués, éléments flottants, annotations) posaient des problèmes d'extraction.
   
-  \item \textbf{Optimisation des requêtes LLM} : La construction de prompts efficaces pour obtenir des réponses précises et pertinentes a nécessité de nombreuses itérations
+  \textit{Solution} : Développement d'un pipeline hybride combinant PyPDF2, pdf2image et Tesseract OCR pour les sections problématiques, avec une logique de détection automatique des zones nécessitant un traitement spécial.
   
-  \item \textbf{Performance des interfaces riches} : Le chargement et la manipulation de grandes quantités de données dans les interfaces utilisateur ont posé des défis de performance
+  \begin{lstlisting}[style=codestyle, language=Python]
+  # Extrait du code de traitement hybride
+  def process_complex_document(pdf_path):
+      basic_text = extract_text_with_pypdf(pdf_path)
+      problematic_pages = detect_problematic_pages(basic_text)
+      
+      enhanced_text = basic_text.copy()
+      for page_num in problematic_pages:
+          # Conversion en image et OCR pour les pages problématiques
+          page_image = convert_page_to_image(pdf_path, page_num)
+          ocr_text = perform_ocr(page_image)
+          enhanced_text[page_num] = ocr_text
+          
+      return merge_text_results(enhanced_text)
+  \end{lstlisting}
   
-  \item \textbf{Synchronisation mobile-web} : La cohérence des données entre les applications web et mobiles a nécessité une attention particulière
+  \item \textbf{Optimisation des prompts LLM} : Génération de prompts efficaces pour obtenir des réponses précises.
   
-  \item \textbf{Sécurité des données sensibles} : La protection des informations personnelles et académiques a requis une approche de sécurité multicouche
+  \textit{Solution} : Développement d'un système de templates de prompts avec variables contextuelles et évaluation automatique de la qualité des réponses.
+  
+  \begin{lstlisting}[style=codestyle, language=Python]
+  # Gestionnaire de templates de prompts
+  class PromptTemplateManager:
+      def __init__(self, templates_dir):
+          self.templates = self._load_templates(templates_dir)
+          self.metrics = PromptMetrics()
+      
+      def generate_prompt(self, template_name, context):
+          template = self.templates.get(template_name)
+          if not template:
+              raise ValueError(f"Template '{template_name}' not found")
+          
+          # Injection du contexte dans le template
+          prompt = template.format(**context)
+          
+          # Enregistrement pour analyse ultérieure
+          prompt_id = self.metrics.register_prompt_use(template_name, context)
+          
+          return prompt, prompt_id
+      
+      def record_response_quality(self, prompt_id, quality_score, feedback=None):
+          self.metrics.record_quality(prompt_id, quality_score, feedback)
+          
+          # Si le score est bas, déclencher une optimisation de template
+          if quality_score < 0.6:
+              self._trigger_template_optimization(prompt_id)
+  \end{lstlisting}
+  
+  \item \textbf{Performances des interfaces riches} : Ralentissements lors du chargement de grandes quantités de données dans l'interface utilisateur.
+  
+  \textit{Solution} : Implémentation de techniques de virtualisation et de pagination infinie pour les listes et tableaux.
+  
+  \begin{lstlisting}[style=codestyle, language=JavaScript]
+  // Composant de tableau virtualisé avec pagination infinie
+  const VirtualizedTable = ({ fetchItems, columns, rowHeight = 40 }) => {
+    const [items, setItems] = useState([]);
+    const [page, setPage] = useState(0);
+    const [loading, setLoading] = useState(false);
+    const [hasMore, setHasMore] = useState(true);
+    const containerRef = useRef(null);
+    
+    const loadMoreItems = useCallback(async () => {
+      if (loading || !hasMore) return;
+      
+      setLoading(true);
+      try {
+        const newItems = await fetchItems(page);
+        if (newItems.length === 0) {
+          setHasMore(false);
+        } else {
+          setItems(prev => [...prev, ...newItems]);
+          setPage(prev => prev + 1);
+        }
+      } finally {
+        setLoading(false);
+      }
+    }, [fetchItems, page, loading, hasMore]);
+    
+    // Observer pour détecter la fin de la liste
+    useEffect(() => {
+      const observer = new IntersectionObserver(
+        entries => {
+          if (entries[0].isIntersecting && hasMore) loadMoreItems();
+        },
+        { threshold: 0.5 }
+      );
+      
+      if (containerRef.current) observer.observe(containerRef.current);
+      return () => observer.disconnect();
+    }, [loadMoreItems, hasMore]);
+    
+    // Rendu du composant - simplifié pour concision
+    return (
+      <div className="virtualized-table-container">
+        {/* En-tête et corps du tableau omis pour concision */}
+        {hasMore && (
+          <div ref={containerRef} className="loading-indicator">
+            {loading ? 'Chargement...' : 'Charger plus'}
+          </div>
+        )}
+      </div>
+    );
+  };
+  \end{lstlisting}
+  
+  \item \textbf{Synchronisation mobile-web} : Cohérence des données entre applications web et mobiles, notamment en mode hors-ligne.
+  
+  \textit{Solution} : Mise en œuvre d'un système de synchronisation basé sur des files d'attente locales et des identifiants temporaires.
+  
+  \begin{lstlisting}[style=codestyle, language=JavaScript]
+  // Service de synchronisation pour React Native
+  class SyncService {
+    constructor(apiClient, storage) {
+      this.apiClient = apiClient;
+      this.storage = storage;
+      this.syncQueue = [];
+      this.isSyncing = false;
+      this.networkStatus = { isConnected: false };
+      
+      // Initialisation
+      this.init();
+    }
+    
+    async init() {
+      // Charger la file d'attente depuis le stockage local
+      const savedQueue = await this.storage.getItem('syncQueue');
+      if (savedQueue) this.syncQueue = JSON.parse(savedQueue);
+      
+      // Écouter les changements de connectivité
+      NetInfo.addEventListener(state => {
+        const wasConnected = this.networkStatus.isConnected;
+        this.networkStatus.isConnected = state.isConnected;
+        
+        // Si connexion récupérée, lancer la synchronisation
+        if (!wasConnected && state.isConnected) this.attemptSync();
+      });
+    }
+    
+    // Ajouter une opération à la file d'attente
+    async queueOperation(operation) {
+      // Générer un ID temporaire si nécessaire
+      if (operation.type === 'create') operation.data._tempId = uuid.v4();
+      
+      // Ajouter à la file et persister
+      this.syncQueue.push({
+        id: uuid.v4(),
+        timestamp: Date.now(),
+        operation,
+        status: 'pending'
+      });
+      
+      await this.storage.setItem('syncQueue', JSON.stringify(this.syncQueue));
+      
+      // Synchroniser si en ligne
+      if (this.networkStatus.isConnected) this.attemptSync();
+      
+      return operation.type === 'create' ? operation.data._tempId : null;
+    }
+    
+    // Méthodes de traitement omises pour concision
+  }
+  \end{lstlisting}
+  
+  \item \textbf{Sécurité des données sensibles} : Protection des informations personnelles et académiques.
+  
+  \textit{Solution} : Implémentation d'un système de chiffrement à plusieurs niveaux, incluant le chiffrement des données au repos et en transit.
+  
+  \begin{lstlisting}[style=codestyle, language=JavaScript]
+  // Service de chiffrement pour les données sensibles
+  class EncryptionService {
+    constructor(encryptionKey) {
+      this.encryptionKey = encryptionKey;
+      this.algorithm = 'aes-256-gcm';
+    }
+    
+    // Chiffrer des données sensibles
+    encrypt(data) {
+      // Générer un vecteur d'initialisation aléatoire
+      const iv = crypto.randomBytes(16);
+      
+      // Créer le chiffreur avec la clé et l'IV
+      const cipher = crypto.createCipheriv(this.algorithm, this.encryptionKey, iv);
+      
+      // Chiffrer les données
+      let encrypted = cipher.update(JSON.stringify(data), 'utf8', 'hex');
+      encrypted += cipher.final('hex');
+      
+      // Récupérer le tag d'authentification
+      const authTag = cipher.getAuthTag();
+      
+      // Retourner les données chiffrées avec l'IV et le tag d'authentification
+      return {
+        iv: iv.toString('hex'),
+        encrypted,
+        authTag: authTag.toString('hex')
+      };
+    }
+    
+    // Déchiffrer des données
+    decrypt(encryptedData) {
+      const { iv, encrypted, authTag } = encryptedData;
+      
+      // Créer le déchiffreur
+      const decipher = crypto.createDecipheriv(
+        this.algorithm,
+        this.encryptionKey,
+        Buffer.from(iv, 'hex')
+      );
+      
+      // Définir le tag d'authentification
+      decipher.setAuthTag(Buffer.from(authTag, 'hex'));
+      
+      // Déchiffrer
+      let decrypted = decipher.update(encrypted, 'hex', 'utf8');
+      decrypted += decipher.final('utf8');
+      
+      // Parser les données JSON
+      return JSON.parse(decrypted);
+    }
+  }
+  \end{lstlisting}
 \end{itemize}
 
-\subsection{Solutions et optimisations}
+\subsection{Défis d'utilisabilité et solutions UX}
 
-Pour surmonter ces défis, plusieurs solutions innovantes ont été mises en œuvre :
+Plusieurs défis liés à l'expérience utilisateur ont également été adressés :
 
 \begin{itemize}
-  \item \textbf{Pipeline de prétraitement modulaire} : Développement de modules spécialisés pour chaque type de document, avec des stratégies d'extraction adaptées
+  \item \textbf{Complexité de l'interface de création de profils IA} : Les utilisateurs trouvaient le processus intimidant.
   
-  \item \textbf{Optimisation des prompts par apprentissage} : Mise en place d'un système d'amélioration continue des prompts basé sur le feedback des utilisateurs
+  \textit{Solution} : Refonte de l'interface avec une approche par étapes, incluant des guides contextuels et des exemples interactifs.
   
-  \item \textbf{Stratégies de chargement différé} : Implémentation de techniques de virtualisation et pagination pour les interfaces manipulant de grandes quantités de données
+  \item \textbf{Confusion sur la pertinence des réponses IA} : Les utilisateurs avaient du mal à comprendre d'où venaient les informations.
   
-  \item \textbf{Architecture offline-first} : Conception des applications mobiles avec synchronisation intelligente et fonctionnement hors ligne
+  \textit{Solution} : Implémentation d'un système de citation des sources avec mise en évidence des passages pertinents et affichage du niveau de confiance.
   
-  \item \textbf{Chiffrement de bout en bout} : Mise en œuvre du chiffrement pour les données sensibles, tant au repos qu'en transit
+  \item \textbf{Difficulté d'utilisation sur appareils mobiles} : Certaines fonctionnalités étaient difficiles à utiliser sur petit écran.
+  
+  \textit{Solution} : Développement d'interfaces adaptatives avec des contrôles repensés pour l'interaction tactile et introduction de gestes pour les actions courantes.
+\end{itemize}
+
+\subsection{Défis d'intégration et solutions techniques}
+
+L'intégration des deux systèmes a présenté ses propres défis techniques :
+
+\begin{itemize}
+  \item \textbf{Conflits de sessions entre les systèmes} : Les jetons d'authentification n'étaient pas correctement partagés.
+  
+  \textit{Solution} : Développement d'un middleware d'authentification partagé qui maintient la cohérence des sessions et gère la translation des contextes utilisateur.
+  
+  \item \textbf{Latence lors des requêtes inter-systèmes} : Les requêtes synchrones entre les systèmes créaient des problèmes de performance.
+  
+  \textit{Solution} : Mise en place d'un système de communication asynchrone basé sur des événements et un cache partagé avec Redis.
+  
+  \begin{lstlisting}[style=codestyle, language=JavaScript]
+  // Service d'événements inter-systèmes
+  class IntegrationEventService {
+    constructor(redisClient) {
+      this.redis = redisClient;
+      this.eventHandlers = {};
+      
+      // S'abonner aux canaux d'événements
+      this.redis.subscribe('school-system-events');
+      this.redis.subscribe('ai-profiles-events');
+      
+      // Configurer le gestionnaire de messages
+      this.redis.on('message', (channel, message) => {
+        try {
+          const event = JSON.parse(message);
+          this.processEvent(channel, event);
+        } catch (error) {
+          console.error(`Error processing event from ${channel}:`, error);
+        }
+      });
+    }
+    
+    // Publier un événement
+    async publishEvent(channel, eventType, payload) {
+      const event = {
+        id: uuid.v4(),
+        type: eventType,
+        timestamp: Date.now(),
+        payload
+      };
+      
+      await this.redis.publish(channel, JSON.stringify(event));
+      return event.id;
+    }
+    
+    // S'abonner à un type d'événement
+    on(eventType, handler) {
+      if (!this.eventHandlers[eventType]) {
+        this.eventHandlers[eventType] = [];
+      }
+      
+      this.eventHandlers[eventType].push(handler);
+    }
+    
+    // Traiter un événement reçu
+    processEvent(channel, event) {
+      const handlers = this.eventHandlers[event.type] || [];
+      
+      for (const handler of handlers) {
+        try {
+          handler(event.payload, event);
+        } catch (error) {
+          console.error(`Error in handler for event ${event.type}:`, error);
+        }
+      }
+    }
+  }
+  \end{lstlisting}
 \end{itemize}
 
 \section{Pages d'accueil et de présentation}

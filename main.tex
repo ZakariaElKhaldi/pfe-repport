@@ -249,9 +249,13 @@
 % --- Cover Page ---
 \includepdf[pages=1]{page_de_garde_memoire.pdf}
 
+% --- Preliminary Pages ---
+% Add a generic label for all preliminary pages in TOC
+\phantomsection
+\addcontentsline{toc}{part}{Parties préliminaires}
+
 % --- Dédicace ---
 \chapter*{Dédicace}
-\addcontentsline{toc}{chapter}{Dédicace}
 \thispagestyle{fancy}
 
 \begin{center}
@@ -275,7 +279,6 @@
 
 % --- Remerciements ---
 \chapter*{Remerciements}
-\addcontentsline{toc}{chapter}{Remerciements}
 \thispagestyle{fancy}
 
 \begin{center}
@@ -284,7 +287,7 @@
 
 Je tiens à exprimer ma profonde gratitude à toutes les personnes qui ont contribué à la réussite de ce projet de fin d'études et à l'élaboration de ce rapport.
 
-Mes sincères remerciements s'adressent tout d'abord à mon encadrant, pour son accueil, sa disponibilité, son suivi régulier et ses précieux conseils qui m'ont guidé tout au long de cette expérience professionnelle.
+Mes sincères remerciements s'adressent tout d'abord à mon encadrant, Pr. Ayman Naim, pour son accueil, sa disponibilité, son suivi régulier et ses précieux conseils qui m'ont guidé tout au long de cette expérience professionnelle.
 
 Je souhaite également remercier l'ensemble de l'équipe pour leur accueil chaleureux, leur soutien et leur partage de connaissances qui ont rendu cette expérience particulièrement enrichissante.
 
@@ -298,7 +301,6 @@ Enfin, je tiens à exprimer ma gratitude envers ma famille et mes amis pour leur
 
 % --- Résumé ---
 \chapter*{Résumé}
-\addcontentsline{toc}{chapter}{Résumé}
 \thispagestyle{fancy}
 
 Ce rapport présente les travaux réalisés durant mon projet de fin d'études, qui a consisté en la conception et le développement de deux systèmes complémentaires : un système de gestion scolaire complet et une plateforme de création de profils IA.
@@ -315,7 +317,6 @@ Ce projet m'a permis de mettre en pratique et d'approfondir mes compétences en 
 
 % --- Abstract ---
 \chapter*{Abstract}
-\addcontentsline{toc}{chapter}{Abstract}
 \thispagestyle{fancy}
 
 This report presents the work carried out during my final year project, which consisted of designing and developing two complementary systems: a comprehensive school management system and an AI profile creation platform.
@@ -405,6 +406,10 @@ Ce projet a été l'occasion de mettre en pratique et d'approfondir de nombreuse
 Les systèmes développés offrent de nombreuses perspectives d'évolution :
 
 \begin{itemize}
+  \item \textbf{Architecture microservices complète} : Migration progressive vers une architecture entièrement basée sur les microservices pour améliorer la scalabilité et la résilience des systèmes
+  
+  \item \textbf{Intégration de bases de données vectorielles} : Utilisation de bases de données vectorielles pour optimiser le stockage et la recherche des embeddings dans la plateforme de création de profils IA
+  
   \item \textbf{Amélioration de l'intelligence artificielle} : Intégration de modèles plus avancés et personnalisation accrue des réponses
   
   \item \textbf{Fonctionnalités analytiques} : Développement d'outils d'analyse des données éducatives pour identifier des tendances et optimiser l'apprentissage
@@ -451,11 +456,19 @@ Je suis convaincu que les compétences et l'expérience acquises durant ce proje
   
   \item Docker Documentation, \url{https://docs.docker.com/}
   
-  \item Fowler, M. (2002). Patterns of Enterprise Application Architecture. Addison-Wesley Professional.
+  \item MySQL Documentation, \url{https://dev.mysql.com/doc/}
   
-  \item Newman, S. (2021). Building Microservices (2nd ed.). O'Reilly Media.
+  \item ArchWiki, \url{https://wiki.archlinux.org/}
   
-  \item Nygard, M. T. (2018). Release It!: Design and Deploy Production-Ready Software (2nd ed.). Pragmatic Bookshelf.
+  \item Mermaid Diagramming and Charting Tool, \url{https://mermaid.js.org/}
+  
+  \item JWT (JSON Web Tokens), \url{https://jwt.io/}
+
+  \item Express.js Documentation, \url{https://expressjs.com/}
+  
+  \item ESLint Documentation, \url{https://eslint.org/docs/latest/}
+  
+  \item Git Documentation, \url{https://git-scm.com/doc}
 \end{itemize}
 
 \end{document} 

@@ -28,18 +28,20 @@ C'est dans ce contexte que s'inscrivent nos deux projets complémentaires:
 
 \subsection{Objectifs du projet PFE-Gestion-Scolaire}
 
-Le système de gestion scolaire vise à répondre aux besoins suivants:
+Le système de gestion scolaire vise à développer une solution web et mobile générique destinée à un large éventail d'établissements éducatifs (écoles primaires, collèges, lycées, centres de formation, établissements d'enseignement supérieur). Les objectifs principaux sont:
 
 \begin{itemize}
-  \item \textbf{Centralisation des données}: Créer un référentiel unique pour toutes les informations relatives aux étudiants, enseignants, cours et activités scolaires
+  \item \textbf{Automatisation des processus}: Simplifier les tâches administratives comme la gestion des inscriptions, le suivi des présences, les paiements et l'évaluation des étudiants
   
-  \item \textbf{Automatisation des processus}: Simplifier les tâches administratives comme la gestion des inscriptions, le suivi des présences et l'évaluation des étudiants
+  \item \textbf{Centralisation des données}: Créer un référentiel unique pour toutes les informations relatives aux étudiants, enseignants, cours et activités scolaires
   
   \item \textbf{Accessibilité multiplateforme}: Offrir un accès adapté via web et mobile pour tous les utilisateurs selon leur rôle (administrateur, enseignant, étudiant, parent)
   
-  \item \textbf{Sécurité et confidentialité}: Garantir la protection des données sensibles avec un système robuste d'authentification et d'autorisation
-  
   \item \textbf{Communication améliorée}: Faciliter les échanges entre l'administration, les enseignants, les étudiants et les parents
+  
+  \item \textbf{Suivi pédagogique}: Fournir des outils de suivi des performances des élèves/étudiants avec des rapports et analyses
+  
+  \item \textbf{Sécurité et confidentialité}: Garantir la protection des données sensibles avec un système robuste d'authentification et d'autorisation
 \end{itemize}
 
 \subsection{Objectifs du projet AI-Profiles-Creation}
@@ -73,7 +75,6 @@ Les projets impliquent plusieurs catégories d'utilisateurs, chacune avec des be
   
   \item \textbf{Parents}: Suivent les activités et les résultats de leurs enfants
   
-  \item \textbf{Créateurs de contenu}: Préparent et structurent le matériel pédagogique qui alimentera les profils IA
 \end{itemize}
 
 \subsection{Besoins fonctionnels du système de gestion scolaire}
@@ -222,9 +223,13 @@ Les projets impliquent plusieurs catégories d'utilisateurs, chacune avec des be
 \subsection{Contraintes techniques}
 
 \begin{itemize}
-  \item \textbf{Compatibilité navigateurs}: Support des navigateurs modernes (Chrome, Firefox, Safari, Edge) dans leurs versions récentes
+  \item \textbf{Compatibilité}: Support des navigateurs modernes (Chrome, Firefox, Safari, Edge) et des plateformes mobiles (Android ≥ 5.0, iOS ≥ 12.0)
   
   \item \textbf{Responsive design}: Adaptation à différentes tailles d'écran, des smartphones aux grands écrans
+  
+  \item \textbf{Performance}: Temps de chargement rapides et synchronisation en temps réel entre les plateformes
+  
+  \item \textbf{Sécurité}: Chiffrement des informations sensibles (HTTPS, JWT) et protection des données
   
   \item \textbf{Connexion intermittente}: Fonctionnalités de base accessibles même avec une connexion internet instable
   
@@ -249,6 +254,24 @@ Les projets impliquent plusieurs catégories d'utilisateurs, chacune avec des be
 
 \subsection{Spécifications du système de gestion scolaire}
 
+\subsubsection{Technologies choisies}
+
+Pour le développement du système de gestion scolaire, nous avons sélectionné les technologies suivantes:
+
+\begin{itemize}
+  \item \textbf{Front-End}: React (web) et React Native (mobile) avec une base de code partagée pour maximiser la réutilisation
+  
+  \item \textbf{Back-End}: Node.js avec Express pour créer une API RESTful robuste et performante
+  
+  \item \textbf{Base de données}: MySQL pour le stockage structuré des données
+  
+  \item \textbf{Authentification}: Système basé sur JWT (JSON Web Token) pour une sécurité renforcée
+  
+  \item \textbf{Stockage de fichiers}: Solution cloud pour les documents et médias uploadés
+  
+  \item \textbf{Notifications}: Firebase Cloud Messaging pour les alertes en temps réel
+\end{itemize}
+
 \subsubsection{Module d'administration}
 
 \begin{itemize}
@@ -258,6 +281,12 @@ Les projets impliquent plusieurs catégories d'utilisateurs, chacune avec des be
   
   \item \textbf{Gestion des établissements}: Pour les systèmes multi-établissements, configuration des sites et campus
   
+  \item \textbf{Gestion des inscriptions}: Traitement des demandes d'inscription, assignation aux classes
+  
+  \item \textbf{Gestion des paiements}: Suivi des paiements, génération de factures, notifications d'échéances
+  
+  \item \textbf{Tableaux de bord analytiques}: Statistiques et indicateurs de performance de l'établissement
+  
   \item \textbf{Rapports administratifs}: Génération de statistiques et rapports sur l'utilisation du système
 \end{itemize}
 
@@ -266,9 +295,15 @@ Les projets impliquent plusieurs catégories d'utilisateurs, chacune avec des be
 \begin{itemize}
   \item \textbf{Gestion des cours}: Création et organisation du contenu pédagogique
   
+  \item \textbf{Bibliothèque de ressources}: Upload et organisation des supports de cours (PDF, vidéos, présentations)
+  
+  \item \textbf{Suivi des présences}: Interface intuitive pour l'enregistrement des présences en temps réel
+  
   \item \textbf{Suivi des étudiants}: Vue d'ensemble des performances et de la participation
   
-  \item \textbf{Évaluation}: Création de devoirs, examens et notation avec commentaires
+  \item \textbf{Évaluation}: Création de devoirs, examens et notation avec commentaires détaillés
+  
+  \item \textbf{Planification}: Gestion des emplois du temps et des événements pédagogiques
   
   \item \textbf{Communication}: Messagerie avec les étudiants et parents, annonces de cours
 \end{itemize}
@@ -280,21 +315,49 @@ Les projets impliquent plusieurs catégories d'utilisateurs, chacune avec des be
   
   \item \textbf{Accès aux cours}: Consultation du matériel pédagogique et des ressources
   
-  \item \textbf{Soumission de travaux}: Interface pour déposer les devoirs et projets
+  \item \textbf{Calendrier interactif}: Visualisation des emplois du temps et événements
   
-  \item \textbf{Suivi des résultats}: Visualisation des notes et commentaires des enseignants
+  \item \textbf{Soumission de travaux}: Interface pour déposer les devoirs et projets avec suivi des échéances
+  
+  \item \textbf{Suivi des résultats}: Visualisation des notes, commentaires et progression
+  
+  \item \textbf{Gestion des absences}: Consultation des absences et soumission de justificatifs
+  
+  \item \textbf{Messagerie}: Communication avec les enseignants et l'administration
 \end{itemize}
 
 \subsubsection{Module parent}
 
 \begin{itemize}
-  \item \textbf{Suivi des enfants}: Accès aux informations académiques de leurs enfants
+  \item \textbf{Suivi multi-enfants}: Accès aux informations académiques de plusieurs enfants depuis un compte unique
+  
+  \item \textbf{Suivi des performances}: Consultation des notes, évaluations et rapports de progression
+  
+  \item \textbf{Suivi des présences}: Visualisation de l'assiduité de l'enfant avec historique
   
   \item \textbf{Communication}: Messagerie avec les enseignants et l'administration
   
-  \item \textbf{Notifications}: Alertes pour les absences, résultats et événements importants
+  \item \textbf{Notifications}: Alertes pour les absences, résultats, devoirs et événements importants
   
   \item \textbf{Planification}: Calendrier des événements scolaires et réunions
+  
+  \item \textbf{Accès aux documents}: Téléchargement des bulletins, factures et certificats
+\end{itemize}
+
+\subsubsection{Fonctionnalités transversales}
+
+\begin{itemize}
+  \item \textbf{Authentification sécurisée}: Système robuste avec réinitialisation de mot de passe par email
+  
+  \item \textbf{Gestion des documents}: Génération et téléchargement de certificats, attestations et bulletins
+  
+  \item \textbf{Notifications}: Système d'alertes et rappels pour les événements importants
+  
+  \item \textbf{Synchronisation multiplateforme}: Cohérence des données entre applications web et mobiles
+  
+  \item \textbf{Mode hors connexion}: Accès aux fonctionnalités essentielles même sans connexion internet stable
+  
+  \item \textbf{Support et assistance}: FAQ intégrée et système de tickets pour signalement de problèmes
 \end{itemize}
 
 \subsection{Spécifications du système de création de profils IA}
