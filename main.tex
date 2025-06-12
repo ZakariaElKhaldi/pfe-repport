@@ -363,11 +363,22 @@ Ce rapport détaille l'ensemble du processus de développement, depuis l'analyse
 \include{chapter_3}
 
 % --- Conclusion ---
-\chapter*{Conclusion et Perspectives}
+% Create a custom chapter style for conclusion with less vertical space
+\makeatletter
+\newcommand{\conclusionchapter}[1]{%
+  \clearpage
+  \vspace*{10pt}% Much less space at top
+  {\parindent \z@ \raggedright \normalfont
+   \Huge \bfseries \color{primary} #1\par\nobreak
+   \vskip 20pt% Space after title
+  }
+  \thispagestyle{fancy}%
+}
+\makeatother
+
+\conclusionchapter{Conclusion et Perspectives}
 \addcontentsline{toc}{chapter}{Conclusion et Perspectives}
-\thispagestyle{fancy}
 \setcounter{section}{0}
-\newpage
 
 Ce projet de fin d'études a permis de développer deux systèmes complémentaires qui répondent aux besoins actuels des établissements éducatifs : un système de gestion scolaire complet et une plateforme innovante de création de profils IA.
 
